@@ -676,9 +676,64 @@ if (reduceMotion) {
   controls.autoRotate = false;
 }
 
+/* ── sobre o experimento (modal) ───────────────────────────────────────── */
+const about = document.querySelector('#about');
+const aboutOpenBtn = document.querySelector('#about-open');
+let aboutOpen = false;
+
+const collectedAt = (() => {
+  const t = (core.stats && core.stats.generated_at) || '';
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(t);
+  return m ? `${m[3]}/${m[2]}/${m[1]}` : '';
+})();
+
+function fillAbout() {
+  const S = core.stats || {};
+  const geo = S.ips_geolocated || S.ips_total || 0;
+  const [cc, n] = (S.top_countries || [[]])[0];
+  const vals = {
+    nodes: S.nodes, edges: S.edges, ips: S.ips_total,
+    countries: S.countries, asns: S.asns, cities: S.cities, ptr: S.ptr_coverage,
+    queries: S.dns_queries && S.dns_queries.queries,
+    fqdn: S.dns_queries && S.dns_queries.fqdn,
+    collected: collectedAt,
+    top_country: cc ? ptCountry(cc, cc) : null,
+    top_share: cc && geo ? `${Math.round((n / geo) * 100)}%` : null,
+  };
+  for (const el of about.querySelectorAll('[data-fig]')) {
+    const v = vals[el.dataset.fig];
+    if (v === undefined || v === null || v === '') continue;
+    el.textContent = typeof v === 'number' ? fmt(v) : v;
+  }
+}
+
+function openAbout() {
+  fillAbout();
+  aboutOpen = true;
+  about.hidden = false;
+  results.hidden = true;
+  tip.hidden = true;
+  about.querySelector('.about-x').focus();
+}
+
+function closeAbout() {
+  aboutOpen = false;
+  about.hidden = true;
+  aboutOpenBtn.focus();
+}
+
+aboutOpenBtn.addEventListener('click', openAbout);
+about.addEventListener('click', (e) => {
+  if (e.target.closest('[data-about-close]')) closeAbout();
+});
+
 /* ── teclado ───────────────────────────────────────────────────────────── */
 addEventListener('keydown', (e) => {
   if (e.target === q) return;
+  if (aboutOpen) {                       // o modal captura o teclado enquanto aberto
+    if (e.key === 'Escape') { e.preventDefault(); closeAbout(); }
+    return;
+  }
   if (e.key >= '1' && e.key <= '9') setFocusLayer(Number(e.key) - 1);
   else if (e.key === '0' || e.key === 'Escape') { focusLayer = null; clearSelection(); flyTo(home, R * 2.15, 800); applyFocus(); setStatus(); }
   else if (e.key === '/') { e.preventDefault(); q.focus(); }
@@ -825,6 +880,7 @@ window.__viz = {
   meshes: meshes.length, groups: groups.size, edgesMesh: !!edgesMesh,
   setFocus: setFocusLayer, select, center, R,
   camera, controls, scene, layers: LAYERS, byId, noteOf,
+  about: { el: about, open: openAbout, close: closeAbout, isOpen: () => aboutOpen, refill: fillAbout },
   toggle: (k) => { const b = document.querySelector(`[data-toggle="${k}"]`); if (b) b.click(); return k; },
   look: (px, py, pz, tx, ty, tz) => {
     camera.position.set(px, py, pz);

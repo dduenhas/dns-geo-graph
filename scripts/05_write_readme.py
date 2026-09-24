@@ -265,6 +265,7 @@ Idealizado e desenvolvido por **{AUTOR}**.
 [![sem dependências](https://img.shields.io/badge/depend%C3%AAncias-nenhuma%20(al%C3%A9m%20do%20Python)-00b4d8)](#reprodutibilidade)
 [![dados: DNS-over-HTTPS](https://img.shields.io/badge/dados-DNS--over--HTTPS%20%2B%20ip--api-00b4d8)](#coleta-e-proveni%C3%AAncia)
 [![site 3D](https://img.shields.io/badge/site-grafo%203D%20three.js-00b4d8)](web)
+[![site no ar](https://img.shields.io/badge/site-dns--geo--graph.vercel.app-00b4d8)](https://dns-geo-graph.vercel.app)
 
 > **Coleta de {S['generated_at']}** — {fmtn(S['nodes'])} nós · {fmtn(S['edges'])} arestas ·
 > {fmtn(S['ips_total'])} endereços IP ({fmtn(S['ips_v4'])} IPv4 · {fmtn(S['ips_v6'])} IPv6) ·
@@ -282,7 +283,6 @@ Idealizado e desenvolvido por **{AUTOR}**.
 - [O site 3D](#o-site-3d) · [o vault Obsidian](#o-vault-obsidian)
 - [Para que serve](#para-que-serve)
 - [Fundamentos teóricos](#fundamentos-teóricos)
-- [Segurança](#segurança)
 - [Limitações](#limitações-tecnológicas-e-conceituais)
 - [Pontos negativos e melhorias futuras](#pontos-negativos-e-melhorias-futuras)
 - [Reprodutibilidade](#reprodutibilidade) · [estrutura do repositório](#estrutura-do-reposit%C3%B3rio)
@@ -478,6 +478,8 @@ navegar `TLD → nameserver → endereço → país` — três arestas de tipos 
 
 ## O site 3D
 
+**No ar em <https://dns-geo-graph.vercel.app>** (Vercel, deploy estático de `web/`).
+
 Página estática em [`web/`](web) (three.js r0.169 vendorizado, **sem bundler e sem
 CDN em runtime**): a hierarquia no eixo vertical, a Terra no plano de fundo, {fmtn(S['nodes'])}
 nós desenhados em `InstancedMesh` e {fmtn(S['edges'])} arestas em `LineSegments`.
@@ -514,6 +516,11 @@ tanto nele quanto em `web/_headers` (Cloudflare Pages). Ambos são gerados por
 4. se o painel insistir em build, defina *Root Directory* = `web`: o `web/vercel.json`
    carrega os mesmos cabeçalhos para esse caso;
 5. alternativa Cloudflare Pages: `npx wrangler pages deploy web --project-name=<nome>`.
+
+No `.vercelignore`, todo padrão precisa de **barra inicial** (`/data/`, não `data/`):
+sem ela, o padrão também casa `web/data/` e o site sobe sem os dados — o grafo não
+carrega. Conferir depois do deploy: `curl -o /dev/null -w '%{{http_code}}' <url>/data/stats.json`
+deve devolver `200`, e `<url>/grafo/` deve devolver `404`.
 
 Só o conteúdo de `web/` vai para produção: o vault (`grafo/`), os dados brutos
 (`data/raw/`) e os scripts **não** são publicados.
@@ -577,44 +584,6 @@ A auditoria do vault (`scripts/06_validate_vault.py`) fecha com
 
 ---
 
-## Segurança
-
-Auditoria feita sobre o projeto inteiro (código, dados, deploy, dependências) antes
-da publicação. **O que foi encontrado e corrigido:**
-
-| # | achado | severidade | correção aplicada |
-|---|---|---|---|
-| 1 | **Nenhum cabeçalho de segurança no deploy** (sem CSP, HSTS, `nosniff`, `Permissions-Policy`, `frame-ancestors`) | 🔴 alto | `vercel.json` + `web/_headers` com CSP `default-src 'none'` e script inline autorizado **por hash sha256** (`scripts/10_write_deploy_config.py`) |
-| 2 | **Fontes carregadas de CDN de terceiros em runtime** (`fonts.googleapis.com`) — vazamento de IP do visitante, dependência de supply chain, e contradizendo o próprio README ("sem CDN em runtime") | 🟡 médio | 3 arquivos `woff2` auto-hospedados (122 KB, variáveis) via `scripts/09_fetch_fonts.py`; zero requisição de terceiros na página |
-| 3 | **Caminho absoluto do usuário publicado** (`C:\\Users\\<usuário>\\…`) no README gerado e numa nota do vault — vazamento de informação local num repositório público | 🟡 médio | passou a ser relativo (`<pasta-do-clone>/grafo`) em `04_build_vault.py`, `05_write_readme.py` e `09_fetch_fonts.py` (que tinha o caminho absoluto do diretório `web/` cravado) |
-| 4 | **Coordenadas 3D não determinísticas** (`hash()` de `str` é salgado por processo) — quebrava a reprodutibilidade prometida | 🟡 médio | CRC32 estável em `03_build_graph.py`; verificado: as {fmtn(n_sem_geo)} posições de nós sem geo são idênticas entre execuções |
-| 5 | **Geo/ASN coletados em HTTP puro** — dado de integridade questionável (MITM altera o dataset) | 🟡 médio | endpoint configurável por `IPAPI_BATCH_URL` (aponta para TLS sem tocar no código); limitação documentada abaixo |
-| 6 | **Licenças de terceiros ausentes** (three.js MIT, OFL das fontes, Natural Earth/NASA nas texturas) num repositório que redistribui tudo isso | 🟡 médio | `web/vendor/three/LICENSE.txt`, `web/assets/fonts/LICENSE.txt`, `web/assets/ATTRIBUTION.md` |
-| 7 | **`scripts/__pycache__/` no diretório** (bytecode com caminho absoluto) | 🔵 baixo | removido; `.gitignore` corrigido (o padrão antigo `!vault/**` apontava para uma pasta inexistente — o vault é `grafo/`) |
-| 8 | **`favicon` e `robots.txt` ausentes** (404 desnecessário e ausência de política de indexação) | 🔵 baixo | `web/favicon.svg` + `robots.txt` gerados |
-| 9 | **Ausência de metadados de compartilhamento** (sem `og:`/`twitter:`) | 🔵 baixo | tags Open Graph/Twitter e `theme-color` no `index.html` |
-
-**O que foi verificado e está correto:**
-
-- **Nenhum segredo no repositório** — varredura por chaves de API, tokens, senhas e
-  chaves privadas em todo o código, HTML, CSS e JSON: nenhuma ocorrência (as APIs
-  usadas são públicas e sem chave, por escolha de projeto).
-- **XSS nos dados**: os rótulos de nó vêm de DNS (PTR e nomes de nameserver são
-  controlados por quem opera a zona, e um PTR pode conter `<>"'`). Todo ponto de
-  interpolação em `app.js` passa por `esc()` — inclusive os atributos `data-*`, o
-  `deep link` do Obsidian e o tooltip. Nenhuma construção `innerHTML` recebe dado
-  bruto.
-- **Nenhum `eval`, `Function()`, `document.write`** nem carregamento de script de
-  terceiros; zero `postMessage`, zero formulário, zero cookie, zero armazenamento
-  local — a página não tem superfície de entrada além da busca, que é local.
-- **Sem CORS exposto**: não há backend nem API; o site é 100% estático e só faz
-  `fetch` de JSON do próprio diretório (`connect-src 'self'` na CSP).
-- **SRI tornou-se desnecessário**: não há mais nenhum recurso de CDN de terceiros —
-  as fontes são locais e o `three.js` é vendorizado. Enquanto houver CDN no futuro, o
-  `integrity` volta a ser obrigatório; hoje a CSP restritiva cobre a superfície.
-
----
-
 ## Limitações tecnológicas e conceituais
 
 **Conceituais (o que o modelo não é):**
@@ -672,8 +641,7 @@ da publicação. **O que foi encontrado e corrigido:**
 
 ## Pontos negativos e melhorias futuras
 
-**Dívida técnica identificada nesta auditoria (não corrigida de propósito, para não
-inflar o escopo da publicação):**
+**Limites conhecidos desta versão:**
 
 | ponto | estado | melhoria proposta |
 |---|---|---|
@@ -686,24 +654,6 @@ inflar o escopo da publicação):**
 | ip-api free tier em HTTP | integridade do dataset | chave paga com TLS via `IPAPI_BATCH_URL` (já suportado por variável de ambiente) |
 | Sem *lockfile* das versões das APIs externas (DoH, ip-api) | reprodutibilidade depende do formato que cada serviço devolve hoje | versionar `data/raw/` com SHA-256 publicado e fixar o formato (`accept: application/dns-json` já fixado) |
 | Nenhuma forma de consultar o grafo por SQL/SPARQL | só arquivos | publicar `graph_core.json` num endpoint estático + consulta em WASM (DuckDB/SQLite) |
-
-**Outros defeitos reais encontrados e corrigidos durante a auditoria:**
-
-1. **O vault não era limpo entre execuções.** Notas de nós que desapareceram entre
-   duas coletas ficavam para trás e viravam órfãs (a auditoria `06` acusou 39 notas
-   nessa situação após a segunda coleta). Corrigido com `clean_vault()` no passo 04 —
-   `.obsidian/` é preservado, o conteúdo é reconstruído (`--no-clean` para pular).
-2. **A duração da coleta era descartada.** O `save()` do passo 01 recriava o dicionário
-   `counts` a cada gravação e apagava o campo `seconds` escrito no fim. Agora o
-   `save()` preserva as chaves acumuladas — o valor aparece na tabela de números.
-3. **As contagens em texto do `index.html` desatualizavam** a cada coleta nova
-   (meta description, Open Graph, tela de carregamento). Agora o passo 07 as
-   reescreve a partir do `stats.json`.
-4. **Padrão morto no `.gitignore`**: `!vault/**` protegia uma pasta que não existe
-   (o vault deste projeto é `grafo/`), então a intenção de "o vault é o deliverable"
-   nunca teve efeito — o `.gitignore` foi reescrito com os padrões reais.
-5. **`scripts/__pycache__/` versionável** (bytecode com caminho absoluto dentro).
-   Removido e ignorado.
 
 **Melhorias de produto (roadmap):**
 
@@ -759,7 +709,9 @@ dns-geo-graph/
 ├── web/                página 3D (deploy root): index.html, app.js, styles.css,
 │                       vendor/three, assets/fonts (self-hosted), data/, favicon.svg
 ├── docs/img/           figuras SVG deste README (geradas pelo passo 8)
-├── vercel.json         deploy sem build + cabeçalhos de segurança (passo 10)
+├── vercel.json         deploy sem build (outputDirectory: web) + cabeçalhos (passo 10)
+├── .vercelignore       o que fica fora do upload do deploy (vault, dados brutos, scripts)
+├── .gitattributes      LF no repositório; artefatos gerados marcados como tal
 ├── web/_headers        os mesmos cabeçalhos para Cloudflare Pages
 └── LICENSE             MIT (código) · atribuições de terceiros em web/assets/ATTRIBUTION.md
 ```

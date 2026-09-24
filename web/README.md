@@ -78,9 +78,12 @@ web/
 | trilho de camadas | mesmo que `1`–`9`, com contagem por camada |
 | legenda | clique isola um tipo de nó |
 | Terra · Arestas · Rótulos · Órbita · Brilho | camadas de informação da cena |
+| rodapé · *sobre o experimento* | abre o modal de apresentação do projeto (texto de divulgação, números da coleta preenchidos a partir de `stats.json`, links para o GitHub) |
+| rodapé · *código e dados no GitHub* | link para o repositório público |
 
 O botão **Abrir no Obsidian** usa deep link `obsidian://open?vault=grafo&file=<nota>` —
-funciona do navegador para o vault `grafo/`.
+funciona do navegador para o vault `grafo/`. O modal fecha com `Esc`, com o clique no
+fundo ou no botão `×`, e devolve o foco ao rodapé.
 
 ## Contrato de dados (o que o app consome)
 
@@ -128,18 +131,24 @@ funciona do navegador para o vault `grafo/`.
 
 ## Publicar
 
-### Vercel
+### Vercel — no ar
+
+**https://dns-geo-graph.vercel.app** (projeto `dns-geo-graph`, deploy estático sem build).
 
 O `vercel.json` da raiz define `outputDirectory: "web"` — deploy direto do repositório,
 sem passo de build:
 
 1. `npm i -g vercel` e `vercel login`;
-2. na raiz do repositório: `vercel link` → *Create a new project*;
+2. na raiz do repositório: `vercel link --project dns-geo-graph`;
 3. `vercel --prod`.
 
 Pelo painel: **Add New → Project → Import Git Repository → Framework Preset “Other” →
 Deploy** (deixe *Root Directory* vazio). Se o painel exigir um build, defina
 *Root Directory* = `web`: o `web/vercel.json` traz os mesmos cabeçalhos.
+
+O `.vercelignore` fica com **barra inicial** em todo padrão (`/data/`, não `data/`): sem
+ela, o padrão também casa `web/data/` e o site sobe sem os dados — o grafo não carrega.
+Depois de cada deploy, conferir: `/data/stats.json` → `200` e `/grafo/` → `404`.
 
 ### Cloudflare Pages (alternativa)
 

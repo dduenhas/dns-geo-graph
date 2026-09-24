@@ -1,0 +1,11 @@
+# Nada disso é necessário para servir o site: o deploy usa só web/.
+# ATENÇÃO: as barras iniciais são obrigatórias — sem elas, "data/" também
+# casaria web/data/ e o site ficaria sem os dados (graph_core.json → 404).
+/grafo/
+/data/
+/docs/
+/scripts/
+/backups/
+/.git/
+/.hermes/
+*.tar.gz

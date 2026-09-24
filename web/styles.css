@@ -508,6 +508,146 @@ kbd {
   text-align: right;
 }
 
+/* ── links do rodapé ──────────────────────────────────────────────────── */
+.foot-links {
+  margin: 0;
+  display: flex; align-items: center; gap: .45rem;
+  font-family: var(--mono); font-size: var(--t-xs);
+  color: var(--ink-3);
+  letter-spacing: .02em;
+}
+.foot-links .link { pointer-events: auto; }
+
+.link {
+  appearance: none;
+  margin: 0; padding: 0;
+  background: none; border: 0;
+  font: inherit; color: var(--ink-2);
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color .18s var(--ease), border-color .18s var(--ease);
+}
+.link:hover { color: var(--accent-2); border-bottom-color: rgba(0, 180, 216, .55); }
+.link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+
+/* ── sobre o experimento (modal) ──────────────────────────────────────── */
+.about {
+  position: fixed; inset: 0; z-index: 20;
+  display: grid; place-items: center;
+  padding: clamp(.75rem, 3vw, 2.5rem);
+}
+.about[hidden] { display: none; }
+
+.about-bg {
+  position: absolute; inset: 0;
+  background: rgba(8, 8, 10, .78);
+  backdrop-filter: blur(9px) saturate(.85);
+  -webkit-backdrop-filter: blur(9px) saturate(.85);
+  animation: fade .28s var(--ease) both;
+}
+
+.about-card {
+  position: relative;
+  width: min(52rem, 100%);
+  max-height: min(86vh, 62rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: clamp(1.4rem, 3vw, 2.6rem) clamp(1.15rem, 3vw, 3rem) clamp(1.5rem, 3vw, 2.4rem);
+  background:
+    linear-gradient(180deg, rgba(26, 26, 31, .96), rgba(17, 17, 20, .97));
+  border: 1px solid var(--line-2);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow), 0 0 0 1px rgba(0, 180, 216, .12) inset;
+  animation: rise .34s var(--ease) both;
+}
+.about-card::-webkit-scrollbar { width: 9px; }
+.about-card::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, .14); border-radius: 9px;
+}
+.about-card::-webkit-scrollbar-track { background: transparent; }
+
+.about-x {
+  position: sticky; top: 0; float: right;
+  margin: -.4rem -.4rem 0 1rem;
+  width: 2rem; height: 2rem;
+  display: grid; place-items: center;
+  font-family: var(--mono); font-size: 1.05rem; line-height: 1;
+  color: var(--ink-2);
+  background: rgba(255, 255, 255, .04);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .18s var(--ease);
+}
+.about-x:hover { color: var(--ink); border-color: var(--line-2); background: rgba(0, 180, 216, .16); }
+
+.about-card .eyebrow { margin-bottom: .7rem; }
+.about-card h2 {
+  margin: 0 0 .7rem;
+  font-family: var(--display);
+  font-size: clamp(1.9rem, 3.6vw, 3rem);
+  font-weight: 600; letter-spacing: -.03em; line-height: 1.02;
+}
+.about-card h3 {
+  margin: 2.2rem 0 .55rem;
+  font-family: var(--mono); font-size: var(--t-xs); font-weight: 500;
+  letter-spacing: .16em; text-transform: uppercase;
+  color: var(--ink-3);
+}
+.about-card h3::before {
+  content: ""; display: inline-block; width: 14px; height: 1px;
+  margin-right: .55rem; vertical-align: middle;
+  background: var(--accent); opacity: .8;
+}
+.about-card p {
+  margin: 0 0 .85rem;
+  max-width: 62ch;
+  color: var(--ink-2);
+  line-height: 1.62;
+}
+.about-card p b { color: var(--ink); font-weight: 600; }
+.about-card p em, .about-card p i { color: var(--ink); font-style: italic; }
+
+.standfirst {
+  margin: 0 0 1.6rem !important;
+  max-width: 58ch !important;
+  font-size: 1.06rem;
+  color: var(--ink) !important;
+  line-height: 1.5 !important;
+}
+
+.about-figs {
+  list-style: none; margin: 1.5rem 0 .6rem; padding: 1rem 0 0;
+  border-top: 1px solid var(--line);
+  display: grid; gap: .85rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(6.1rem, 1fr));
+}
+.about-figs li { display: flex; flex-direction: column; gap: .15rem; }
+.about-figs b {
+  font-family: var(--mono); font-size: 1.24rem; font-weight: 500;
+  color: var(--accent-2); letter-spacing: -.02em;
+}
+.about-figs span {
+  font-family: var(--mono); font-size: var(--t-xs);
+  color: var(--ink-3); letter-spacing: .05em;
+}
+
+.about-foot {
+  margin-top: 2.3rem; padding-top: 1.3rem;
+  border-top: 1px solid var(--line);
+  display: flex; flex-wrap: wrap; align-items: center; gap: .7rem;
+}
+.about-foot .credit {
+  flex: 1 1 100%;
+  margin: .35rem 0 0;
+  font-size: var(--t-xs); color: var(--ink-3);
+  line-height: 1.5;
+}
+.about-foot .credit b { color: var(--ink-2); font-weight: 500; }
+
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
 /* ── tooltip ──────────────────────────────────────────────────────────── */
 .tip {
   position: fixed;

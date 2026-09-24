@@ -76,9 +76,93 @@
         <button type="button" data-toggle="spin">Órbita</button>
         <button type="button" data-toggle="glow" class="on">Brilho</button>
       </div>
+      <p class="foot-links">
+        <button type="button" id="about-open" class="link">sobre o experimento</button>
+        <span aria-hidden="true">·</span>
+        <a class="link" href="https://github.com/dduenhas/dns-geo-graph" target="_blank" rel="noopener noreferrer">código e dados no GitHub&nbsp;↗</a>
+      </p>
     </div>
   </div>
 </footer>
+
+<!-- ── sobre o experimento (modal) ─────────────────────────────────────── -->
+<div class="about" id="about" hidden role="dialog" aria-modal="true" aria-labelledby="about-title">
+  <div class="about-bg" data-about-close></div>
+  <article class="about-card">
+    <button class="about-x" type="button" data-about-close aria-label="Fechar">×</button>
+    <p class="eyebrow"><span class="dot"></span>sobre o experimento</p>
+    <h2 id="about-title">Onde a internet mora</h2>
+    <p class="standfirst">A internet não tem endereço — tem endereços. Este experimento pergunta
+      onde, fisicamente, trabalham os servidores que fazem os nomes da internet funcionarem, e
+      responde com o dado bruto em vez da metáfora.</p>
+
+    <ul class="about-figs">
+      <li><b data-fig="nodes">2.774</b><span>nós no grafo</span></li>
+      <li><b data-fig="edges">7.789</b><span>arestas</span></li>
+      <li><b data-fig="ips">1.388</b><span>endereços IP</span></li>
+      <li><b data-fig="countries">54</b><span>países</span></li>
+      <li><b data-fig="asns">208</b><span>redes (ASN)</span></li>
+      <li><b data-fig="cities">165</b><span>pontos de presença</span></li>
+    </ul>
+
+    <h3>O método, em uma frase</h3>
+    <p>De um notebook no Brasil, um script faz <b><span data-fig="queries">1.483</span> consultas
+      DNS</b> a <span data-fig="fqdn">750</span> zonas e domínios reais — começando pela raiz,
+      passando pelos TLDs, até nameservers autoritativos e resolvedores públicos — sempre com a
+      mesma pergunta: <em>quem responde por este nome?</em> Para cada endereço devolvido,
+      descobre-se o país, a cidade e a rede (ASN) que o anuncia. O resultado é costurado num
+      grafo tipado, não numa tabela.</p>
+
+    <h3>Por que grafo, e não planilha</h3>
+    <p>A escolha é conceitual antes de ser estética. Uma planilha guarda respostas para perguntas
+      que já se sabia formular; um grafo guarda <b>relações</b> — e relações admitem perguntas
+      que ninguém tinha feito: qual caminho liga um endereço IP à zona raiz? Quantos nameservers
+      de um domínio nacional respondem fora do próprio país? Que cidades concentram a
+      infraestrutura de nomes?</p>
+
+    <h3>A hierarquia, de cima para baixo</h3>
+    <p>Nove camadas no eixo vertical: zona raiz → servidores raiz → TLDs → domínios e serviços →
+      nameservers e resolvedores → endereços IP → redes (ASN) e pontos de presença → países →
+      continentes. No plano de baixo, a Terra, na mesma projeção dos dados (equiretangular), para
+      que cada ponto de presença caia exatamente sobre o próprio lugar no mapa.</p>
+
+    <h3>O que o retrato mostra</h3>
+    <p>A infraestrutura de nomes é global em alcance e concentrada por natureza:
+      <span data-fig="countries">54</span> países aparecem, mas
+      <b data-fig="top_country">Estados Unidos</b> reúne
+      <b data-fig="top_share">33%</b> dos endereços observados. Raízes, resolvedores públicos e
+      grandes CDNs são <b>anycast</b> — o mesmo endereço responde em dezenas de lugares ao mesmo
+      tempo, e a geolocalização devolve o ponto que respondeu, não a sede da organização. Ler o
+      mapa é ler uma distribuição, não um organograma.</p>
+
+    <h3>De onde vem a base</h3>
+    <p>Teoria dos grafos para o modelo; a hierarquia de delegação do DNS (RFC 1034/1035) como
+      esqueleto; <i>anycast</i> (RFC 4786) para explicar endereços que existem em vários lugares
+      simultaneamente; curvas de concentração para medir desigualdade entre redes; e uma ideia
+      mais antiga que a web: <b>a forma do armazenamento determina quais perguntas se consegue
+      fazer</b>. A coleta usa só serviços públicos e sem chave — DNS-over-HTTPS e uma API aberta
+      de geolocalização por IP.</p>
+
+    <h3>Para que serve</h3>
+    <p>Para ensinar rede com o dado na mão; para jornalismo de dados e investigação que precise
+      localizar infraestrutura declarada; para discutir <b>soberania digital</b> com evidência —
+      quantos países hospedam os nameservers do próprio domínio nacional? —; e para visualização:
+      2.774 nós em três dimensões dizem mais sobre concentração do que 2.774 linhas de tabela.</p>
+
+    <h3>Cuidados de leitura</h3>
+    <p>É uma amostra por sementes, não um censo: descreve o <em>espaço de nomes</em>, não a
+      topologia física dos cabos. A geolocalização por IP é uma estimativa declarada pelo
+      provedor, e endereços anycast a tornam ambígua por construção. Coleta de
+      <span data-fig="collected">2026</span>, com os artefatos versionados no repositório para
+      quem quiser refazer o caminho.</p>
+
+    <footer class="about-foot">
+      <a class="btn" href="https://github.com/dduenhas/dns-geo-graph" target="_blank" rel="noopener noreferrer">código e dados no GitHub&nbsp;↗</a>
+      <a class="btn ghost" href="https://github.com/dduenhas/dns-geo-graph/blob/main/README.md" target="_blank" rel="noopener noreferrer">método, teoria e limites</a>
+      <p class="credit mono">idealizado e desenvolvido por <b>Diego Duenhas (dduenhas)</b> · MIT</p>
+    </footer>
+  </article>
+</div>
 
 <div class="tip" id="tip" hidden></div>
 <div class="boot" id="boot"><span class="mono">carregando 2.774 nós…</span></div>
