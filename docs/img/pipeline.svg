@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" role="img" aria-label="Pipeline de coleta e geração do grafo" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif">
+<title>Pipeline de coleta e geração do grafo</title>
+<rect width="960" height="400" rx="12" fill="#111114"/>
+<rect x=".5" y=".5" width="959" height="399" rx="12" fill="none" stroke="rgba(255,255,255,.10)"/>
+<rect x="26" y="150" width="158" height="112" rx="10" fill="rgba(255,255,255,.035)" stroke="rgba(255,255,255,.12)"/>
+<rect x="26" y="150" width="3" height="112" rx="2" fill="#00b4d8"/>
+<text x="40.0" y="178.0" font-size="13.5" fill="#f2f3f5" text-anchor="start" font-weight="600" letter-spacing="0" opacity="1">seeds.py</text>
+<text x="40.0" y="202.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">13 raízes · ~70 TLDs</text>
+<text x="40.0" y="218.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">~57 serviços · 30 resolvedores</text>
+<path d="M190 206 h16 m-6 -5 l6 5 l-6 5" fill="none" stroke="rgba(242,243,245,.38)" stroke-width="1.4"/>
+<rect x="214" y="150" width="158" height="112" rx="10" fill="rgba(255,255,255,.035)" stroke="rgba(255,255,255,.12)"/>
+<rect x="214" y="150" width="3" height="112" rx="2" fill="#48cae4"/>
+<text x="228.0" y="178.0" font-size="13.5" fill="#f2f3f5" text-anchor="start" font-weight="600" letter-spacing="0" opacity="1">01–02 · coleta</text>
+<text x="228.0" y="202.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">DNS-over-HTTPS (RFC 8484)</text>
+<text x="228.0" y="218.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">ip-api /batch · PTR reverso</text>
+<path d="M378 206 h16 m-6 -5 l6 5 l-6 5" fill="none" stroke="rgba(242,243,245,.38)" stroke-width="1.4"/>
+<rect x="402" y="150" width="158" height="112" rx="10" fill="rgba(255,255,255,.035)" stroke="rgba(255,255,255,.12)"/>
+<rect x="402" y="150" width="3" height="112" rx="2" fill="#ffd166"/>
+<text x="416.0" y="178.0" font-size="13.5" fill="#f2f3f5" text-anchor="start" font-weight="600" letter-spacing="0" opacity="1">03 · grafo</text>
+<text x="416.0" y="202.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">V = 2.747 nós</text>
+<text x="416.0" y="218.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">E = 7.639 arestas tipadas</text>
+<path d="M566 206 h16 m-6 -5 l6 5 l-6 5" fill="none" stroke="rgba(242,243,245,.38)" stroke-width="1.4"/>
+<rect x="590" y="150" width="158" height="112" rx="10" fill="rgba(255,255,255,.035)" stroke="rgba(255,255,255,.12)"/>
+<rect x="590" y="150" width="3" height="112" rx="2" fill="#2ec4b6"/>
+<text x="604.0" y="178.0" font-size="13.5" fill="#f2f3f5" text-anchor="start" font-weight="600" letter-spacing="0" opacity="1">04 · vault</text>
+<text x="604.0" y="202.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">2.765 notas Obsidian</text>
+<text x="604.0" y="218.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">(frontmatter + wikilinks)</text>
+<path d="M754 206 h16 m-6 -5 l6 5 l-6 5" fill="none" stroke="rgba(242,243,245,.38)" stroke-width="1.4"/>
+<rect x="778" y="150" width="158" height="112" rx="10" fill="rgba(255,255,255,.035)" stroke="rgba(255,255,255,.12)"/>
+<rect x="778" y="150" width="3" height="112" rx="2" fill="#b388ff"/>
+<text x="792.0" y="178.0" font-size="13.5" fill="#f2f3f5" text-anchor="start" font-weight="600" letter-spacing="0" opacity="1">web/ · three.js</text>
+<text x="792.0" y="202.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">posição pré-calculada</text>
+<text x="792.0" y="218.0" font-size="11" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">(x, y=camada, z=geo)</text>
+<text x="26.0" y="46.0" font-size="15" fill="#f2f3f5" text-anchor="start" font-weight="600" letter-spacing="0" opacity="1">pipeline determinístico — rode 01→10 e todo o grafo é regenerado</text>
+<text x="26.0" y="70.0" font-size="11.5" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" letter-spacing="0" opacity="1">a única entrada editorial é scripts/seeds.py; nada de dado sintético ou inventado</text>
+<text x="26.0" y="300.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" letter-spacing=".16em" opacity="1">fontes de dado</text>
+<circle cx="32" cy="322" r="3" fill="#00b4d8"/>
+<text x="44.0" y="326.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">DNS-over-HTTPS — cloudflare-dns.com (RFC 8484)</text>
+<circle cx="502" cy="322" r="3" fill="#00b4d8"/>
+<text x="514.0" y="326.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">dns.google — fallback</text>
+<circle cx="32" cy="344" r="3" fill="#00b4d8"/>
+<text x="44.0" y="348.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">ip-api.com/batch — geo · ASN · hosting</text>
+<circle cx="502" cy="344" r="3" fill="#00b4d8"/>
+<text x="514.0" y="348.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">DNS reverso do SO — in-addr.arpa · ip6.arpa</text>
+</svg>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Onde a internet mora — grafo DNS × geografia</title>
+<meta name="description" content="Grafo de 2.774 nós de infraestrutura real de internet: zona raiz, TLDs, nameservers, endereços IP, ASNs, PoPs e países — coletados ao vivo por DNS-over-HTTPS e geolocalizados por rede.">
+<meta name="author" content="Diego Duenhas">
+<meta name="robots" content="index, follow">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#111114">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Onde a internet mora — grafo DNS × geografia">
+<meta property="og:description" content="2.774 nós de infraestrutura real de internet em 3D: hierarquia DNS no eixo vertical, geografia no plano — coleta ao vivo por DNS-over-HTTPS.">
+<meta property="og:image" content="./assets/og-preview.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Onde a internet mora — grafo DNS × geografia">
+<meta name="twitter:description" content="2.774 nós de infraestrutura real de internet em 3D, coletados ao vivo por DNS-over-HTTPS e geolocalizados por ASN.">
+<meta name="twitter:image" content="./assets/og-preview.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="license" href="https://opensource.org/license/mit">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="styles.css">
+<script type="importmap">{"imports":{"three":"./vendor/three/three.module.min.js","three/addons/":"./vendor/three/addons/"}}</script>
+</head>
+<body>
+<canvas id="scene" aria-label="Grafo 3D de infraestrutura de internet"></canvas>
+<div class="scrim" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ── capa editorial ─────────────────────────────────────────────────── -->
+<header class="head">
+  <p class="eyebrow"><span class="dot"></span><span id="eyebrow-counts">carregando…</span></p>
+  <h1 class="display">Onde a<br>internet&nbsp;mora</h1>
+  <p class="lede">
+    Cada nó é uma peça real da infraestrutura de nomes da internet —
+    <b>zona raiz → TLD → nameserver → endereço IP → ASN → cidade → país</b> — coletada ao
+    vivo por DNS-over-HTTPS e geolocalizada por rede. O eixo vertical é a
+    <b>hierarquia</b>; no plano de baixo, a Terra onde tudo isso pousa.
+  </p>
+</header>
+
+<!-- ── busca ──────────────────────────────────────────────────────────── -->
+<div class="search" role="search">
+  <label class="sr" for="q">Buscar nó</label>
+  <input id="q" type="search" placeholder="buscar IP, host, ASN, cidade…" autocomplete="off" spellcheck="false">
+  <kbd>/</kbd>
+  <ul id="results" class="results" hidden></ul>
+</div>
+
+<!-- ── painel do nó selecionado ───────────────────────────────────────── -->
+<aside class="panel" id="panel" hidden aria-label="Detalhes do nó"></aside>
+
+<!-- ── trilho de camadas ──────────────────────────────────────────────── -->
+<nav class="rail" aria-label="Camadas do grafo">
+  <div class="rail-head">
+    <h2>camadas</h2>
+    <button id="rail-reset" class="ghost" type="button" title="Voltar a ver o grafo inteiro">tudo</button>
+  </div>
+  <ol id="rail-list"></ol>
+  <p class="status" id="status" role="status" aria-live="polite">foco: grafo inteiro</p>
+</nav>
+
+<!-- ── rodapé: números, legenda, controles ────────────────────────────── -->
+<footer class="foot">
+  <ul class="strip" id="figures"></ul>
+  <div class="foot-main">
+    <ul class="legend" id="legend"></ul>
+    <div class="controls">
+      <p class="hint mono">arrastar orbitar · scroll zoom · <kbd>1</kbd>–<kbd>9</kbd> camadas · <kbd>0</kbd> tudo · <kbd>/</kbd> buscar</p>
+      <div class="toggles">
+        <button type="button" data-toggle="earth" class="on">Terra</button>
+        <button type="button" data-toggle="edges" class="on">Arestas</button>
+        <button type="button" data-toggle="labels" class="on" aria-pressed="true">Rótulos</button>
+        <button type="button" data-toggle="spin">Órbita</button>
+        <button type="button" data-toggle="glow" class="on">Brilho</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="tip" id="tip" hidden></div>
+<div class="boot" id="boot"><span class="mono">carregando 2.774 nós…</span></div>
+
+<noscript><p class="noscript">Esta visualização precisa de JavaScript para renderizar o grafo em WebGL.</p></noscript>
+<script type="module" src="app.js"></script>
+</body>
+</html>

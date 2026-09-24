@@ -1,0 +1,9196 @@
+{
+ "generated_at": "2026-09-23T21:18:42-0300",
+ "source": "DNS-over-HTTPS (cloudflare-dns.com primário, dns.google fallback)",
+ "roots": {
+  "a": "a.root-servers.net",
+  "b": "b.root-servers.net",
+  "c": "c.root-servers.net",
+  "d": "d.root-servers.net",
+  "e": "e.root-servers.net",
+  "f": "f.root-servers.net",
+  "g": "g.root-servers.net",
+  "h": "h.root-servers.net",
+  "i": "i.root-servers.net",
+  "j": "j.root-servers.net",
+  "k": "k.root-servers.net",
+  "l": "l.root-servers.net",
+  "m": "m.root-servers.net"
+ },
+ "root_operators": {
+  "a": [
+   "Verisign, Inc.",
+   "US",
+   "VeriSign Naming and Directory Services"
+  ],
+  "b": [
+   "Information Sciences Institute (USC-ISI)",
+   "US",
+   "USC/ISI"
+  ],
+  "c": [
+   "Cogent Communications",
+   "US",
+   "PSINet/Cogent"
+  ],
+  "d": [
+   "University of Maryland (UMD)",
+   "US",
+   "UMD"
+  ],
+  "e": [
+   "NASA Ames Research Center",
+   "US",
+   "NASA"
+  ],
+  "f": [
+   "Internet Systems Consortium (ISC)",
+   "US",
+   "ISC"
+  ],
+  "g": [
+   "U.S. Department of Defense (Network Information Center)",
+   "US",
+   "DoD NIC"
+  ],
+  "h": [
+   "U.S. Army Research Lab",
+   "US",
+   "US Army"
+  ],
+  "i": [
+   "Netnod",
+   "SE",
+   "Netnod (ex-Autonomica)"
+  ],
+  "j": [
+   "Verisign, Inc.",
+   "US",
+   "Verisign"
+  ],
+  "k": [
+   "RIPE NCC",
+   "NL",
+   "RIPE NCC"
+  ],
+  "l": [
+   "ICANN",
+   "US",
+   "ICANN"
+  ],
+  "m": [
+   "WIDE Project",
+   "JP",
+   "WIDE Project"
+  ]
+ },
+ "tld_ns": {
+  "br": [
+   "a.dns.br",
+   "b.dns.br",
+   "c.dns.br",
+   "d.dns.br",
+   "e.dns.br",
+   "f.dns.br"
+  ],
+  "uk": [
+   "dns1.nic.uk",
+   "dns2.nic.uk",
+   "dns3.nic.uk",
+   "dns4.nic.uk",
+   "nsa.nic.uk",
+   "nsb.nic.uk",
+   "nsc.nic.uk",
+   "nsd.nic.uk"
+  ],
+  "de": [
+   "a.nic.de",
+   "f.nic.de",
+   "l.de.net",
+   "n.de.net",
+   "s.de.net",
+   "z.nic.de"
+  ],
+  "fr": [
+   "d.nic.fr",
+   "f.ext.nic.fr",
+   "g.ext.nic.fr"
+  ],
+  "nl": [
+   "ns1.dns.nl",
+   "ns3.dns.nl",
+   "ns4.dns.nl"
+  ],
+  "jp": [
+   "a.dns.jp",
+   "b.dns.jp",
+   "c.dns.jp",
+   "d.dns.jp",
+   "e.dns.jp",
+   "f.dns.jp",
+   "g.dns.jp",
+   "h.dns.jp"
+  ],
+  "cn": [
+   "a.dns.cn",
+   "b.dns.cn",
+   "c.dns.cn",
+   "d.dns.cn",
+   "e.dns.cn",
+   "ns.cernet.net"
+  ],
+  "ru": [
+   "a.dns.ripn.net",
+   "b.dns.ripn.net",
+   "c.tld-servers.ru",
+   "d.dns.ripn.net",
+   "e.dns.ripn.net",
+   "f.dns.ripn.net"
+  ],
+  "in": [
+   "ns1.registry.in",
+   "ns2.registry.in",
+   "ns3.registry.in",
+   "ns4.registry.in"
+  ],
+  "au": [
+   "a.au",
+   "q.au",
+   "r.au",
+   "s.au",
+   "t.au"
+  ],
+  "ca": [
+   "any.ca-servers.ca",
+   "c.ca-servers.ca",
+   "d.ca-servers.ca",
+   "j.ca-servers.ca"
+  ],
+  "mx": [
+   "c.mx-ns.mx",
+   "e.mx-ns.mx",
+   "i.mx-ns.mx",
+   "m.mx-ns.mx",
+   "o.mx-ns.mx",
+   "x.mx-ns.mx"
+  ],
+  "ar": [
+   "a.lactld.org",
+   "c.dns.ar",
+   "d.dns.ar",
+   "e.dns.ar",
+   "f.dns.ar"
+  ],
+  "pt": [
+   "a.dns.pt",
+   "b.dns.pt",
+   "c.dns.pt",
+   "d.dns.pt",
+   "e.dns.pt",
+   "g.dns.pt",
+   "h.dns.pt",
+   "ns.dns.br",
+   "ns2.nic.fr"
+  ],
+  "es": [
+   "a.nic.es",
+   "c.nic.es",
+   "g.nic.es",
+   "h.nic.es"
+  ],
+  "it": [
+   "a.dns.it",
+   "dns.nic.it",
+   "m.dns.it",
+   "nameserver.cnr.it",
+   "r.dns.it",
+   "v.dns.it"
+  ],
+  "se": [
+   "a.ns.se",
+   "b.ns.se",
+   "c.ns.se",
+   "f.ns.se",
+   "g.ns.se",
+   "i.ns.se",
+   "m.ns.se",
+   "x.ns.se",
+   "y.ns.se",
+   "z.ns.se"
+  ],
+  "ch": [
+   "a.nic.ch",
+   "b.nic.ch",
+   "d.nic.ch",
+   "e.nic.ch",
+   "f.nic.ch"
+  ],
+  "pl": [
+   "a-dns.pl",
+   "b-dns.pl",
+   "d-dns.pl",
+   "f-dns.pl",
+   "h-dns.pl",
+   "j-dns.pl"
+  ],
+  "za": [
+   "nsza.is.co.za",
+   "za-ns.anycast.pch.net",
+   "za1.dnsnode.net"
+  ],
+  "ng": [
+   "ns2.nic.net.ng",
+   "ns3.nic.net.ng",
+   "ns4.nic.net.ng",
+   "ns5.nic.net.ng",
+   "nsa.nic.net.ng"
+  ],
+  "sg": [
+   "dsany2.sgnic.sg",
+   "dsany3.sgnic.sg",
+   "dsany4.sgnic.sg",
+   "ns4.apnic.net",
+   "pch.sgzones.sg"
+  ],
+  "kr": [
+   "b.dns.kr",
+   "c.dns.kr",
+   "d.dns.kr",
+   "e.dns.kr",
+   "f.dns.kr",
+   "g.dns.kr"
+  ],
+  "id": [
+   "b.dns.id",
+   "c.dns.id",
+   "d.dns.id",
+   "e.dns.id",
+   "f.dns.id",
+   "ns4.apnic.net"
+  ],
+  "tr": [
+   "ns43.ns.tr",
+   "ns44.ns.tr",
+   "ns61.ns.tr",
+   "ns71.ns.tr",
+   "ns72.ns.tr",
+   "ns73.ns.tr",
+   "ns74.ns.tr",
+   "ns75.ns.tr"
+  ],
+  "be": [
+   "a.nsset.be",
+   "b.nsset.be",
+   "c.nsset.be",
+   "d.nsset.be",
+   "y.nsset.be",
+   "z.nsset.be"
+  ],
+  "at": [
+   "d.ns.at",
+   "j.ns.at",
+   "n.ns.at",
+   "ns1.univie.ac.at",
+   "ns2.univie.ac.at",
+   "r.ns.at",
+   "u.ns.at"
+  ],
+  "dk": [
+   "b.nic.dk",
+   "c.nic.dk",
+   "h.nic.dk",
+   "l.nic.dk",
+   "s.nic.dk",
+   "t.nic.dk"
+  ],
+  "no": [
+   "i.nic.no",
+   "njet.norid.no",
+   "not.norid.no",
+   "x.nic.no",
+   "y.nic.no",
+   "z.nic.no"
+  ],
+  "fi": [
+   "a.fi",
+   "b.fi",
+   "c.fi",
+   "d.fi",
+   "e.fi",
+   "f.fi",
+   "g.fi",
+   "i.fi",
+   "j.fi",
+   "k.fi"
+  ],
+  "ie": [
+   "a.ns.ie",
+   "c.ns.ie",
+   "d.ns.ie",
+   "e.ns.ie",
+   "h.ns.ie",
+   "i.ns.ie"
+  ],
+  "nz": [
+   "ns1.dns.net.nz",
+   "ns2.dns.net.nz",
+   "ns3.dns.net.nz",
+   "ns4.dns.net.nz",
+   "ns5.dns.net.nz",
+   "ns6.dns.net.nz",
+   "ns7.dns.net.nz"
+  ],
+  "il": [
+   "ilns.ilan.net.il",
+   "lookup.iucc.ac.il",
+   "ns1.ns.il",
+   "ns3.ns.il",
+   "ns4.ns.il",
+   "nsa.ns.il",
+   "nsb.ns.il",
+   "nse.ns.il"
+  ],
+  "ae": [
+   "ns1.aedns.ae",
+   "ns2.aedns.ae",
+   "ns4.apnic.net",
+   "nsext-pch.aedns.ae"
+  ],
+  "sa": [
+   "c1.dns.sa",
+   "c2.dns.sa",
+   "i1.dns.sa",
+   "m1.dns.sa",
+   "m2.dns.sa",
+   "n1.dns.sa",
+   "p1.dns.sa",
+   "s1.dns.sa",
+   "s2.dns.sa",
+   "sh1.dns.sa"
+  ],
+  "co": [
+   "a.registrydns.co",
+   "b.registrydns.co",
+   "c.registrydns.co",
+   "d.registrydns.co"
+  ],
+  "cl": [
+   "a.nic.cl",
+   "b.nic.cl",
+   "c.nic.cl",
+   "cl-ns.anycast.pch.net",
+   "cl1-tld.d-zone.ca",
+   "cl1.dnsnode.net",
+   "cl2-tld.d-zone.ca"
+  ],
+  "pe": [
+   "A.LACTLD.ORG",
+   "PCH.RCP.pe",
+   "PE1.DNSNODE.NET",
+   "QUIPU.RCP.NET.pe"
+  ],
+  "uy": [
+   "a.lactld.org",
+   "a.nic.uy",
+   "b.nic.uy",
+   "d.nic.uy",
+   "ns.dns.br",
+   "ns1.anteldata.com.uy",
+   "ns2.anteldata.com.uy"
+  ],
+  "ec": [
+   "a.lactld.org",
+   "n2.nic.ec",
+   "n3.dns.ec",
+   "ns1.anycastdns.cz",
+   "ns2.anycastdns.cz"
+  ],
+  "py": [
+   "b.dns.py",
+   "c.dns.py",
+   "l.dns.py",
+   "p.dns.py",
+   "u.dns.py"
+  ],
+  "bo": [
+   "anycast.ns.nic.bo",
+   "ns.dns.br",
+   "ns.nic.bo",
+   "ns2.nic.fr"
+  ],
+  "ve": [
+   "a.lactld.org",
+   "ns3.nic.ve",
+   "ns4.nic.ve",
+   "ns5.nic.ve",
+   "ns6.nic.ve",
+   "ssdns-tld.nic.cl"
+  ],
+  "cz": [
+   "a.ns.nic.cz",
+   "b.ns.nic.cz",
+   "c.ns.nic.cz",
+   "d.ns.nic.cz"
+  ],
+  "ro": [
+   "dns-at.rotld.ro",
+   "dns-c.rotld.ro",
+   "dns-ro.denic.de",
+   "primary.rotld.ro",
+   "sec-dns-a.rotld.ro",
+   "sec-dns-b.rotld.ro"
+  ],
+  "gr": [
+   "estia.ics.forth.gr",
+   "gr-a.ics.forth.gr",
+   "gr-at.ics.forth.gr",
+   "gr-d.ics.forth.gr",
+   "gr-m.ics.forth.gr",
+   "grdns.ics.forth.gr"
+  ],
+  "hu": [
+   "a.hu",
+   "b.hu",
+   "c.hu",
+   "d.hu",
+   "e.hu",
+   "f.hu",
+   "p.hu"
+  ],
+  "ua": [
+   "bg.ns.ua",
+   "cz.ns.ua",
+   "ho1.ns.ua",
+   "in1.ns.ua",
+   "nn.ns.ua",
+   "pch.ns.ua",
+   "rcz.ns.ua"
+  ],
+  "ke": [
+   "kenic.anycastdns.cz",
+   "mzizi.kenic.or.ke",
+   "ns-ke.afrinic.net",
+   "ns.anycast.kenic.or.ke"
+  ],
+  "eg": [
+   "dns-eg.univie.ac.at",
+   "frcu.eun.eg",
+   "rip.psg.com"
+  ],
+  "ma": [
+   "a.tld.ma",
+   "b.tld.ma",
+   "c.tld.ma",
+   "d.tld.ma",
+   "dns.inria.fr",
+   "e.tld.ma",
+   "f.tld.ma",
+   "ns-ma.nic.fr"
+  ],
+  "com": [
+   "a.gtld-servers.net",
+   "b.gtld-servers.net",
+   "c.gtld-servers.net",
+   "d.gtld-servers.net",
+   "e.gtld-servers.net",
+   "f.gtld-servers.net",
+   "g.gtld-servers.net",
+   "h.gtld-servers.net",
+   "i.gtld-servers.net",
+   "j.gtld-servers.net",
+   "k.gtld-servers.net",
+   "l.gtld-servers.net",
+   "m.gtld-servers.net"
+  ],
+  "org": [
+   "a0.org.afilias-nst.info",
+   "a2.org.afilias-nst.info",
+   "b0.org.afilias-nst.org",
+   "b2.org.afilias-nst.org",
+   "c0.org.afilias-nst.info",
+   "d0.org.afilias-nst.org"
+  ],
+  "net": [
+   "a.gtld-servers.net",
+   "b.gtld-servers.net",
+   "c.gtld-servers.net",
+   "d.gtld-servers.net",
+   "e.gtld-servers.net",
+   "f.gtld-servers.net",
+   "g.gtld-servers.net",
+   "h.gtld-servers.net",
+   "i.gtld-servers.net",
+   "j.gtld-servers.net",
+   "k.gtld-servers.net",
+   "l.gtld-servers.net",
+   "m.gtld-servers.net"
+  ],
+  "edu": [
+   "a.edu-servers.net",
+   "b.edu-servers.net",
+   "c.edu-servers.net",
+   "d.edu-servers.net",
+   "e.edu-servers.net",
+   "f.edu-servers.net",
+   "g.edu-servers.net",
+   "h.edu-servers.net",
+   "i.edu-servers.net",
+   "j.edu-servers.net",
+   "k.edu-servers.net",
+   "l.edu-servers.net",
+   "m.edu-servers.net"
+  ],
+  "gov": [
+   "a.ns.gov",
+   "b.ns.gov",
+   "c.ns.gov",
+   "d.ns.gov"
+  ],
+  "info": [
+   "a0.info.afilias-nst.info",
+   "a2.info.afilias-nst.info",
+   "b0.info.afilias-nst.org",
+   "b2.info.afilias-nst.org",
+   "c0.info.afilias-nst.info",
+   "d0.info.afilias-nst.org"
+  ],
+  "biz": [
+   "a.gtld.biz",
+   "b.gtld.biz",
+   "c.gtld.biz",
+   "m.gtld.biz",
+   "n.gtld.biz",
+   "w.gtld.biz",
+   "x.gtld.biz",
+   "y.gtld.biz"
+  ],
+  "io": [
+   "a0.nic.io",
+   "a2.nic.io",
+   "b0.nic.io",
+   "c0.nic.io"
+  ],
+  "dev": [
+   "ns-tld1.charlestonroadregistry.com",
+   "ns-tld2.charlestonroadregistry.com",
+   "ns-tld3.charlestonroadregistry.com",
+   "ns-tld4.charlestonroadregistry.com",
+   "ns-tld5.charlestonroadregistry.com"
+  ],
+  "app": [
+   "ns-tld1.charlestonroadregistry.com",
+   "ns-tld2.charlestonroadregistry.com",
+   "ns-tld3.charlestonroadregistry.com",
+   "ns-tld4.charlestonroadregistry.com",
+   "ns-tld5.charlestonroadregistry.com"
+  ],
+  "xyz": [
+   "generationxyz.nic.xyz",
+   "x.nic.xyz",
+   "y.nic.xyz",
+   "z.nic.xyz"
+  ],
+  "ai": [
+   "v0n0.nic.ai",
+   "v0n1.nic.ai",
+   "v0n2.nic.ai",
+   "v0n3.nic.ai",
+   "v2n0.nic.ai",
+   "v2n1.nic.ai"
+  ],
+  "cloud": [
+   "ns01.trs-dns.com",
+   "ns01.trs-dns.net",
+   "ns10.trs-dns.info",
+   "ns10.trs-dns.org"
+  ],
+  "tech": [
+   "ns01.trs-dns.com",
+   "ns01.trs-dns.net",
+   "ns10.trs-dns.info",
+   "ns10.trs-dns.org"
+  ],
+  "online": [
+   "ns01.trs-dns.com",
+   "ns01.trs-dns.net",
+   "ns10.trs-dns.info",
+   "ns10.trs-dns.org"
+  ],
+  "site": [
+   "ns01.trs-dns.com",
+   "ns01.trs-dns.net",
+   "ns10.trs-dns.info",
+   "ns10.trs-dns.org"
+  ],
+  "store": [
+   "ns01.trs-dns.com",
+   "ns01.trs-dns.net",
+   "ns10.trs-dns.info",
+   "ns10.trs-dns.org"
+  ],
+  "blog": [
+   "a.ns.nic.blog",
+   "b.ns.nic.blog",
+   "c.ns.nic.blog",
+   "d.ns.nic.blog"
+  ],
+  "shop": [
+   "a.gmoregistry.net",
+   "b.gmoregistry.net",
+   "k.gmoregistry.net",
+   "l.gmoregistry.net"
+  ],
+  "tv": [
+   "a.nic.tv",
+   "b.nic.tv",
+   "c.nic.tv",
+   "x.nic.tv",
+   "y.nic.tv",
+   "z.nic.tv"
+  ],
+  "cc": [
+   "ac1.nstld.com",
+   "ac2.nstld.com",
+   "ac3.nstld.com",
+   "ac4.nstld.com"
+  ]
+ },
+ "service_ns": {
+  "google.com": [
+   "ns1.google.com",
+   "ns2.google.com",
+   "ns3.google.com",
+   "ns4.google.com"
+  ],
+  "cloudflare.com": [
+   "ns3.cloudflare.com",
+   "ns4.cloudflare.com",
+   "ns5.cloudflare.com",
+   "ns6.cloudflare.com",
+   "ns7.cloudflare.com"
+  ],
+  "amazon.com": [
+   "ns-1447.awsdns-52.org",
+   "ns-1707.awsdns-21.co.uk",
+   "ns-264.awsdns-33.com",
+   "ns-521.awsdns-01.net"
+  ],
+  "aws.amazon.com": [
+   "ns-106.awsdns-13.com",
+   "ns-1402.awsdns-47.org",
+   "ns-1860.awsdns-40.co.uk",
+   "ns-905.awsdns-49.net"
+  ],
+  "microsoft.com": [
+   "ns1-39.azure-dns.com",
+   "ns2-39.azure-dns.net",
+   "ns3-39.azure-dns.org",
+   "ns4-39.azure-dns.info"
+  ],
+  "apple.com": [
+   "a.ns.apple.com",
+   "b.ns.apple.com",
+   "c.ns.apple.com",
+   "d.ns.apple.com"
+  ],
+  "meta.com": [
+   "a.ns.facebook.com",
+   "b.ns.facebook.com",
+   "c.ns.facebook.com",
+   "d.ns.facebook.com"
+  ],
+  "x.com": [
+   "a.r10.twtrdns.net",
+   "a.u10.twtrdns.net",
+   "b.r10.twtrdns.net",
+   "b.u10.twtrdns.net",
+   "c.r10.twtrdns.net",
+   "c.u10.twtrdns.net",
+   "d.r10.twtrdns.net",
+   "d.u10.twtrdns.net"
+  ],
+  "github.com": [
+   "dns1.p08.nsone.net",
+   "dns2.p08.nsone.net",
+   "dns3.p08.nsone.net",
+   "dns4.p08.nsone.net",
+   "ns-1283.awsdns-32.org",
+   "ns-1707.awsdns-21.co.uk",
+   "ns-421.awsdns-52.com",
+   "ns-520.awsdns-01.net"
+  ],
+  "gitlab.com": [
+   "diva.ns.cloudflare.com",
+   "jermaine.ns.cloudflare.com"
+  ],
+  "wikipedia.org": [
+   "ns0.wikimedia.org",
+   "ns1.wikimedia.org",
+   "ns2.wikimedia.org"
+  ],
+  "wikimedia.org": [
+   "ns0.wikimedia.org",
+   "ns1.wikimedia.org",
+   "ns2.wikimedia.org"
+  ],
+  "mozilla.org": [
+   "ns1-240.akam.net",
+   "ns4-64.akam.net",
+   "ns5-65.akam.net",
+   "ns7-66.akam.net"
+  ],
+  "netflix.com": [
+   "ns-1372.awsdns-43.org",
+   "ns-1984.awsdns-56.co.uk",
+   "ns-659.awsdns-18.net",
+   "ns-81.awsdns-10.com"
+  ],
+  "spotify.com": [
+   "dns1.p07.nsone.net",
+   "ns-cloud-a1.googledomains.com",
+   "ns-cloud-a2.googledomains.com",
+   "ns-cloud-a3.googledomains.com",
+   "ns-cloud-a4.googledomains.com"
+  ],
+  "telegram.org": [
+   "ns-cloud-b1.googledomains.com",
+   "ns-cloud-b2.googledomains.com",
+   "ns-cloud-b3.googledomains.com",
+   "ns-cloud-b4.googledomains.com"
+  ],
+  "tiktok.com": [
+   "a1-97.akam.net",
+   "a12-66.akam.net",
+   "a13-67.akam.net",
+   "a18-64.akam.net",
+   "a6-65.akam.net",
+   "a9-66.akam.net"
+  ],
+  "zoom.us": [
+   "ns-1137.awsdns-14.org",
+   "ns-1772.awsdns-29.co.uk",
+   "ns-387.awsdns-48.com",
+   "ns-888.awsdns-47.net"
+  ],
+  "openai.com": [
+   "ns1-02.azure-dns.com",
+   "ns2-02.azure-dns.net",
+   "ns3-02.azure-dns.org",
+   "ns4-02.azure-dns.info"
+  ],
+  "anthropic.com": [
+   "isla.ns.cloudflare.com",
+   "randy.ns.cloudflare.com"
+  ],
+  "huggingface.co": [
+   "ns-137.awsdns-17.com",
+   "ns-1452.awsdns-53.org",
+   "ns-1955.awsdns-52.co.uk",
+   "ns-919.awsdns-50.net"
+  ],
+  "nvidia.com": [
+   "dns1.p09.nsone.net",
+   "dns2.p09.nsone.net",
+   "ns5.dnsmadeeasy.com",
+   "ns6.dnsmadeeasy.com",
+   "ns7.dnsmadeeasy.com"
+  ],
+  "oracle.com": [
+   "a1-160.akam.net",
+   "a11-66.akam.net",
+   "a13-65.akam.net",
+   "a18-67.akam.net",
+   "ns1.p201.dns.oraclecloud.net",
+   "ns2.p201.dns.oraclecloud.net",
+   "ns3.p201.dns.oraclecloud.net",
+   "ns4.p201.dns.oraclecloud.net"
+  ],
+  "redhat.com": [
+   "dns1.p01.nsone.net",
+   "dns1.p02.nsone.net",
+   "dns2.p01.nsone.net",
+   "dns2.p02.nsone.net",
+   "dns3.p01.nsone.net",
+   "dns4.p01.nsone.net"
+  ],
+  "debian.org": [
+   "dns4.easydns.info",
+   "nsp.dnsnode.net",
+   "sec1.rcode0.net",
+   "sec2.rcode0.net"
+  ],
+  "ubuntu.com": [
+   "ns1.canonical.com",
+   "ns2.canonical.com",
+   "ns3.canonical.com"
+  ],
+  "python.org": [
+   "ns-1134.awsdns-13.org",
+   "ns-2046.awsdns-63.co.uk",
+   "ns-484.awsdns-60.com",
+   "ns-981.awsdns-58.net"
+  ],
+  "nodejs.org": [
+   "meera.ns.cloudflare.com",
+   "pablo.ns.cloudflare.com"
+  ],
+  "npmjs.com": [
+   "bayan.ns.cloudflare.com",
+   "sandy.ns.cloudflare.com"
+  ],
+  "docker.com": [
+   "ns-1289.awsdns-33.org",
+   "ns-1981.awsdns-55.co.uk",
+   "ns-207.awsdns-25.com",
+   "ns-568.awsdns-07.net"
+  ],
+  "kubernetes.io": [
+   "ns-cloud-a1.googledomains.com",
+   "ns-cloud-a2.googledomains.com",
+   "ns-cloud-a3.googledomains.com",
+   "ns-cloud-a4.googledomains.com"
+  ],
+  "vercel.com": [
+   "ns1.vercel-dns.com",
+   "ns2.vercel-dns.com"
+  ],
+  "netlify.com": [
+   "dns1.p04.nsone.net",
+   "dns2.p04.nsone.net",
+   "dns3.p04.nsone.net",
+   "dns4.p04.nsone.net",
+   "ns01.netlifydns.com",
+   "ns02.netlifydns.com",
+   "ns03.netlifydns.com",
+   "ns04.netlifydns.com"
+  ],
+  "fastly.com": [
+   "edns1.ultradns.com",
+   "edns1.ultradns.net",
+   "ns-cloud-a1.googledomains.com",
+   "ns-cloud-a2.googledomains.com",
+   "oak.fastlydns.com",
+   "oak.fastlydns.dev",
+   "oak.fastlydns.net",
+   "oak.fastlydns.org"
+  ],
+  "akamai.com": [
+   "a1-66.akam.net",
+   "a11-66.akam.net",
+   "a12-66.akam.net",
+   "a13-66.akam.net",
+   "a16-66.akam.net",
+   "a18-66.akam.net",
+   "a28-66.akam.net",
+   "a3-66.akam.net",
+   "a5-66.akam.net",
+   "a6-66.akam.net",
+   "a7-66.akam.net",
+   "a8-66.akam.net",
+   "a9-66.akam.net"
+  ],
+  "bing.com": [
+   "dns1.p09.nsone.net",
+   "dns2.p09.nsone.net",
+   "dns3.p09.nsone.net",
+   "dns4.p09.nsone.net",
+   "ns1-204.azure-dns.com",
+   "ns2-204.azure-dns.net",
+   "ns3-204.azure-dns.org",
+   "ns4-204.azure-dns.info"
+  ],
+  "duckduckgo.com": [
+   "dns1.p05.nsone.net",
+   "dns2.p05.nsone.net",
+   "dns3.p05.nsone.net",
+   "dns4.p05.nsone.net",
+   "ns01.quack-dns.com",
+   "ns02.quack-dns.com",
+   "ns03.quack-dns.com",
+   "ns04.quack-dns.com"
+  ],
+  "proton.me": [
+   "ns1.proton.me",
+   "ns2.proton.me",
+   "ns3.proton.me"
+  ],
+  "signal.org": [
+   "casey.ns.cloudflare.com",
+   "zita.ns.cloudflare.com"
+  ],
+  "gov.br": [
+   "a.dns.br",
+   "b.dns.br",
+   "c.dns.br",
+   "d.dns.br",
+   "e.dns.br",
+   "f.dns.br"
+  ],
+  "uol.com.br": [
+   "borges.uol.com.br",
+   "charles.uol.com.br",
+   "eliot.uol.com.br"
+  ],
+  "globo.com": [
+   "ns01.globo.com",
+   "ns02.globo.com",
+   "ns03.globo.com",
+   "ns04.globo.com"
+  ],
+  "mercadolivre.com.br": [
+   "ns-1387.awsdns-45.org",
+   "ns-1828.awsdns-36.co.uk",
+   "ns-341.awsdns-42.com",
+   "ns-653.awsdns-17.net"
+  ],
+  "bradesco.com.br": [
+   "a1-60.akam.net",
+   "a13-65.akam.net",
+   "a18-66.akam.net",
+   "a22-67.akam.net",
+   "a28-64.akam.net",
+   "a7-65.akam.net"
+  ],
+  "itau.com.br": [
+   "asia1.akam.net",
+   "asia3.akam.net",
+   "ns1-127.akam.net",
+   "ns1-88.akam.net",
+   "use5.akam.net",
+   "usw1.akam.net",
+   "usw2.akam.net",
+   "usw6.akam.net"
+  ],
+  "nubank.com.br": [
+   "ns-1460.awsdns-54.org",
+   "ns-1569.awsdns-04.co.uk",
+   "ns-340.awsdns-42.com",
+   "ns-736.awsdns-28.net"
+  ],
+  "petrobras.com.br": [
+   "ns-1151.awsdns-15.org",
+   "ns-1611.awsdns-09.co.uk",
+   "ns-187.awsdns-23.com",
+   "ns-828.awsdns-39.net"
+  ],
+  "usp.br": [
+   "a.dns.usp.br",
+   "b.dns.usp.br",
+   "c.dns.usp.br",
+   "ns1.ansp.br"
+  ],
+  "unicamp.br": [
+   "ns1.ansp.br",
+   "ns1.unicamp.br",
+   "ns3.unicamp.br"
+  ],
+  "ufrn.br": [
+   "ns1.ufrn.br",
+   "ns2.ufrn.br"
+  ],
+  "ifrn.edu.br": [
+   "ns1.ifrn.edu.br"
+  ],
+  "serpro.gov.br": [
+   "bsa1.serpro.gov.br",
+   "bsa2.serpro.gov.br",
+   "spo1.serpro.gov.br",
+   "spo2.serpro.gov.br"
+  ],
+  "dns.br": [
+   "a.dns.br",
+   "b.dns.br",
+   "c.dns.br",
+   "d.dns.br",
+   "e.dns.br",
+   "f.dns.br"
+  ],
+  "registro.br": [
+   "a.dns.br",
+   "b.dns.br",
+   "c.dns.br",
+   "d.dns.br",
+   "e.dns.br"
+  ],
+  "nic.br": [
+   "a.dns.br",
+   "b.dns.br",
+   "c.dns.br",
+   "d.dns.br",
+   "e.dns.br"
+  ],
+  "cgi.br": [
+   "a.dns.br",
+   "b.dns.br",
+   "c.dns.br",
+   "d.dns.br",
+   "e.dns.br"
+  ],
+  "rnp.br": [
+   "nscl1.rnp.br",
+   "nscl2.rnp.br",
+   "nscl3.rnp.br",
+   "nscl4.rnp.br"
+  ]
+ },
+ "resolver_ips": {
+  "1.1.1.1": [
+   "Cloudflare Public DNS (primário)",
+   "Cloudflare"
+  ],
+  "1.0.0.1": [
+   "Cloudflare Public DNS (secundário)",
+   "Cloudflare"
+  ],
+  "2606:4700:4700::1111": [
+   "Cloudflare Public DNS v6",
+   "Cloudflare"
+  ],
+  "8.8.8.8": [
+   "Google Public DNS (primário)",
+   "Google"
+  ],
+  "8.8.4.4": [
+   "Google Public DNS (secundário)",
+   "Google"
+  ],
+  "2001:4860:4860::8888": [
+   "Google Public DNS v6",
+   "Google"
+  ],
+  "9.9.9.9": [
+   "Quad9 (primário, filtro de ameaças)",
+   "Quad9 / IBM / PCH"
+  ],
+  "149.112.112.112": [
+   "Quad9 (secundário)",
+   "Quad9 / IBM / PCH"
+  ],
+  "2620:fe::fe": [
+   "Quad9 v6",
+   "Quad9 / IBM / PCH"
+  ],
+  "208.67.222.222": [
+   "Cisco OpenDNS (primário)",
+   "Cisco"
+  ],
+  "208.67.220.220": [
+   "Cisco OpenDNS (secundário)",
+   "Cisco"
+  ],
+  "2620:119:35::35": [
+   "Cisco OpenDNS v6",
+   "Cisco"
+  ],
+  "94.140.14.14": [
+   "AdGuard DNS (primário)",
+   "AdGuard"
+  ],
+  "94.140.15.15": [
+   "AdGuard DNS (secundário)",
+   "AdGuard"
+  ],
+  "2a00:5a60::ad1:0ff": [
+   "AdGuard DNS v6",
+   "AdGuard"
+  ],
+  "185.228.168.9": [
+   "CleanBrowsing (família)",
+   "CleanBrowsing"
+  ],
+  "76.76.2.0": [
+   "Control D (primário)",
+   "Control D"
+  ],
+  "76.76.10.0": [
+   "Control D (secundário)",
+   "Control D"
+  ],
+  "77.88.8.8": [
+   "Yandex DNS (básico)",
+   "Yandex"
+  ],
+  "64.6.64.6": [
+   "Verisign Public DNS (primário)",
+   "Verisign"
+  ],
+  "64.6.65.6": [
+   "Verisign Public DNS (secundário)",
+   "Verisign"
+  ],
+  "156.154.70.1": [
+   "Neustar/UltraDNS (primário)",
+   "Neustar"
+  ],
+  "84.200.69.80": [
+   "DNS.WATCH (primário)",
+   "DNS.WATCH"
+  ],
+  "216.146.35.35": [
+   "Oracle Dyn (primário)",
+   "Oracle"
+  ],
+  "8.26.56.26": [
+   "Comodo Secure DNS (primário)",
+   "Comodo"
+  ],
+  "4.2.2.1": [
+   "Level3 / Lumen (primário)",
+   "Lumen"
+  ],
+  "205.171.3.65": [
+   "CenturyLink/Qwest (primário)",
+   "Lumen"
+  ],
+  "193.110.81.0": [
+   "dns0.eu (primário)",
+   "dns0.eu"
+  ],
+  "37.235.1.174": [
+   "FreeDNS / afraid.org",
+   "FreeDNS"
+  ],
+  "199.85.126.10": [
+   "Norton ConnectSafe",
+   "Gen Digital"
+  ],
+  "198.101.242.72": [
+   "OpenNIC / resolvedor comunitário",
+   "OpenNIC"
+  ]
+ },
+ "records": {
+  "e.root-servers.net": {
+   "A": [
+    "192.203.230.10"
+   ],
+   "AAAA": [
+    "2001:500:a8::e"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "m.root-servers.net": {
+   "A": [
+    "202.12.27.33"
+   ],
+   "AAAA": [
+    "2001:dc3::35"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "h.root-servers.net": {
+   "A": [
+    "198.97.190.53"
+   ],
+   "AAAA": [
+    "2001:500:1::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "l.root-servers.net": {
+   "A": [
+    "199.7.83.42"
+   ],
+   "AAAA": [
+    "2001:500:9f::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.root-servers.net": {
+   "A": [
+    "199.7.91.13"
+   ],
+   "AAAA": [
+    "2001:500:2d::d"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.root-servers.net": {
+   "A": [
+    "198.41.0.4"
+   ],
+   "AAAA": [
+    "2001:503:ba3e::2:30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.root-servers.net": {
+   "A": [
+    "170.247.170.2"
+   ],
+   "AAAA": [
+    "2801:1b8:10::b"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "i.root-servers.net": {
+   "A": [
+    "192.36.148.17"
+   ],
+   "AAAA": [
+    "2001:7fe::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.root-servers.net": {
+   "A": [
+    "192.33.4.12"
+   ],
+   "AAAA": [
+    "2001:500:2::c"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.root-servers.net": {
+   "A": [
+    "192.5.5.241"
+   ],
+   "AAAA": [
+    "2001:500:2f::f"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "j.root-servers.net": {
+   "A": [
+    "192.58.128.30"
+   ],
+   "AAAA": [
+    "2001:503:c27::2:30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "g.root-servers.net": {
+   "A": [
+    "192.112.36.4"
+   ],
+   "AAAA": [
+    "2001:500:12::d0d"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "k.root-servers.net": {
+   "A": [
+    "193.0.14.129"
+   ],
+   "AAAA": [
+    "2001:7fd::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "br": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.dns.br",
+    "b.dns.br",
+    "c.dns.br",
+    "d.dns.br",
+    "e.dns.br",
+    "f.dns.br"
+   ],
+   "PTR": []
+  },
+  "uk": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "dns1.nic.uk",
+    "dns2.nic.uk",
+    "dns3.nic.uk",
+    "dns4.nic.uk",
+    "nsa.nic.uk",
+    "nsb.nic.uk",
+    "nsc.nic.uk",
+    "nsd.nic.uk"
+   ],
+   "PTR": []
+  },
+  "de": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.nic.de",
+    "f.nic.de",
+    "l.de.net",
+    "n.de.net",
+    "s.de.net",
+    "z.nic.de"
+   ],
+   "PTR": []
+  },
+  "fr": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "d.nic.fr",
+    "f.ext.nic.fr",
+    "g.ext.nic.fr"
+   ],
+   "PTR": []
+  },
+  "nl": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns1.dns.nl",
+    "ns3.dns.nl",
+    "ns4.dns.nl"
+   ],
+   "PTR": []
+  },
+  "jp": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.dns.jp",
+    "b.dns.jp",
+    "c.dns.jp",
+    "d.dns.jp",
+    "e.dns.jp",
+    "f.dns.jp",
+    "g.dns.jp",
+    "h.dns.jp"
+   ],
+   "PTR": []
+  },
+  "cn": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.dns.cn",
+    "b.dns.cn",
+    "c.dns.cn",
+    "d.dns.cn",
+    "e.dns.cn",
+    "ns.cernet.net"
+   ],
+   "PTR": []
+  },
+  "ru": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.dns.ripn.net",
+    "b.dns.ripn.net",
+    "c.tld-servers.ru",
+    "d.dns.ripn.net",
+    "e.dns.ripn.net",
+    "f.dns.ripn.net"
+   ],
+   "PTR": []
+  },
+  "in": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns1.registry.in",
+    "ns2.registry.in",
+    "ns3.registry.in",
+    "ns4.registry.in"
+   ],
+   "PTR": []
+  },
+  "au": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.au",
+    "q.au",
+    "r.au",
+    "s.au",
+    "t.au"
+   ],
+   "PTR": []
+  },
+  "ca": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "any.ca-servers.ca",
+    "c.ca-servers.ca",
+    "d.ca-servers.ca",
+    "j.ca-servers.ca"
+   ],
+   "PTR": []
+  },
+  "mx": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "c.mx-ns.mx",
+    "e.mx-ns.mx",
+    "i.mx-ns.mx",
+    "m.mx-ns.mx",
+    "o.mx-ns.mx",
+    "x.mx-ns.mx"
+   ],
+   "PTR": []
+  },
+  "ar": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.lactld.org",
+    "c.dns.ar",
+    "d.dns.ar",
+    "e.dns.ar",
+    "f.dns.ar"
+   ],
+   "PTR": []
+  },
+  "pt": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.dns.pt",
+    "b.dns.pt",
+    "c.dns.pt",
+    "d.dns.pt",
+    "e.dns.pt",
+    "g.dns.pt",
+    "h.dns.pt",
+    "ns.dns.br",
+    "ns2.nic.fr"
+   ],
+   "PTR": []
+  },
+  "es": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.nic.es",
+    "c.nic.es",
+    "g.nic.es",
+    "h.nic.es"
+   ],
+   "PTR": []
+  },
+  "it": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.dns.it",
+    "dns.nic.it",
+    "m.dns.it",
+    "nameserver.cnr.it",
+    "r.dns.it",
+    "v.dns.it"
+   ],
+   "PTR": []
+  },
+  "se": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.ns.se",
+    "b.ns.se",
+    "c.ns.se",
+    "f.ns.se",
+    "g.ns.se",
+    "i.ns.se",
+    "m.ns.se",
+    "x.ns.se",
+    "y.ns.se",
+    "z.ns.se"
+   ],
+   "PTR": []
+  },
+  "ch": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.nic.ch",
+    "b.nic.ch",
+    "d.nic.ch",
+    "e.nic.ch",
+    "f.nic.ch"
+   ],
+   "PTR": []
+  },
+  "pl": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a-dns.pl",
+    "b-dns.pl",
+    "d-dns.pl",
+    "f-dns.pl",
+    "h-dns.pl",
+    "j-dns.pl"
+   ],
+   "PTR": []
+  },
+  "za": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "nsza.is.co.za",
+    "za-ns.anycast.pch.net",
+    "za1.dnsnode.net"
+   ],
+   "PTR": []
+  },
+  "ng": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns2.nic.net.ng",
+    "ns3.nic.net.ng",
+    "ns4.nic.net.ng",
+    "ns5.nic.net.ng",
+    "nsa.nic.net.ng"
+   ],
+   "PTR": []
+  },
+  "sg": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "dsany2.sgnic.sg",
+    "dsany3.sgnic.sg",
+    "dsany4.sgnic.sg",
+    "ns4.apnic.net",
+    "pch.sgzones.sg"
+   ],
+   "PTR": []
+  },
+  "kr": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "b.dns.kr",
+    "c.dns.kr",
+    "d.dns.kr",
+    "e.dns.kr",
+    "f.dns.kr",
+    "g.dns.kr"
+   ],
+   "PTR": []
+  },
+  "id": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "b.dns.id",
+    "c.dns.id",
+    "d.dns.id",
+    "e.dns.id",
+    "f.dns.id",
+    "ns4.apnic.net"
+   ],
+   "PTR": []
+  },
+  "tr": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns43.ns.tr",
+    "ns44.ns.tr",
+    "ns61.ns.tr",
+    "ns71.ns.tr",
+    "ns72.ns.tr",
+    "ns73.ns.tr",
+    "ns74.ns.tr",
+    "ns75.ns.tr"
+   ],
+   "PTR": []
+  },
+  "be": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.nsset.be",
+    "b.nsset.be",
+    "c.nsset.be",
+    "d.nsset.be",
+    "y.nsset.be",
+    "z.nsset.be"
+   ],
+   "PTR": []
+  },
+  "at": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "d.ns.at",
+    "j.ns.at",
+    "n.ns.at",
+    "ns1.univie.ac.at",
+    "ns2.univie.ac.at",
+    "r.ns.at",
+    "u.ns.at"
+   ],
+   "PTR": []
+  },
+  "dk": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "b.nic.dk",
+    "c.nic.dk",
+    "h.nic.dk",
+    "l.nic.dk",
+    "s.nic.dk",
+    "t.nic.dk"
+   ],
+   "PTR": []
+  },
+  "no": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "i.nic.no",
+    "njet.norid.no",
+    "not.norid.no",
+    "x.nic.no",
+    "y.nic.no",
+    "z.nic.no"
+   ],
+   "PTR": []
+  },
+  "fi": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.fi",
+    "b.fi",
+    "c.fi",
+    "d.fi",
+    "e.fi",
+    "f.fi",
+    "g.fi",
+    "i.fi",
+    "j.fi",
+    "k.fi"
+   ],
+   "PTR": []
+  },
+  "ie": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.ns.ie",
+    "c.ns.ie",
+    "d.ns.ie",
+    "e.ns.ie",
+    "h.ns.ie",
+    "i.ns.ie"
+   ],
+   "PTR": []
+  },
+  "nz": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns1.dns.net.nz",
+    "ns2.dns.net.nz",
+    "ns3.dns.net.nz",
+    "ns4.dns.net.nz",
+    "ns5.dns.net.nz",
+    "ns6.dns.net.nz",
+    "ns7.dns.net.nz"
+   ],
+   "PTR": []
+  },
+  "il": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ilns.ilan.net.il",
+    "lookup.iucc.ac.il",
+    "ns1.ns.il",
+    "ns3.ns.il",
+    "ns4.ns.il",
+    "nsa.ns.il",
+    "nsb.ns.il",
+    "nse.ns.il"
+   ],
+   "PTR": []
+  },
+  "ae": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns1.aedns.ae",
+    "ns2.aedns.ae",
+    "ns4.apnic.net",
+    "nsext-pch.aedns.ae"
+   ],
+   "PTR": []
+  },
+  "sa": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "c1.dns.sa",
+    "c2.dns.sa",
+    "i1.dns.sa",
+    "m1.dns.sa",
+    "m2.dns.sa",
+    "n1.dns.sa",
+    "p1.dns.sa",
+    "s1.dns.sa",
+    "s2.dns.sa",
+    "sh1.dns.sa"
+   ],
+   "PTR": []
+  },
+  "co": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.registrydns.co",
+    "b.registrydns.co",
+    "c.registrydns.co",
+    "d.registrydns.co"
+   ],
+   "PTR": []
+  },
+  "cl": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.nic.cl",
+    "b.nic.cl",
+    "c.nic.cl",
+    "cl-ns.anycast.pch.net",
+    "cl1-tld.d-zone.ca",
+    "cl1.dnsnode.net",
+    "cl2-tld.d-zone.ca"
+   ],
+   "PTR": []
+  },
+  "pe": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "A.LACTLD.ORG",
+    "PCH.RCP.pe",
+    "PE1.DNSNODE.NET",
+    "QUIPU.RCP.NET.pe"
+   ],
+   "PTR": []
+  },
+  "uy": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.lactld.org",
+    "a.nic.uy",
+    "b.nic.uy",
+    "d.nic.uy",
+    "ns.dns.br",
+    "ns1.anteldata.com.uy",
+    "ns2.anteldata.com.uy"
+   ],
+   "PTR": []
+  },
+  "ec": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.lactld.org",
+    "n2.nic.ec",
+    "n3.dns.ec",
+    "ns1.anycastdns.cz",
+    "ns2.anycastdns.cz"
+   ],
+   "PTR": []
+  },
+  "py": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "b.dns.py",
+    "c.dns.py",
+    "l.dns.py",
+    "p.dns.py",
+    "u.dns.py"
+   ],
+   "PTR": []
+  },
+  "bo": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "anycast.ns.nic.bo",
+    "ns.dns.br",
+    "ns.nic.bo",
+    "ns2.nic.fr"
+   ],
+   "PTR": []
+  },
+  "ve": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.lactld.org",
+    "ns3.nic.ve",
+    "ns4.nic.ve",
+    "ns5.nic.ve",
+    "ns6.nic.ve",
+    "ssdns-tld.nic.cl"
+   ],
+   "PTR": []
+  },
+  "cz": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.ns.nic.cz",
+    "b.ns.nic.cz",
+    "c.ns.nic.cz",
+    "d.ns.nic.cz"
+   ],
+   "PTR": []
+  },
+  "ro": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "dns-at.rotld.ro",
+    "dns-c.rotld.ro",
+    "dns-ro.denic.de",
+    "primary.rotld.ro",
+    "sec-dns-a.rotld.ro",
+    "sec-dns-b.rotld.ro"
+   ],
+   "PTR": []
+  },
+  "gr": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "estia.ics.forth.gr",
+    "gr-a.ics.forth.gr",
+    "gr-at.ics.forth.gr",
+    "gr-d.ics.forth.gr",
+    "gr-m.ics.forth.gr",
+    "grdns.ics.forth.gr"
+   ],
+   "PTR": []
+  },
+  "hu": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.hu",
+    "b.hu",
+    "c.hu",
+    "d.hu",
+    "e.hu",
+    "f.hu",
+    "p.hu"
+   ],
+   "PTR": []
+  },
+  "ua": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "bg.ns.ua",
+    "cz.ns.ua",
+    "ho1.ns.ua",
+    "in1.ns.ua",
+    "nn.ns.ua",
+    "pch.ns.ua",
+    "rcz.ns.ua"
+   ],
+   "PTR": []
+  },
+  "ke": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "kenic.anycastdns.cz",
+    "mzizi.kenic.or.ke",
+    "ns-ke.afrinic.net",
+    "ns.anycast.kenic.or.ke"
+   ],
+   "PTR": []
+  },
+  "eg": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "dns-eg.univie.ac.at",
+    "frcu.eun.eg",
+    "rip.psg.com"
+   ],
+   "PTR": []
+  },
+  "ma": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.tld.ma",
+    "b.tld.ma",
+    "c.tld.ma",
+    "d.tld.ma",
+    "dns.inria.fr",
+    "e.tld.ma",
+    "f.tld.ma",
+    "ns-ma.nic.fr"
+   ],
+   "PTR": []
+  },
+  "com": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.gtld-servers.net",
+    "b.gtld-servers.net",
+    "c.gtld-servers.net",
+    "d.gtld-servers.net",
+    "e.gtld-servers.net",
+    "f.gtld-servers.net",
+    "g.gtld-servers.net",
+    "h.gtld-servers.net",
+    "i.gtld-servers.net",
+    "j.gtld-servers.net",
+    "k.gtld-servers.net",
+    "l.gtld-servers.net",
+    "m.gtld-servers.net"
+   ],
+   "PTR": []
+  },
+  "org": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a0.org.afilias-nst.info",
+    "a2.org.afilias-nst.info",
+    "b0.org.afilias-nst.org",
+    "b2.org.afilias-nst.org",
+    "c0.org.afilias-nst.info",
+    "d0.org.afilias-nst.org"
+   ],
+   "PTR": []
+  },
+  "net": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.gtld-servers.net",
+    "b.gtld-servers.net",
+    "c.gtld-servers.net",
+    "d.gtld-servers.net",
+    "e.gtld-servers.net",
+    "f.gtld-servers.net",
+    "g.gtld-servers.net",
+    "h.gtld-servers.net",
+    "i.gtld-servers.net",
+    "j.gtld-servers.net",
+    "k.gtld-servers.net",
+    "l.gtld-servers.net",
+    "m.gtld-servers.net"
+   ],
+   "PTR": []
+  },
+  "edu": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.edu-servers.net",
+    "b.edu-servers.net",
+    "c.edu-servers.net",
+    "d.edu-servers.net",
+    "e.edu-servers.net",
+    "f.edu-servers.net",
+    "g.edu-servers.net",
+    "h.edu-servers.net",
+    "i.edu-servers.net",
+    "j.edu-servers.net",
+    "k.edu-servers.net",
+    "l.edu-servers.net",
+    "m.edu-servers.net"
+   ],
+   "PTR": []
+  },
+  "gov": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.ns.gov",
+    "b.ns.gov",
+    "c.ns.gov",
+    "d.ns.gov"
+   ],
+   "PTR": []
+  },
+  "info": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a0.info.afilias-nst.info",
+    "a2.info.afilias-nst.info",
+    "b0.info.afilias-nst.org",
+    "b2.info.afilias-nst.org",
+    "c0.info.afilias-nst.info",
+    "d0.info.afilias-nst.org"
+   ],
+   "PTR": []
+  },
+  "biz": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.gtld.biz",
+    "b.gtld.biz",
+    "c.gtld.biz",
+    "m.gtld.biz",
+    "n.gtld.biz",
+    "w.gtld.biz",
+    "x.gtld.biz",
+    "y.gtld.biz"
+   ],
+   "PTR": []
+  },
+  "io": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a0.nic.io",
+    "a2.nic.io",
+    "b0.nic.io",
+    "c0.nic.io"
+   ],
+   "PTR": []
+  },
+  "dev": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns-tld1.charlestonroadregistry.com",
+    "ns-tld2.charlestonroadregistry.com",
+    "ns-tld3.charlestonroadregistry.com",
+    "ns-tld4.charlestonroadregistry.com",
+    "ns-tld5.charlestonroadregistry.com"
+   ],
+   "PTR": []
+  },
+  "app": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns-tld1.charlestonroadregistry.com",
+    "ns-tld2.charlestonroadregistry.com",
+    "ns-tld3.charlestonroadregistry.com",
+    "ns-tld4.charlestonroadregistry.com",
+    "ns-tld5.charlestonroadregistry.com"
+   ],
+   "PTR": []
+  },
+  "xyz": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "generationxyz.nic.xyz",
+    "x.nic.xyz",
+    "y.nic.xyz",
+    "z.nic.xyz"
+   ],
+   "PTR": []
+  },
+  "ai": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "v0n0.nic.ai",
+    "v0n1.nic.ai",
+    "v0n2.nic.ai",
+    "v0n3.nic.ai",
+    "v2n0.nic.ai",
+    "v2n1.nic.ai"
+   ],
+   "PTR": []
+  },
+  "cloud": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns01.trs-dns.com",
+    "ns01.trs-dns.net",
+    "ns10.trs-dns.info",
+    "ns10.trs-dns.org"
+   ],
+   "PTR": []
+  },
+  "tech": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns01.trs-dns.com",
+    "ns01.trs-dns.net",
+    "ns10.trs-dns.info",
+    "ns10.trs-dns.org"
+   ],
+   "PTR": []
+  },
+  "online": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns01.trs-dns.com",
+    "ns01.trs-dns.net",
+    "ns10.trs-dns.info",
+    "ns10.trs-dns.org"
+   ],
+   "PTR": []
+  },
+  "site": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns01.trs-dns.com",
+    "ns01.trs-dns.net",
+    "ns10.trs-dns.info",
+    "ns10.trs-dns.org"
+   ],
+   "PTR": []
+  },
+  "store": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ns01.trs-dns.com",
+    "ns01.trs-dns.net",
+    "ns10.trs-dns.info",
+    "ns10.trs-dns.org"
+   ],
+   "PTR": []
+  },
+  "blog": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.ns.nic.blog",
+    "b.ns.nic.blog",
+    "c.ns.nic.blog",
+    "d.ns.nic.blog"
+   ],
+   "PTR": []
+  },
+  "shop": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.gmoregistry.net",
+    "b.gmoregistry.net",
+    "k.gmoregistry.net",
+    "l.gmoregistry.net"
+   ],
+   "PTR": []
+  },
+  "tv": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.nic.tv",
+    "b.nic.tv",
+    "c.nic.tv",
+    "x.nic.tv",
+    "y.nic.tv",
+    "z.nic.tv"
+   ],
+   "PTR": []
+  },
+  "cc": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "ac1.nstld.com",
+    "ac2.nstld.com",
+    "ac3.nstld.com",
+    "ac4.nstld.com"
+   ],
+   "PTR": []
+  },
+  "google.com": {
+   "A": [
+    "142.251.133.78"
+   ],
+   "AAAA": [
+    "2800:3f0:4002:816::200e"
+   ],
+   "NS": [
+    "ns1.google.com",
+    "ns2.google.com",
+    "ns3.google.com",
+    "ns4.google.com"
+   ],
+   "PTR": []
+  },
+  "cloudflare.com": {
+   "A": [
+    "104.16.132.229",
+    "104.16.133.229"
+   ],
+   "AAAA": [
+    "2606:4700::6810:84e5",
+    "2606:4700::6810:85e5"
+   ],
+   "NS": [
+    "ns3.cloudflare.com",
+    "ns4.cloudflare.com",
+    "ns5.cloudflare.com",
+    "ns6.cloudflare.com",
+    "ns7.cloudflare.com"
+   ],
+   "PTR": []
+  },
+  "amazon.com": {
+   "A": [
+    "98.82.161.185",
+    "98.87.170.71",
+    "98.87.170.74"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns-1447.awsdns-52.org",
+    "ns-1707.awsdns-21.co.uk",
+    "ns-264.awsdns-33.com",
+    "ns-521.awsdns-01.net"
+   ],
+   "PTR": []
+  },
+  "aws.amazon.com": {
+   "A": [
+    "3.162.247.18",
+    "3.162.247.28",
+    "3.162.247.55",
+    "3.162.247.94"
+   ],
+   "AAAA": [
+    "2600:9000:2618:2000:1c:a813:8500:93a1",
+    "2600:9000:2618:4e00:1c:a813:8500:93a1",
+    "2600:9000:2618:8800:1c:a813:8500:93a1",
+    "2600:9000:2618:8e00:1c:a813:8500:93a1",
+    "2600:9000:2618:9400:1c:a813:8500:93a1",
+    "2600:9000:2618:bc00:1c:a813:8500:93a1",
+    "2600:9000:2618:d600:1c:a813:8500:93a1",
+    "2600:9000:2618:f000:1c:a813:8500:93a1"
+   ],
+   "NS": [
+    "ns-106.awsdns-13.com",
+    "ns-1402.awsdns-47.org",
+    "ns-1860.awsdns-40.co.uk",
+    "ns-905.awsdns-49.net"
+   ],
+   "PTR": []
+  },
+  "microsoft.com": {
+   "A": [
+    "150.171.110.40"
+   ],
+   "AAAA": [
+    "2603:1061:14:126::1"
+   ],
+   "NS": [
+    "ns1-39.azure-dns.com",
+    "ns2-39.azure-dns.net",
+    "ns3-39.azure-dns.org",
+    "ns4-39.azure-dns.info"
+   ],
+   "PTR": []
+  },
+  "apple.com": {
+   "A": [
+    "17.253.144.10"
+   ],
+   "AAAA": [
+    "2620:149:af0::10"
+   ],
+   "NS": [
+    "a.ns.apple.com",
+    "b.ns.apple.com",
+    "c.ns.apple.com",
+    "d.ns.apple.com"
+   ],
+   "PTR": []
+  },
+  "meta.com": {
+   "A": [
+    "57.144.66.141"
+   ],
+   "AAAA": [
+    "2a03:2880:f048:100:face:b00c:0:2"
+   ],
+   "NS": [
+    "a.ns.facebook.com",
+    "b.ns.facebook.com",
+    "c.ns.facebook.com",
+    "d.ns.facebook.com"
+   ],
+   "PTR": []
+  },
+  "x.com": {
+   "A": [
+    "172.66.0.227"
+   ],
+   "AAAA": [],
+   "NS": [
+    "a.r10.twtrdns.net",
+    "a.u10.twtrdns.net",
+    "b.r10.twtrdns.net",
+    "b.u10.twtrdns.net",
+    "c.r10.twtrdns.net",
+    "c.u10.twtrdns.net",
+    "d.r10.twtrdns.net",
+    "d.u10.twtrdns.net"
+   ],
+   "PTR": []
+  },
+  "github.com": {
+   "A": [
+    "4.228.31.150"
+   ],
+   "AAAA": [],
+   "NS": [
+    "dns1.p08.nsone.net",
+    "dns2.p08.nsone.net",
+    "dns3.p08.nsone.net",
+    "dns4.p08.nsone.net",
+    "ns-1283.awsdns-32.org",
+    "ns-1707.awsdns-21.co.uk",
+    "ns-421.awsdns-52.com",
+    "ns-520.awsdns-01.net"
+   ],
+   "PTR": []
+  },
+  "gitlab.com": {
+   "A": [
+    "172.65.251.78"
+   ],
+   "AAAA": [
+    "2606:4700:90:0:f22e:fbec:5bed:a9b9"
+   ],
+   "NS": [
+    "diva.ns.cloudflare.com",
+    "jermaine.ns.cloudflare.com"
+   ],
+   "PTR": []
+  },
+  "wikipedia.org": {
+   "A": [
+    "195.200.68.224"
+   ],
+   "AAAA": [
+    "2a02:ec80:700:ed1a::1"
+   ],
+   "NS": [
+    "ns0.wikimedia.org",
+    "ns1.wikimedia.org",
+    "ns2.wikimedia.org"
+   ],
+   "PTR": []
+  },
+  "wikimedia.org": {
+   "A": [
+    "195.200.68.224"
+   ],
+   "AAAA": [
+    "2a02:ec80:700:ed1a::1"
+   ],
+   "NS": [
+    "ns0.wikimedia.org",
+    "ns1.wikimedia.org",
+    "ns2.wikimedia.org"
+   ],
+   "PTR": []
+  },
+  "mozilla.org": {
+   "A": [
+    "35.190.14.201"
+   ],
+   "AAAA": [
+    "2600:1901:0:c197::"
+   ],
+   "NS": [
+    "ns1-240.akam.net",
+    "ns4-64.akam.net",
+    "ns5-65.akam.net",
+    "ns7-66.akam.net"
+   ],
+   "PTR": []
+  },
+  "netflix.com": {
+   "A": [
+    "3.211.157.115",
+    "3.225.92.8",
+    "54.160.93.182"
+   ],
+   "AAAA": [
+    "2600:1f18:631e:2f83:49ee:beaa:2dfd:ae8f",
+    "2600:1f18:631e:2f84:4f7a:4092:e2e9:c617",
+    "2600:1f18:631e:2f85:93a9:f7b0:d18:89a7"
+   ],
+   "NS": [
+    "ns-1372.awsdns-43.org",
+    "ns-1984.awsdns-56.co.uk",
+    "ns-659.awsdns-18.net",
+    "ns-81.awsdns-10.com"
+   ],
+   "PTR": []
+  },
+  "spotify.com": {
+   "A": [
+    "35.186.224.24"
+   ],
+   "AAAA": [
+    "2600:1901:1:7c5::"
+   ],
+   "NS": [
+    "dns1.p07.nsone.net",
+    "ns-cloud-a1.googledomains.com",
+    "ns-cloud-a2.googledomains.com",
+    "ns-cloud-a3.googledomains.com",
+    "ns-cloud-a4.googledomains.com"
+   ],
+   "PTR": []
+  },
+  "telegram.org": {
+   "A": [
+    "149.154.167.99"
+   ],
+   "AAAA": [
+    "2001:67c:4e8:f004::9"
+   ],
+   "NS": [
+    "ns-cloud-b1.googledomains.com",
+    "ns-cloud-b2.googledomains.com",
+    "ns-cloud-b3.googledomains.com",
+    "ns-cloud-b4.googledomains.com"
+   ],
+   "PTR": []
+  },
+  "tiktok.com": {
+   "A": [
+    "2.18.20.133",
+    "2.18.20.134",
+    "2.18.20.136",
+    "2.18.20.139",
+    "2.18.20.142",
+    "2.18.20.145"
+   ],
+   "AAAA": [],
+   "NS": [
+    "a1-97.akam.net",
+    "a12-66.akam.net",
+    "a13-67.akam.net",
+    "a18-64.akam.net",
+    "a6-65.akam.net",
+    "a9-66.akam.net"
+   ],
+   "PTR": []
+  },
+  "zoom.us": {
+   "A": [
+    "170.114.52.2"
+   ],
+   "AAAA": [
+    "2407:30c0:182::aa72:3402"
+   ],
+   "NS": [
+    "ns-1137.awsdns-14.org",
+    "ns-1772.awsdns-29.co.uk",
+    "ns-387.awsdns-48.com",
+    "ns-888.awsdns-47.net"
+   ],
+   "PTR": []
+  },
+  "openai.com": {
+   "A": [
+    "104.18.33.45",
+    "172.64.154.211"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns1-02.azure-dns.com",
+    "ns2-02.azure-dns.net",
+    "ns3-02.azure-dns.org",
+    "ns4-02.azure-dns.info"
+   ],
+   "PTR": []
+  },
+  "anthropic.com": {
+   "A": [
+    "160.79.104.10"
+   ],
+   "AAAA": [
+    "2607:6bc0::10"
+   ],
+   "NS": [
+    "isla.ns.cloudflare.com",
+    "randy.ns.cloudflare.com"
+   ],
+   "PTR": []
+  },
+  "huggingface.co": {
+   "A": [
+    "108.158.173.37",
+    "108.158.173.50",
+    "108.158.173.9",
+    "108.158.173.94"
+   ],
+   "AAAA": [
+    "2600:9000:247e:4000:17:b174:6d00:93a1",
+    "2600:9000:247e:7800:17:b174:6d00:93a1",
+    "2600:9000:247e:7c00:17:b174:6d00:93a1",
+    "2600:9000:247e:800:17:b174:6d00:93a1",
+    "2600:9000:247e:ac00:17:b174:6d00:93a1",
+    "2600:9000:247e:ae00:17:b174:6d00:93a1",
+    "2600:9000:247e:e600:17:b174:6d00:93a1",
+    "2600:9000:247e:fc00:17:b174:6d00:93a1"
+   ],
+   "NS": [
+    "ns-137.awsdns-17.com",
+    "ns-1452.awsdns-53.org",
+    "ns-1955.awsdns-52.co.uk",
+    "ns-919.awsdns-50.net"
+   ],
+   "PTR": []
+  },
+  "nvidia.com": {
+   "A": [
+    "34.194.97.138"
+   ],
+   "AAAA": [],
+   "NS": [
+    "dns1.p09.nsone.net",
+    "dns2.p09.nsone.net",
+    "ns5.dnsmadeeasy.com",
+    "ns6.dnsmadeeasy.com",
+    "ns7.dnsmadeeasy.com"
+   ],
+   "PTR": []
+  },
+  "oracle.com": {
+   "A": [
+    "138.1.33.162"
+   ],
+   "AAAA": [],
+   "NS": [
+    "a1-160.akam.net",
+    "a11-66.akam.net",
+    "a13-65.akam.net",
+    "a18-67.akam.net",
+    "ns1.p201.dns.oraclecloud.net",
+    "ns2.p201.dns.oraclecloud.net",
+    "ns3.p201.dns.oraclecloud.net",
+    "ns4.p201.dns.oraclecloud.net"
+   ],
+   "PTR": []
+  },
+  "redhat.com": {
+   "A": [
+    "34.235.198.240",
+    "52.200.142.250"
+   ],
+   "AAAA": [],
+   "NS": [
+    "dns1.p01.nsone.net",
+    "dns1.p02.nsone.net",
+    "dns2.p01.nsone.net",
+    "dns2.p02.nsone.net",
+    "dns3.p01.nsone.net",
+    "dns4.p01.nsone.net"
+   ],
+   "PTR": []
+  },
+  "debian.org": {
+   "A": [
+    "151.101.130.132",
+    "151.101.194.132",
+    "151.101.2.132",
+    "151.101.66.132"
+   ],
+   "AAAA": [
+    "2a04:4e42:200::644",
+    "2a04:4e42:400::644",
+    "2a04:4e42:600::644",
+    "2a04:4e42::644"
+   ],
+   "NS": [
+    "dns4.easydns.info",
+    "nsp.dnsnode.net",
+    "sec1.rcode0.net",
+    "sec2.rcode0.net"
+   ],
+   "PTR": []
+  },
+  "ubuntu.com": {
+   "A": [
+    "185.125.190.20",
+    "185.125.190.21",
+    "185.125.190.29"
+   ],
+   "AAAA": [
+    "2620:2d:4000:1::26",
+    "2620:2d:4000:1::27",
+    "2620:2d:4000:1::28"
+   ],
+   "NS": [
+    "ns1.canonical.com",
+    "ns2.canonical.com",
+    "ns3.canonical.com"
+   ],
+   "PTR": []
+  },
+  "python.org": {
+   "A": [
+    "151.101.0.223",
+    "151.101.128.223",
+    "151.101.192.223",
+    "151.101.64.223"
+   ],
+   "AAAA": [
+    "2a04:4e42:200::223",
+    "2a04:4e42:400::223",
+    "2a04:4e42:600::223",
+    "2a04:4e42::223"
+   ],
+   "NS": [
+    "ns-1134.awsdns-13.org",
+    "ns-2046.awsdns-63.co.uk",
+    "ns-484.awsdns-60.com",
+    "ns-981.awsdns-58.net"
+   ],
+   "PTR": []
+  },
+  "nodejs.org": {
+   "A": [
+    "104.16.212.131",
+    "104.16.213.131"
+   ],
+   "AAAA": [
+    "2606:4700::6810:d483",
+    "2606:4700::6810:d583"
+   ],
+   "NS": [
+    "meera.ns.cloudflare.com",
+    "pablo.ns.cloudflare.com"
+   ],
+   "PTR": []
+  },
+  "npmjs.com": {
+   "A": [
+    "104.17.134.117",
+    "104.17.135.117"
+   ],
+   "AAAA": [
+    "2606:4700::6811:8675",
+    "2606:4700::6811:8775"
+   ],
+   "NS": [
+    "bayan.ns.cloudflare.com",
+    "sandy.ns.cloudflare.com"
+   ],
+   "PTR": []
+  },
+  "docker.com": {
+   "A": [
+    "23.185.0.4"
+   ],
+   "AAAA": [
+    "2620:12a:8000::4",
+    "2620:12a:8001::4"
+   ],
+   "NS": [
+    "ns-1289.awsdns-33.org",
+    "ns-1981.awsdns-55.co.uk",
+    "ns-207.awsdns-25.com",
+    "ns-568.awsdns-07.net"
+   ],
+   "PTR": []
+  },
+  "kubernetes.io": {
+   "A": [
+    "15.197.167.90",
+    "3.33.186.135"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns-cloud-a1.googledomains.com",
+    "ns-cloud-a2.googledomains.com",
+    "ns-cloud-a3.googledomains.com",
+    "ns-cloud-a4.googledomains.com"
+   ],
+   "PTR": []
+  },
+  "vercel.com": {
+   "A": [
+    "64.239.109.193",
+    "64.239.123.193"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns1.vercel-dns.com",
+    "ns2.vercel-dns.com"
+   ],
+   "PTR": []
+  },
+  "netlify.com": {
+   "A": [
+    "15.197.167.90",
+    "3.33.186.135"
+   ],
+   "AAAA": [
+    "2600:1f1e:7c1:c300::1f5"
+   ],
+   "NS": [
+    "dns1.p04.nsone.net",
+    "dns2.p04.nsone.net",
+    "dns3.p04.nsone.net",
+    "dns4.p04.nsone.net",
+    "ns01.netlifydns.com",
+    "ns02.netlifydns.com",
+    "ns03.netlifydns.com",
+    "ns04.netlifydns.com"
+   ],
+   "PTR": []
+  },
+  "fastly.com": {
+   "A": [
+    "151.101.1.57",
+    "151.101.129.57",
+    "151.101.193.57",
+    "151.101.65.57"
+   ],
+   "AAAA": [
+    "2a04:4e42:200::313",
+    "2a04:4e42:400::313",
+    "2a04:4e42:600::313",
+    "2a04:4e42::313"
+   ],
+   "NS": [
+    "edns1.ultradns.com",
+    "edns1.ultradns.net",
+    "ns-cloud-a1.googledomains.com",
+    "ns-cloud-a2.googledomains.com",
+    "oak.fastlydns.com",
+    "oak.fastlydns.dev",
+    "oak.fastlydns.net",
+    "oak.fastlydns.org"
+   ],
+   "PTR": []
+  },
+  "akamai.com": {
+   "A": [
+    "2.18.127.230",
+    "2.18.127.235"
+   ],
+   "AAAA": [
+    "2600:1419:4e00:a::58dd:ec",
+    "2600:1419:4e00:a::58dd:ed"
+   ],
+   "NS": [
+    "a1-66.akam.net",
+    "a11-66.akam.net",
+    "a12-66.akam.net",
+    "a13-66.akam.net",
+    "a16-66.akam.net",
+    "a18-66.akam.net",
+    "a28-66.akam.net",
+    "a3-66.akam.net",
+    "a5-66.akam.net",
+    "a6-66.akam.net",
+    "a7-66.akam.net",
+    "a8-66.akam.net",
+    "a9-66.akam.net"
+   ],
+   "PTR": []
+  },
+  "bing.com": {
+   "A": [
+    "150.171.27.10",
+    "150.171.28.10"
+   ],
+   "AAAA": [
+    "2620:1ec:33:1::10",
+    "2620:1ec:33::10"
+   ],
+   "NS": [
+    "dns1.p09.nsone.net",
+    "dns2.p09.nsone.net",
+    "dns3.p09.nsone.net",
+    "dns4.p09.nsone.net",
+    "ns1-204.azure-dns.com",
+    "ns2-204.azure-dns.net",
+    "ns3-204.azure-dns.org",
+    "ns4-204.azure-dns.info"
+   ],
+   "PTR": []
+  },
+  "duckduckgo.com": {
+   "A": [
+    "191.235.123.80"
+   ],
+   "AAAA": [],
+   "NS": [
+    "dns1.p05.nsone.net",
+    "dns2.p05.nsone.net",
+    "dns3.p05.nsone.net",
+    "dns4.p05.nsone.net",
+    "ns01.quack-dns.com",
+    "ns02.quack-dns.com",
+    "ns03.quack-dns.com",
+    "ns04.quack-dns.com"
+   ],
+   "PTR": []
+  },
+  "proton.me": {
+   "A": [
+    "185.70.42.45"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns1.proton.me",
+    "ns2.proton.me",
+    "ns3.proton.me"
+   ],
+   "PTR": []
+  },
+  "signal.org": {
+   "A": [
+    "104.18.10.47",
+    "104.18.11.47"
+   ],
+   "AAAA": [
+    "2606:4700::6812:a2f",
+    "2606:4700::6812:b2f"
+   ],
+   "NS": [
+    "casey.ns.cloudflare.com",
+    "zita.ns.cloudflare.com"
+   ],
+   "PTR": []
+  },
+  "gov.br": {
+   "A": [
+    "161.148.164.31"
+   ],
+   "AAAA": [
+    "2804:151:3:2:161:148:164:31"
+   ],
+   "NS": [
+    "a.dns.br",
+    "b.dns.br",
+    "c.dns.br",
+    "d.dns.br",
+    "e.dns.br",
+    "f.dns.br"
+   ],
+   "PTR": []
+  },
+  "uol.com.br": {
+   "A": [
+    "200.147.35.149"
+   ],
+   "AAAA": [
+    "2804:49c:3102:401:ffff:ffff:ffff:36"
+   ],
+   "NS": [
+    "borges.uol.com.br",
+    "charles.uol.com.br",
+    "eliot.uol.com.br"
+   ],
+   "PTR": []
+  },
+  "globo.com": {
+   "A": [
+    "186.192.83.12"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns01.globo.com",
+    "ns02.globo.com",
+    "ns03.globo.com",
+    "ns04.globo.com"
+   ],
+   "PTR": []
+  },
+  "mercadolivre.com.br": {
+   "A": [
+    "13.32.16.16",
+    "13.32.16.74",
+    "13.32.16.8",
+    "13.32.16.82"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns-1387.awsdns-45.org",
+    "ns-1828.awsdns-36.co.uk",
+    "ns-341.awsdns-42.com",
+    "ns-653.awsdns-17.net"
+   ],
+   "PTR": []
+  },
+  "bradesco.com.br": {
+   "A": [
+    "2.16.169.11",
+    "2.16.169.14"
+   ],
+   "AAAA": [
+    "2600:1419:4e00:1a::212:1445",
+    "2600:1419:4e00:1a::212:1448"
+   ],
+   "NS": [
+    "a1-60.akam.net",
+    "a13-65.akam.net",
+    "a18-66.akam.net",
+    "a22-67.akam.net",
+    "a28-64.akam.net",
+    "a7-65.akam.net"
+   ],
+   "PTR": []
+  },
+  "itau.com.br": {
+   "A": [
+    "2.18.20.131",
+    "2.18.20.133",
+    "2.18.20.134",
+    "2.18.20.137",
+    "2.18.20.138",
+    "2.18.20.139",
+    "2.18.20.142",
+    "2.18.20.144",
+    "2.18.20.145"
+   ],
+   "AAAA": [],
+   "NS": [
+    "asia1.akam.net",
+    "asia3.akam.net",
+    "ns1-127.akam.net",
+    "ns1-88.akam.net",
+    "use5.akam.net",
+    "usw1.akam.net",
+    "usw2.akam.net",
+    "usw6.akam.net"
+   ],
+   "PTR": []
+  },
+  "nubank.com.br": {
+   "A": [
+    "13.227.110.22",
+    "13.227.110.55",
+    "13.227.110.6",
+    "13.227.110.93"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns-1460.awsdns-54.org",
+    "ns-1569.awsdns-04.co.uk",
+    "ns-340.awsdns-42.com",
+    "ns-736.awsdns-28.net"
+   ],
+   "PTR": []
+  },
+  "petrobras.com.br": {
+   "A": [
+    "34.102.155.121"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns-1151.awsdns-15.org",
+    "ns-1611.awsdns-09.co.uk",
+    "ns-187.awsdns-23.com",
+    "ns-828.awsdns-39.net"
+   ],
+   "PTR": []
+  },
+  "usp.br": {
+   "A": [
+    "200.144.235.134"
+   ],
+   "AAAA": [],
+   "NS": [
+    "a.dns.usp.br",
+    "b.dns.usp.br",
+    "c.dns.usp.br",
+    "ns1.ansp.br"
+   ],
+   "PTR": []
+  },
+  "unicamp.br": {
+   "A": [
+    "177.220.120.17"
+   ],
+   "AAAA": [
+    "2801:8a:c860:2000::5"
+   ],
+   "NS": [
+    "ns1.ansp.br",
+    "ns1.unicamp.br",
+    "ns3.unicamp.br"
+   ],
+   "PTR": []
+  },
+  "ufrn.br": {
+   "A": [
+    "177.20.144.66"
+   ],
+   "AAAA": [
+    "2801:8c:0:b0::a007"
+   ],
+   "NS": [
+    "ns1.ufrn.br",
+    "ns2.ufrn.br"
+   ],
+   "PTR": []
+  },
+  "ifrn.edu.br": {
+   "A": [
+    "200.137.1.195"
+   ],
+   "AAAA": [],
+   "NS": [
+    "ns1.ifrn.edu.br"
+   ],
+   "PTR": []
+  },
+  "serpro.gov.br": {
+   "A": [
+    "161.148.175.208"
+   ],
+   "AAAA": [],
+   "NS": [
+    "bsa1.serpro.gov.br",
+    "bsa2.serpro.gov.br",
+    "spo1.serpro.gov.br",
+    "spo2.serpro.gov.br"
+   ],
+   "PTR": []
+  },
+  "dns.br": {
+   "A": [],
+   "AAAA": [],
+   "NS": [
+    "a.dns.br",
+    "b.dns.br",
+    "c.dns.br",
+    "d.dns.br",
+    "e.dns.br",
+    "f.dns.br"
+   ],
+   "PTR": []
+  },
+  "registro.br": {
+   "A": [
+    "200.160.2.3"
+   ],
+   "AAAA": [
+    "2001:12ff:0:2::3"
+   ],
+   "NS": [
+    "a.dns.br",
+    "b.dns.br",
+    "c.dns.br",
+    "d.dns.br",
+    "e.dns.br"
+   ],
+   "PTR": []
+  },
+  "nic.br": {
+   "A": [
+    "200.160.4.6"
+   ],
+   "AAAA": [
+    "2001:12ff:0:4::6"
+   ],
+   "NS": [
+    "a.dns.br",
+    "b.dns.br",
+    "c.dns.br",
+    "d.dns.br",
+    "e.dns.br"
+   ],
+   "PTR": []
+  },
+  "cgi.br": {
+   "A": [
+    "200.160.4.2"
+   ],
+   "AAAA": [
+    "2001:12ff:0:4::3"
+   ],
+   "NS": [
+    "a.dns.br",
+    "b.dns.br",
+    "c.dns.br",
+    "d.dns.br",
+    "e.dns.br"
+   ],
+   "PTR": []
+  },
+  "rnp.br": {
+   "A": [
+    "104.18.26.22",
+    "104.18.27.22"
+   ],
+   "AAAA": [
+    "2606:4700::6812:1a16",
+    "2606:4700::6812:1b16"
+   ],
+   "NS": [
+    "nscl1.rnp.br",
+    "nscl2.rnp.br",
+    "nscl3.rnp.br",
+    "nscl4.rnp.br"
+   ],
+   "PTR": []
+  },
+  "one.one.one.one": {
+   "A": [
+    "1.0.0.1",
+    "1.1.1.1"
+   ],
+   "AAAA": [
+    "2606:4700:4700::1001",
+    "2606:4700:4700::1111"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns.google": {
+   "A": [
+    "8.8.4.4",
+    "8.8.8.8"
+   ],
+   "AAAA": [
+    "2001:4860:4860::8844",
+    "2001:4860:4860::8888"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns.quad9.net": {
+   "A": [
+    "149.112.112.112",
+    "9.9.9.9"
+   ],
+   "AAAA": [
+    "2620:fe::9",
+    "2620:fe::fe"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "opendns.com": {
+   "A": [
+    "146.112.62.105"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "controld.com": {
+   "A": [
+    "147.185.34.1"
+   ],
+   "AAAA": [
+    "2606:1a40:3::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns.adguard-dns.com": {
+   "A": [
+    "94.140.14.14",
+    "94.140.15.15"
+   ],
+   "AAAA": [
+    "2a10:50c0::ad1:ff",
+    "2a10:50c0::ad2:ff"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "cleanbrowsing.org": {
+   "A": [
+    "216.238.102.32"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "dns0.eu": {
+   "A": [
+    "217.70.184.38"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "A.LACTLD.ORG": {
+   "A": [
+    "200.0.68.10"
+   ],
+   "AAAA": [
+    "2801:14:a000::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a-dns.pl": {
+   "A": [
+    "192.102.225.53"
+   ],
+   "AAAA": [
+    "2001:7f9::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.dns.cn": {
+   "A": [
+    "203.119.25.1"
+   ],
+   "AAAA": [
+    "2001:dc7::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.dns.it": {
+   "A": [
+    "194.0.16.215"
+   ],
+   "AAAA": [
+    "2001:678:12:0:194:0:16:215"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.lactld.org": {
+   "A": [
+    "200.0.68.10"
+   ],
+   "AAAA": [
+    "2801:14:a000::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.au": {
+   "A": [
+    "58.65.254.1"
+   ],
+   "AAAA": [
+    "2407:6e00:254::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "QUIPU.RCP.NET.pe": {
+   "A": [
+    "200.1.176.4"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "a.dns.br": {
+   "A": [
+    "200.219.148.10"
+   ],
+   "AAAA": [
+    "2001:12f8:6::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.dns.usp.br": {
+   "A": [
+    "200.144.248.208"
+   ],
+   "AAAA": [
+    "2001:12d0:c000::208"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.dns.pt": {
+   "A": [
+    "185.39.208.1"
+   ],
+   "AAAA": [
+    "2a04:6d80::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "PE1.DNSNODE.NET": {
+   "A": [
+    "194.146.106.82"
+   ],
+   "AAAA": [
+    "2001:67c:1010:20::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.gmoregistry.net": {
+   "A": [
+    "37.209.192.4"
+   ],
+   "AAAA": [
+    "2001:dcd:1::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.fi": {
+   "A": [
+    "193.166.4.1"
+   ],
+   "AAAA": [
+    "2001:708:10:53::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.dns.ripn.net": {
+   "A": [
+    "193.232.128.6"
+   ],
+   "AAAA": [
+    "2001:678:17:0:193:232:128:6"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "PCH.RCP.pe": {
+   "A": [
+    "204.61.216.85"
+   ],
+   "AAAA": [
+    "2001:500:14:6085:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.dns.jp": {
+   "A": [
+    "203.119.1.1"
+   ],
+   "AAAA": [
+    "2001:dc4::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.gtld.biz": {
+   "A": [
+    "156.154.124.65"
+   ],
+   "AAAA": [
+    "2001:502:ad09::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.hu": {
+   "A": [
+    "5.28.0.97"
+   ],
+   "AAAA": [
+    "2a00:e6a0:3:1014::97"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.gtld-servers.net": {
+   "A": [
+    "192.5.6.30"
+   ],
+   "AAAA": [
+    "2001:503:a83e::2:30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.nic.cl": {
+   "A": [
+    "190.124.27.10"
+   ],
+   "AAAA": [
+    "2001:1398:121:0:190:124:27:10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.nic.de": {
+   "A": [
+    "194.0.0.53"
+   ],
+   "AAAA": [
+    "2001:678:2::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.nic.tv": {
+   "A": [
+    "37.209.192.6"
+   ],
+   "AAAA": [
+    "2001:dcd:1::6"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.ns.apple.com": {
+   "A": [
+    "17.253.200.1"
+   ],
+   "AAAA": [
+    "2620:149:ae0::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.nic.uy": {
+   "A": [
+    "164.73.128.5"
+   ],
+   "AAAA": [
+    "2001:1328:6::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.edu-servers.net": {
+   "A": [
+    "192.5.6.30"
+   ],
+   "AAAA": [
+    "2001:503:a83e::2:30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.nic.ch": {
+   "A": [
+    "130.59.31.41"
+   ],
+   "AAAA": [
+    "2001:620:0:ff::56"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.ns.gov": {
+   "A": [
+    "199.33.230.1"
+   ],
+   "AAAA": [
+    "2001:503:ff40::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.nic.es": {
+   "A": [
+    "194.69.254.1"
+   ],
+   "AAAA": [
+    "2001:67c:21cc:2000::64:41"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.ns.facebook.com": {
+   "A": [
+    "129.134.30.12"
+   ],
+   "AAAA": [
+    "2a03:2880:f0fc:c:face:b00c:0:35"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.ns.ie": {
+   "A": [
+    "77.72.72.40"
+   ],
+   "AAAA": [
+    "2a01:4b0::40"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.nsset.be": {
+   "A": [
+    "194.0.6.1"
+   ],
+   "AAAA": [
+    "2001:678:9::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.ns.nic.blog": {
+   "A": [
+    "185.159.197.9"
+   ],
+   "AAAA": [
+    "2620:10a:80aa::9"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.ns.se": {
+   "A": [
+    "192.36.144.107"
+   ],
+   "AAAA": [
+    "2a01:3f0:0:301::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.ns.nic.cz": {
+   "A": [
+    "194.0.12.1"
+   ],
+   "AAAA": [
+    "2001:678:f::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.r10.twtrdns.net": {
+   "A": [
+    "205.251.192.179"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "a.registrydns.co": {
+   "A": [
+    "194.169.218.57"
+   ],
+   "AAAA": [
+    "2001:67c:13cc::1:57"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.u10.twtrdns.net": {
+   "A": [
+    "204.74.111.101"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "a0.org.afilias-nst.info": {
+   "A": [
+    "199.19.56.1"
+   ],
+   "AAAA": [
+    "2001:500:e::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a0.nic.io": {
+   "A": [
+    "65.22.160.17"
+   ],
+   "AAAA": [
+    "2a01:8840:9e::17"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a1-160.akam.net": {
+   "A": [
+    "193.108.91.160"
+   ],
+   "AAAA": [
+    "2600:1401:2::a0"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a13-65.akam.net": {
+   "A": [
+    "2.22.230.65"
+   ],
+   "AAAA": [
+    "2600:1480:800::41"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a1-66.akam.net": {
+   "A": [
+    "193.108.91.66"
+   ],
+   "AAAA": [
+    "2600:1401:2::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a1-60.akam.net": {
+   "A": [
+    "193.108.91.60"
+   ],
+   "AAAA": [
+    "2600:1401:2::3c"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a.tld.ma": {
+   "A": [
+    "81.192.171.131",
+    "81.192.171.83"
+   ],
+   "AAAA": [
+    "2001:4288:1800:186::3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a12-66.akam.net": {
+   "A": [
+    "184.26.160.66"
+   ],
+   "AAAA": [
+    "2600:1480:f000::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a11-66.akam.net": {
+   "A": [
+    "84.53.139.66"
+   ],
+   "AAAA": [
+    "2600:1480:1::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a13-66.akam.net": {
+   "A": [
+    "2.22.230.66"
+   ],
+   "AAAA": [
+    "2600:1480:800::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a1-97.akam.net": {
+   "A": [
+    "193.108.91.97"
+   ],
+   "AAAA": [
+    "2600:1401:2::61"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a16-66.akam.net": {
+   "A": [
+    "23.211.132.66"
+   ],
+   "AAAA": [
+    "2600:1406:1b::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a13-67.akam.net": {
+   "A": [
+    "2.22.230.67"
+   ],
+   "AAAA": [
+    "2600:1480:800::43"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a18-64.akam.net": {
+   "A": [
+    "95.101.36.64"
+   ],
+   "AAAA": [
+    "2600:1480:4800::40"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a18-66.akam.net": {
+   "A": [
+    "95.101.36.66"
+   ],
+   "AAAA": [
+    "2600:1480:4800::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a18-67.akam.net": {
+   "A": [
+    "95.101.36.67"
+   ],
+   "AAAA": [
+    "2600:1480:4800::43"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a0.info.afilias-nst.info": {
+   "A": [
+    "199.254.31.1"
+   ],
+   "AAAA": [
+    "2001:500:19::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a28-66.akam.net": {
+   "A": [
+    "95.100.173.66"
+   ],
+   "AAAA": [
+    "2600:1480:d800::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a2.org.afilias-nst.info": {
+   "A": [
+    "199.249.112.1"
+   ],
+   "AAAA": [
+    "2001:500:40::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a2.nic.io": {
+   "A": [
+    "65.22.163.17"
+   ],
+   "AAAA": [
+    "2a01:8840:a1::17"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a22-67.akam.net": {
+   "A": [
+    "23.211.61.67"
+   ],
+   "AAAA": [
+    "2600:1480:7800::43"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a3-66.akam.net": {
+   "A": [
+    "96.7.49.66"
+   ],
+   "AAAA": [
+    "2600:1408:1c::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a6-65.akam.net": {
+   "A": [
+    "23.211.133.65"
+   ],
+   "AAAA": [
+    "2600:1401:1::41"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a28-64.akam.net": {
+   "A": [
+    "95.100.173.64"
+   ],
+   "AAAA": [
+    "2600:1480:d800::40"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a2.info.afilias-nst.info": {
+   "A": [
+    "199.249.113.1"
+   ],
+   "AAAA": [
+    "2001:500:41::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a5-66.akam.net": {
+   "A": [
+    "95.100.168.66"
+   ],
+   "AAAA": [
+    "2600:1480:b000::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a6-66.akam.net": {
+   "A": [
+    "23.211.133.66"
+   ],
+   "AAAA": [
+    "2600:1401:1::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a8-66.akam.net": {
+   "A": [
+    "2.16.40.66"
+   ],
+   "AAAA": [
+    "2600:1403:a::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a7-65.akam.net": {
+   "A": [
+    "23.61.199.65"
+   ],
+   "AAAA": [
+    "2600:1406:32::41"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a9-66.akam.net": {
+   "A": [
+    "184.85.248.66"
+   ],
+   "AAAA": [
+    "2a02:26f0:117::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "a7-66.akam.net": {
+   "A": [
+    "23.61.199.66"
+   ],
+   "AAAA": [
+    "2600:1406:32::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ac1.nstld.com": {
+   "A": [
+    "192.42.173.30"
+   ],
+   "AAAA": [
+    "2001:500:120::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "asia3.akam.net": {
+   "A": [
+    "23.211.61.64"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "asia1.akam.net": {
+   "A": [
+    "95.100.175.64"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "anycast.ns.nic.bo": {
+   "A": [
+    "204.61.216.48"
+   ],
+   "AAAA": [
+    "2001:500:14:6048:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "any.ca-servers.ca": {
+   "A": [
+    "199.4.144.2"
+   ],
+   "AAAA": [
+    "2001:500:a7::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ac4.nstld.com": {
+   "A": [
+    "192.42.176.30"
+   ],
+   "AAAA": [
+    "2001:500:123::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ac2.nstld.com": {
+   "A": [
+    "192.42.174.30"
+   ],
+   "AAAA": [
+    "2001:500:121::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.dns.cn": {
+   "A": [
+    "203.119.26.1"
+   ],
+   "AAAA": [
+    "2001:dc7:1::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ac3.nstld.com": {
+   "A": [
+    "192.42.175.30"
+   ],
+   "AAAA": [
+    "2001:500:122::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b-dns.pl": {
+   "A": [
+    "192.195.72.53"
+   ],
+   "AAAA": [
+    "2001:7f9:c::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.dns.id": {
+   "A": [
+    "103.19.179.179"
+   ],
+   "AAAA": [
+    "2402:ee80:b::b"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.dns.br": {
+   "A": [
+    "200.189.41.10"
+   ],
+   "AAAA": [
+    "2001:12f8:8::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.dns.kr": {
+   "A": [
+    "210.101.60.1"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "b.dns.pt": {
+   "A": [
+    "194.0.25.23"
+   ],
+   "AAAA": [
+    "2001:678:20::23"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.dns.py": {
+   "A": [
+    "200.160.0.5"
+   ],
+   "AAAA": [
+    "2001:12ff:0:a20::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.dns.jp": {
+   "A": [
+    "202.12.30.131"
+   ],
+   "AAAA": [
+    "2001:dc2::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.gmoregistry.net": {
+   "A": [
+    "37.209.194.4"
+   ],
+   "AAAA": [
+    "2001:dcd:2::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.dns.usp.br": {
+   "A": [
+    "200.144.249.208"
+   ],
+   "AAAA": [
+    "2001:12d0:c080::208"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.gtld.biz": {
+   "A": [
+    "156.154.125.65"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "b.nic.cl": {
+   "A": [
+    "200.7.4.7"
+   ],
+   "AAAA": [
+    "2001:1398:274:0:200:7:4:7"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.nic.ch": {
+   "A": [
+    "130.59.31.43"
+   ],
+   "AAAA": [
+    "2001:620:0:ff::58"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.nic.dk": {
+   "A": [
+    "193.163.102.222"
+   ],
+   "AAAA": [
+    "2a01:630:0:80::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.fi": {
+   "A": [
+    "194.146.106.26"
+   ],
+   "AAAA": [
+    "2001:67c:1010:6::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.hu": {
+   "A": [
+    "193.41.82.18"
+   ],
+   "AAAA": [
+    "2a0f:7ec0:100:100::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.dns.ripn.net": {
+   "A": [
+    "194.85.252.62"
+   ],
+   "AAAA": [
+    "2001:678:16:0:194:85:252:62"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.gtld-servers.net": {
+   "A": [
+    "192.33.14.30"
+   ],
+   "AAAA": [
+    "2001:503:231d::2:30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.nic.uy": {
+   "A": [
+    "164.73.128.70"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "b.ns.facebook.com": {
+   "A": [
+    "129.134.31.12"
+   ],
+   "AAAA": [
+    "2a03:2880:f0fd:c:face:b00c:0:35"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.nic.tv": {
+   "A": [
+    "37.209.194.6"
+   ],
+   "AAAA": [
+    "2001:dcd:2::6"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.ns.apple.com": {
+   "A": [
+    "17.253.207.1"
+   ],
+   "AAAA": [
+    "2620:149:ae7::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.edu-servers.net": {
+   "A": [
+    "192.33.14.30"
+   ],
+   "AAAA": [
+    "2001:503:231d::2:30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.ns.gov": {
+   "A": [
+    "199.33.231.1"
+   ],
+   "AAAA": [
+    "2001:503:ff41::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.ns.nic.blog": {
+   "A": [
+    "185.159.198.9"
+   ],
+   "AAAA": [
+    "2620:10a:80ab::9"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.r10.twtrdns.net": {
+   "A": [
+    "205.251.196.198"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "b.ns.nic.cz": {
+   "A": [
+    "194.0.13.1"
+   ],
+   "AAAA": [
+    "2001:678:10::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b0.info.afilias-nst.org": {
+   "A": [
+    "199.254.48.1"
+   ],
+   "AAAA": [
+    "2001:500:1a::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.ns.se": {
+   "A": [
+    "192.36.133.107"
+   ],
+   "AAAA": [
+    "2001:67c:254c:301::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.registrydns.co": {
+   "A": [
+    "185.24.64.57"
+   ],
+   "AAAA": [
+    "2a04:2b00:13cc::1:57"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b0.org.afilias-nst.org": {
+   "A": [
+    "199.19.54.1"
+   ],
+   "AAAA": [
+    "2001:500:c::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b0.nic.io": {
+   "A": [
+    "65.22.161.17"
+   ],
+   "AAAA": [
+    "2a01:8840:9f::17"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.nsset.be": {
+   "A": [
+    "194.0.37.1"
+   ],
+   "AAAA": [
+    "2001:678:64::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.u10.twtrdns.net": {
+   "A": [
+    "205.251.196.198"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "b2.info.afilias-nst.org": {
+   "A": [
+    "199.249.121.1"
+   ],
+   "AAAA": [
+    "2001:500:49::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "borges.uol.com.br": {
+   "A": [
+    "172.64.53.68"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "bayan.ns.cloudflare.com": {
+   "A": [
+    "108.162.193.72",
+    "172.64.33.72",
+    "173.245.59.72"
+   ],
+   "AAAA": [
+    "2606:4700:58::adf5:3b48",
+    "2803:f800:50::6ca2:c148",
+    "2a06:98c1:50::ac40:2148"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b2.org.afilias-nst.org": {
+   "A": [
+    "199.249.120.1"
+   ],
+   "AAAA": [
+    "2001:500:48::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "bg.ns.ua": {
+   "A": [
+    "185.136.96.185",
+    "185.136.97.185"
+   ],
+   "AAAA": [
+    "2a06:fb00:1::2:185",
+    "2a06:fb00:1::4:185"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "b.tld.ma": {
+   "A": [
+    "81.192.171.132",
+    "81.192.171.84"
+   ],
+   "AAAA": [
+    "2001:4288:1800:186::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "bsa1.serpro.gov.br": {
+   "A": [
+    "161.148.201.101"
+   ],
+   "AAAA": [
+    "2804:151:0:8::11"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.ca-servers.ca": {
+   "A": [
+    "185.159.196.2"
+   ],
+   "AAAA": [
+    "2620:10a:8053::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.dns.ar": {
+   "A": [
+    "200.108.148.50"
+   ],
+   "AAAA": [
+    "2801:140:10::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "bsa2.serpro.gov.br": {
+   "A": [
+    "161.148.201.102"
+   ],
+   "AAAA": [
+    "2804:151:0:8::12"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.dns.cn": {
+   "A": [
+    "203.119.27.1"
+   ],
+   "AAAA": [
+    "2001:dc7:2::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.dns.br": {
+   "A": [
+    "200.192.233.10"
+   ],
+   "AAAA": [
+    "2001:12f8:a::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.dns.id": {
+   "A": [
+    "103.19.178.178"
+   ],
+   "AAAA": [
+    "2402:ee80:c::c"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.dns.usp.br": {
+   "A": [
+    "177.90.0.18"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "c.dns.py": {
+   "A": [
+    "130.59.31.30"
+   ],
+   "AAAA": [
+    "2001:620:0:ff::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.fi": {
+   "A": [
+    "194.0.11.104"
+   ],
+   "AAAA": [
+    "2001:678:e:104::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.dns.kr": {
+   "A": [
+    "210.101.61.1"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "c.dns.pt": {
+   "A": [
+    "204.61.216.105"
+   ],
+   "AAAA": [
+    "2001:500:14:6105:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.nic.cl": {
+   "A": [
+    "200.16.112.16"
+   ],
+   "AAAA": [
+    "2001:1398:275:0:200:16:112:16"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.nic.dk": {
+   "A": [
+    "185.159.199.45"
+   ],
+   "AAAA": [
+    "2620:10a:80ac::45"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.nic.tv": {
+   "A": [
+    "37.209.196.6"
+   ],
+   "AAAA": [
+    "2001:dcd:3::6"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.gtld.biz": {
+   "A": [
+    "156.154.127.65"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "c.hu": {
+   "A": [
+    "195.111.1.92"
+   ],
+   "AAAA": [
+    "2001:738:2:2::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.mx-ns.mx": {
+   "A": [
+    "192.100.224.1"
+   ],
+   "AAAA": [
+    "2001:1258::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.edu-servers.net": {
+   "A": [
+    "192.26.92.30"
+   ],
+   "AAAA": [
+    "2001:503:83eb::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.nic.es": {
+   "A": [
+    "194.0.34.53"
+   ],
+   "AAAA": [
+    "2001:678:44::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.dns.jp": {
+   "A": [
+    "156.154.100.5"
+   ],
+   "AAAA": [
+    "2001:502:ad09::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.ns.apple.com": {
+   "A": [
+    "204.19.119.1"
+   ],
+   "AAAA": [
+    "2620:171:800:714::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.gtld-servers.net": {
+   "A": [
+    "192.26.92.30"
+   ],
+   "AAAA": [
+    "2001:503:83eb::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.ns.facebook.com": {
+   "A": [
+    "185.89.218.12"
+   ],
+   "AAAA": [
+    "2a03:2880:f1fc:c:face:b00c:0:35"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.ns.ie": {
+   "A": [
+    "194.146.106.98"
+   ],
+   "AAAA": [
+    "2001:67c:1010:25::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.ns.gov": {
+   "A": [
+    "199.33.232.1"
+   ],
+   "AAAA": [
+    "2001:503:ff42::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.ns.nic.blog": {
+   "A": [
+    "45.142.220.101"
+   ],
+   "AAAA": [
+    "2a0e:dbc0::101"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.ns.se": {
+   "A": [
+    "192.36.135.107"
+   ],
+   "AAAA": [
+    "2001:67c:2554:301::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.ns.nic.cz": {
+   "A": [
+    "194.0.14.1"
+   ],
+   "AAAA": [
+    "2001:678:11::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.registrydns.co": {
+   "A": [
+    "212.18.248.57"
+   ],
+   "AAAA": [
+    "2a04:2b00:13ee::57"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.r10.twtrdns.net": {
+   "A": [
+    "205.251.194.151"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "c.u10.twtrdns.net": {
+   "A": [
+    "205.251.194.151"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "c.nsset.be": {
+   "A": [
+    "194.0.43.1"
+   ],
+   "AAAA": [
+    "2001:678:68::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c0.nic.io": {
+   "A": [
+    "65.22.162.17"
+   ],
+   "AAAA": [
+    "2a01:8840:a0::17"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c0.org.afilias-nst.info": {
+   "A": [
+    "199.19.53.1"
+   ],
+   "AAAA": [
+    "2001:500:b::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "casey.ns.cloudflare.com": {
+   "A": [
+    "108.162.195.158",
+    "162.159.44.158",
+    "172.64.35.158"
+   ],
+   "AAAA": [
+    "2606:4700:58::a29f:2c9e",
+    "2803:f800:50::6ca2:c39e",
+    "2a06:98c1:50::ac40:239e"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "charles.uol.com.br": {
+   "A": [
+    "172.64.52.59"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "c0.info.afilias-nst.info": {
+   "A": [
+    "199.254.49.1"
+   ],
+   "AAAA": [
+    "2001:500:1b::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d-dns.pl": {
+   "A": [
+    "185.159.197.48"
+   ],
+   "AAAA": [
+    "2620:10a:80aa::48"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "cz.ns.ua": {
+   "A": [
+    "185.43.134.15"
+   ],
+   "AAAA": [
+    "2001:148f:fffd::15"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.ca-servers.ca": {
+   "A": [
+    "45.142.220.101"
+   ],
+   "AAAA": [
+    "2a0e:dbc0::101"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.tld.ma": {
+   "A": [
+    "81.192.171.115",
+    "81.192.171.139"
+   ],
+   "AAAA": [
+    "2001:4288:1800:386::3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "cl2-tld.d-zone.ca": {
+   "A": [
+    "185.159.198.56"
+   ],
+   "AAAA": [
+    "2620:10a:80ab::56"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "cl1-tld.d-zone.ca": {
+   "A": [
+    "185.159.197.56"
+   ],
+   "AAAA": [
+    "2620:10a:80aa::56"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "cl-ns.anycast.pch.net": {
+   "A": [
+    "204.61.216.30"
+   ],
+   "AAAA": [
+    "2001:500:14:6030:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c.tld-servers.ru": {
+   "A": [
+    "194.190.122.17"
+   ],
+   "AAAA": [
+    "2a09:bd00:1:0:194:190:122:17"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c2.dns.sa": {
+   "A": [
+    "86.111.196.9"
+   ],
+   "AAAA": [
+    "2001:67c:130:10::9"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.dns.br": {
+   "A": [
+    "200.219.154.10"
+   ],
+   "AAAA": [
+    "2001:12f8:4::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.dns.ar": {
+   "A": [
+    "192.140.126.50"
+   ],
+   "AAAA": [
+    "2801:140:dddd::50"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.dns.id": {
+   "A": [
+    "45.126.57.57"
+   ],
+   "AAAA": [
+    "2402:ee80:d::d"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "c1.dns.sa": {
+   "A": [
+    "86.111.192.9"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "d.dns.cn": {
+   "A": [
+    "203.119.28.1"
+   ],
+   "AAAA": [
+    "2001:dc7:1000::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "cl1.dnsnode.net": {
+   "A": [
+    "194.146.106.34"
+   ],
+   "AAAA": [
+    "2001:67c:1010:8::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.dns.kr": {
+   "A": [
+    "203.83.159.1"
+   ],
+   "AAAA": [
+    "2001:dcc:4::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.dns.jp": {
+   "A": [
+    "210.138.175.244"
+   ],
+   "AAAA": [
+    "2001:240::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.dns.pt": {
+   "A": [
+    "185.39.210.1"
+   ],
+   "AAAA": [
+    "2a04:6d82::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.ns.apple.com": {
+   "A": [
+    "204.26.57.1"
+   ],
+   "AAAA": [
+    "2620:171:801:714::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.gtld-servers.net": {
+   "A": [
+    "192.31.80.30"
+   ],
+   "AAAA": [
+    "2001:500:856e::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.hu": {
+   "A": [
+    "5.28.0.99"
+   ],
+   "AAAA": [
+    "2a00:e6a0:3:1014::53:99"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.ns.at": {
+   "A": [
+    "81.91.161.98"
+   ],
+   "AAAA": [
+    "2a02:568:20:1::d"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.nic.ch": {
+   "A": [
+    "194.0.25.39"
+   ],
+   "AAAA": [
+    "2001:678:20::39"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.ns.facebook.com": {
+   "A": [
+    "185.89.219.12"
+   ],
+   "AAAA": [
+    "2a03:2880:f1fd:c:face:b00c:0:35"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.nic.uy": {
+   "A": [
+    "65.22.41.1"
+   ],
+   "AAAA": [
+    "2a01:8840:1bb::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.fi": {
+   "A": [
+    "77.72.229.253"
+   ],
+   "AAAA": [
+    "2a01:3f0:0:302::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.dns.ripn.net": {
+   "A": [
+    "194.190.124.17"
+   ],
+   "AAAA": [
+    "2001:678:18:0:194:190:124:17"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.nic.fr": {
+   "A": [
+    "194.0.9.1"
+   ],
+   "AAAA": [
+    "2001:678:c::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.ns.ie": {
+   "A": [
+    "77.72.229.245"
+   ],
+   "AAAA": [
+    "2a01:3f0:0:309::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.ns.nic.blog": {
+   "A": [
+    "185.159.199.9"
+   ],
+   "AAAA": [
+    "2620:10a:80ac::9"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.ns.gov": {
+   "A": [
+    "199.33.233.1"
+   ],
+   "AAAA": [
+    "2001:503:ff43::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.edu-servers.net": {
+   "A": [
+    "192.31.80.30"
+   ],
+   "AAAA": [
+    "2001:500:856e::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.ns.nic.cz": {
+   "A": [
+    "193.29.206.1"
+   ],
+   "AAAA": [
+    "2001:678:1::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d0.info.afilias-nst.org": {
+   "A": [
+    "199.254.50.1"
+   ],
+   "AAAA": [
+    "2001:500:1c::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.r10.twtrdns.net": {
+   "A": [
+    "205.251.199.195"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "d.nsset.be": {
+   "A": [
+    "194.0.44.1"
+   ],
+   "AAAA": [
+    "2001:678:6c::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.registrydns.co": {
+   "A": [
+    "212.18.249.57"
+   ],
+   "AAAA": [
+    "2a04:2b00:13ff::57"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d0.org.afilias-nst.org": {
+   "A": [
+    "199.19.57.1"
+   ],
+   "AAAA": [
+    "2001:500:f::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "diva.ns.cloudflare.com": {
+   "A": [
+    "108.162.192.97",
+    "172.64.32.97",
+    "173.245.58.97"
+   ],
+   "AAAA": [
+    "2606:4700:50::adf5:3a61",
+    "2803:f800:50::6ca2:c061",
+    "2a06:98c1:50::ac40:2061"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "d.u10.twtrdns.net": {
+   "A": [
+    "205.251.199.195"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "d.tld.ma": {
+   "A": [
+    "81.192.171.116",
+    "81.192.171.140"
+   ],
+   "AAAA": [
+    "2001:4288:1800:386::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns.inria.fr": {
+   "A": [
+    "193.51.208.13"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "dns.nic.it": {
+   "A": [
+    "192.12.192.5"
+   ],
+   "AAAA": [
+    "2a00:d40:1:1::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns1.p07.nsone.net": {
+   "A": [
+    "198.51.44.7"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:7:0:1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns-ro.denic.de": {
+   "A": [
+    "81.91.161.99"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "dns1.p01.nsone.net": {
+   "A": [
+    "198.51.44.1"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:1:0:1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns-at.rotld.ro": {
+   "A": [
+    "78.104.145.6"
+   ],
+   "AAAA": [
+    "2001:628:453:bb::6"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns1.p09.nsone.net": {
+   "A": [
+    "198.51.44.9"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:9:0:1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns1.nic.uk": {
+   "A": [
+    "213.248.216.1"
+   ],
+   "AAAA": [
+    "2a01:618:400::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns-c.rotld.ro": {
+   "A": [
+    "194.0.11.113"
+   ],
+   "AAAA": [
+    "2001:678:e:113::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns-eg.univie.ac.at": {
+   "A": [
+    "78.104.145.8"
+   ],
+   "AAAA": [
+    "2001:628:453:bb::8"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns1.p04.nsone.net": {
+   "A": [
+    "198.51.44.4"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:4:0:1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns1.p08.nsone.net": {
+   "A": [
+    "198.51.44.8"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:8:0:1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns1.p02.nsone.net": {
+   "A": [
+    "198.51.44.2"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:2:0:1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns2.nic.uk": {
+   "A": [
+    "103.49.80.1"
+   ],
+   "AAAA": [
+    "2401:fd80:400::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns1.p05.nsone.net": {
+   "A": [
+    "198.51.44.5"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:5:0:1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns2.p01.nsone.net": {
+   "A": [
+    "198.51.45.1"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:1::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns3.p01.nsone.net": {
+   "A": [
+    "198.51.44.65"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:1:0:3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns3.p08.nsone.net": {
+   "A": [
+    "198.51.44.72"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:8:0:3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns2.p02.nsone.net": {
+   "A": [
+    "198.51.45.2"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:2::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns2.p04.nsone.net": {
+   "A": [
+    "198.51.45.4"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:4::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns3.p04.nsone.net": {
+   "A": [
+    "198.51.44.68"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:4:0:3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns2.p09.nsone.net": {
+   "A": [
+    "198.51.45.9"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:9::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns2.p05.nsone.net": {
+   "A": [
+    "198.51.45.5"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:5::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns2.p08.nsone.net": {
+   "A": [
+    "198.51.45.8"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:8::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns3.nic.uk": {
+   "A": [
+    "213.248.220.1"
+   ],
+   "AAAA": [
+    "2a01:618:404::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns3.p09.nsone.net": {
+   "A": [
+    "198.51.44.73"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:9:0:3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns4.p04.nsone.net": {
+   "A": [
+    "198.51.45.68"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:4::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns4.p01.nsone.net": {
+   "A": [
+    "198.51.45.65"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:1::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns4.easydns.info": {
+   "A": [
+    "64.68.197.10"
+   ],
+   "AAAA": [
+    "2620:49:4::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns3.p05.nsone.net": {
+   "A": [
+    "198.51.44.69"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:5:0:3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns4.nic.uk": {
+   "A": [
+    "43.230.48.1"
+   ],
+   "AAAA": [
+    "2401:fd80:404::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns4.p05.nsone.net": {
+   "A": [
+    "198.51.45.69"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:5::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns4.p08.nsone.net": {
+   "A": [
+    "198.51.45.72"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:8::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dns4.p09.nsone.net": {
+   "A": [
+    "198.51.45.73"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:9::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dsany4.sgnic.sg": {
+   "A": [
+    "45.142.220.65"
+   ],
+   "AAAA": [
+    "2a0e:dbc0:1::65"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dsany2.sgnic.sg": {
+   "A": [
+    "185.159.197.170"
+   ],
+   "AAAA": [
+    "2620:10a:80aa::170"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.dns.br": {
+   "A": [
+    "200.229.248.10"
+   ],
+   "AAAA": [
+    "2001:12f8:2::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.dns.ar": {
+   "A": [
+    "170.238.66.50"
+   ],
+   "AAAA": [
+    "2801:140:eeee::50"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.dns.cn": {
+   "A": [
+    "203.119.29.1"
+   ],
+   "AAAA": [
+    "2001:dc7:3::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "dsany3.sgnic.sg": {
+   "A": [
+    "185.159.198.170"
+   ],
+   "AAAA": [
+    "2620:10a:80ab::170"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.dns.id": {
+   "A": [
+    "103.19.177.177"
+   ],
+   "AAAA": [
+    "2001:df5:4000:4::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.dns.kr": {
+   "A": [
+    "202.30.124.100"
+   ],
+   "AAAA": [
+    "2001:dcc:5::100"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.dns.pt": {
+   "A": [
+    "193.136.192.64"
+   ],
+   "AAAA": [
+    "2001:690:a00:4001::64"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.dns.jp": {
+   "A": [
+    "192.50.43.53"
+   ],
+   "AAAA": [
+    "2001:200:c000::35"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.fi": {
+   "A": [
+    "194.0.1.14"
+   ],
+   "AAAA": [
+    "2001:678:4::e"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.hu": {
+   "A": [
+    "194.0.25.11"
+   ],
+   "AAAA": [
+    "2001:678:20::11"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.ns.ie": {
+   "A": [
+    "185.159.199.210"
+   ],
+   "AAAA": [
+    "2620:10a:80ac::210"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.mx-ns.mx": {
+   "A": [
+    "189.201.244.1"
+   ],
+   "AAAA": [
+    "2801:c4:c0::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.nic.ch": {
+   "A": [
+    "194.0.17.1"
+   ],
+   "AAAA": [
+    "2001:678:3::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.dns.ripn.net": {
+   "A": [
+    "193.232.142.17"
+   ],
+   "AAAA": [
+    "2001:678:15:0:193:232:142:17"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "edns1.ultradns.com": {
+   "A": [
+    "204.74.66.1"
+   ],
+   "AAAA": [
+    "2001:502:f3ff::201"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.gtld-servers.net": {
+   "A": [
+    "192.12.94.30"
+   ],
+   "AAAA": [
+    "2001:502:1ca1::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.edu-servers.net": {
+   "A": [
+    "192.12.94.30"
+   ],
+   "AAAA": [
+    "2001:502:1ca1::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.dns.ar": {
+   "A": [
+    "130.59.31.20"
+   ],
+   "AAAA": [
+    "2001:620:0:ff::20"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "edns1.ultradns.net": {
+   "A": [
+    "204.74.110.1"
+   ],
+   "AAAA": [
+    "2610:a1:1014::201"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "eliot.uol.com.br": {
+   "A": [
+    "172.64.52.216"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "f-dns.pl": {
+   "A": [
+    "194.0.25.29"
+   ],
+   "AAAA": [
+    "2001:678:20::29"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.dns.id": {
+   "A": [
+    "203.119.112.112"
+   ],
+   "AAAA": [
+    "2001:dd8:1f::f"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "estia.ics.forth.gr": {
+   "A": [
+    "139.91.191.3"
+   ],
+   "AAAA": [
+    "2001:648:2c30::191:3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.dns.br": {
+   "A": [
+    "200.219.159.10"
+   ],
+   "AAAA": [
+    "2001:12f8:c::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "e.tld.ma": {
+   "A": [
+    "105.73.80.236"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "f.dns.kr": {
+   "A": [
+    "210.101.62.1"
+   ],
+   "AAAA": [
+    "2001:dcc:6::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.dns.ripn.net": {
+   "A": [
+    "193.232.156.17"
+   ],
+   "AAAA": [
+    "2001:678:14:0:193:232:156:17"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.dns.jp": {
+   "A": [
+    "150.100.6.8"
+   ],
+   "AAAA": [
+    "2001:2f8:0:100::153"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.fi": {
+   "A": [
+    "80.248.170.230"
+   ],
+   "AAAA": [
+    "2a03:d640:100:1::6"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.hu": {
+   "A": [
+    "194.0.9.1"
+   ],
+   "AAAA": [
+    "2001:678:c::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.nic.de": {
+   "A": [
+    "81.91.164.5"
+   ],
+   "AAAA": [
+    "2a02:568:0:2::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.nic.ch": {
+   "A": [
+    "194.146.106.10"
+   ],
+   "AAAA": [
+    "2001:67c:1010:2::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.gtld-servers.net": {
+   "A": [
+    "192.35.51.30"
+   ],
+   "AAAA": [
+    "2001:503:d414::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.ns.se": {
+   "A": [
+    "192.36.134.97"
+   ],
+   "AAAA": [
+    "2001:67c:2550:301::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "g.dns.pt": {
+   "A": [
+    "193.136.2.226"
+   ],
+   "AAAA": [
+    "2001:690:a80:4001::100"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "g.dns.kr": {
+   "A": [
+    "202.31.190.1"
+   ],
+   "AAAA": [
+    "2001:dc5:a::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.edu-servers.net": {
+   "A": [
+    "192.35.51.30"
+   ],
+   "AAAA": [
+    "2001:503:d414::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "f.ext.nic.fr": {
+   "A": [
+    "194.146.106.46"
+   ],
+   "AAAA": [
+    "2001:67c:1010:11::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "g.dns.jp": {
+   "A": [
+    "203.119.40.1"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "f.tld.ma": {
+   "A": [
+    "41.214.240.4"
+   ],
+   "AAAA": [
+    "2c0f:fb20:100:fc::33"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "g.gtld-servers.net": {
+   "A": [
+    "192.42.93.30"
+   ],
+   "AAAA": [
+    "2001:503:eea3::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "generationxyz.nic.xyz": {
+   "A": [
+    "212.18.249.42"
+   ],
+   "AAAA": [
+    "2a04:2b00:13ff::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "frcu.eun.eg": {
+   "A": [
+    "193.227.1.1"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "g.fi": {
+   "A": [
+    "204.61.216.98"
+   ],
+   "AAAA": [
+    "2001:500:14:6098:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "g.ns.se": {
+   "A": [
+    "194.68.134.97"
+   ],
+   "AAAA": [
+    "2001:67c:2558:301::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "gr-m.ics.forth.gr": {
+   "A": [
+    "194.0.4.10"
+   ],
+   "AAAA": [
+    "2001:678:7::4:10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "gr-at.ics.forth.gr": {
+   "A": [
+    "78.104.145.227"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "grdns.ics.forth.gr": {
+   "A": [
+    "139.91.1.1"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "g.nic.es": {
+   "A": [
+    "204.61.217.1"
+   ],
+   "AAAA": [
+    "2001:500:14:7001:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "h-dns.pl": {
+   "A": [
+    "185.159.198.48"
+   ],
+   "AAAA": [
+    "2620:10a:80ab::48"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "gr-a.ics.forth.gr": {
+   "A": [
+    "194.0.25.48"
+   ],
+   "AAAA": [
+    "2001:678:20::48"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "g.ext.nic.fr": {
+   "A": [
+    "194.0.36.1"
+   ],
+   "AAAA": [
+    "2001:678:4c::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "gr-d.ics.forth.gr": {
+   "A": [
+    "194.0.11.102"
+   ],
+   "AAAA": [
+    "2001:678:e:102::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "g.edu-servers.net": {
+   "A": [
+    "192.42.93.30"
+   ],
+   "AAAA": [
+    "2001:503:eea3::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "h.dns.pt": {
+   "A": [
+    "194.146.106.138"
+   ],
+   "AAAA": [
+    "2001:67c:1010:35::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "h.nic.dk": {
+   "A": [
+    "46.30.126.214"
+   ],
+   "AAAA": [
+    "2a00:1b18:1:2::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "h.ns.ie": {
+   "A": [
+    "192.93.0.4"
+   ],
+   "AAAA": [
+    "2001:660:3005:1::1:2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "h.gtld-servers.net": {
+   "A": [
+    "192.54.112.30"
+   ],
+   "AAAA": [
+    "2001:502:8cc::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "h.nic.es": {
+   "A": [
+    "194.0.33.53"
+   ],
+   "AAAA": [
+    "2001:678:40::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ho1.ns.ua": {
+   "A": [
+    "195.47.253.1"
+   ],
+   "AAAA": [
+    "2001:67c:258::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "h.dns.jp": {
+   "A": [
+    "161.232.72.25"
+   ],
+   "AAAA": [
+    "2a01:8840:1bc::25"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "i.fi": {
+   "A": [
+    "194.0.25.30"
+   ],
+   "AAAA": [
+    "2001:678:20::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "i.nic.no": {
+   "A": [
+    "194.146.106.6"
+   ],
+   "AAAA": [
+    "2001:67c:1010:1::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "i.mx-ns.mx": {
+   "A": [
+    "207.248.68.1"
+   ],
+   "AAAA": [
+    "2801:c4:d0::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "i.ns.ie": {
+   "A": [
+    "194.0.25.35"
+   ],
+   "AAAA": [
+    "2001:678:20::35"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "h.edu-servers.net": {
+   "A": [
+    "192.54.112.30"
+   ],
+   "AAAA": [
+    "2001:502:8cc::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "i.edu-servers.net": {
+   "A": [
+    "192.43.172.30"
+   ],
+   "AAAA": [
+    "2001:503:39c1::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "i.ns.se": {
+   "A": [
+    "194.146.106.22"
+   ],
+   "AAAA": [
+    "2001:67c:1010:5::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "i.gtld-servers.net": {
+   "A": [
+    "192.43.172.30"
+   ],
+   "AAAA": [
+    "2001:503:39c1::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "in1.ns.ua": {
+   "A": [
+    "74.123.224.40"
+   ],
+   "AAAA": [
+    "2604:ee00:0:101::40"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "j-dns.pl": {
+   "A": [
+    "204.61.217.4"
+   ],
+   "AAAA": [
+    "2001:500:14:7004:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "isla.ns.cloudflare.com": {
+   "A": [
+    "108.162.192.119",
+    "172.64.32.119",
+    "173.245.58.119"
+   ],
+   "AAAA": [
+    "2606:4700:50::adf5:3a77",
+    "2803:f800:50::6ca2:c077",
+    "2a06:98c1:50::ac40:2077"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "j.fi": {
+   "A": [
+    "185.159.199.190"
+   ],
+   "AAAA": [
+    "2620:10a:80ac::190"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "j.ca-servers.ca": {
+   "A": [
+    "198.182.167.1"
+   ],
+   "AAAA": [
+    "2001:500:83::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "i1.dns.sa": {
+   "A": [
+    "212.138.118.118"
+   ],
+   "AAAA": [
+    "2001:1490:0:800::118"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "j.ns.at": {
+   "A": [
+    "194.146.106.50"
+   ],
+   "AAAA": [
+    "2001:67c:1010:12::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "k.fi": {
+   "A": [
+    "213.186.229.226"
+   ],
+   "AAAA": [
+    "2001:14b8:188d::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "j.gtld-servers.net": {
+   "A": [
+    "192.48.79.30"
+   ],
+   "AAAA": [
+    "2001:502:7094::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "jermaine.ns.cloudflare.com": {
+   "A": [
+    "108.162.195.157",
+    "162.159.44.157",
+    "172.64.35.157"
+   ],
+   "AAAA": [
+    "2606:4700:58::a29f:2c9d",
+    "2803:f800:50::6ca2:c39d",
+    "2a06:98c1:50::ac40:239d"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "k.gmoregistry.net": {
+   "A": [
+    "37.209.196.4"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "kenic.anycastdns.cz": {
+   "A": [
+    "185.28.194.194",
+    "185.38.108.108"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "k.gtld-servers.net": {
+   "A": [
+    "192.52.178.30"
+   ],
+   "AAAA": [
+    "2001:503:d2d::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "j.edu-servers.net": {
+   "A": [
+    "192.48.79.30"
+   ],
+   "AAAA": [
+    "2001:502:7094::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "l.de.net": {
+   "A": [
+    "77.67.63.105"
+   ],
+   "AAAA": [
+    "2001:668:1f:11::105"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "k.edu-servers.net": {
+   "A": [
+    "192.52.178.30"
+   ],
+   "AAAA": [
+    "2001:503:d2d::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "l.nic.dk": {
+   "A": [
+    "130.226.213.138"
+   ],
+   "AAAA": [
+    "2001:878:0:e000:82:e2:d5:8a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "l.gmoregistry.net": {
+   "A": [
+    "37.209.198.4"
+   ],
+   "AAAA": [
+    "2001:dcd:4::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "l.gtld-servers.net": {
+   "A": [
+    "192.41.162.30"
+   ],
+   "AAAA": [
+    "2001:500:d937::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "l.dns.py": {
+   "A": [
+    "200.0.68.10"
+   ],
+   "AAAA": [
+    "2801:14:a000::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "m.mx-ns.mx": {
+   "A": [
+    "200.94.176.1"
+   ],
+   "AAAA": [
+    "2001:13c7:7000::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "m.gtld.biz": {
+   "A": [
+    "204.74.105.1"
+   ],
+   "AAAA": [
+    "2610:a1:3180::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "m.dns.it": {
+   "A": [
+    "217.29.76.4"
+   ],
+   "AAAA": [
+    "2001:1ac0:0:200:0:a5d1:6004:2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "l.edu-servers.net": {
+   "A": [
+    "192.41.162.30"
+   ],
+   "AAAA": [
+    "2001:500:d937::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "m.gtld-servers.net": {
+   "A": [
+    "192.55.83.30"
+   ],
+   "AAAA": [
+    "2001:501:b1f9::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "m.edu-servers.net": {
+   "A": [
+    "192.55.83.30"
+   ],
+   "AAAA": [
+    "2001:501:b1f9::30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "n.de.net": {
+   "A": [
+    "194.146.107.6"
+   ],
+   "AAAA": [
+    "2001:67c:1011:1::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "m.ns.se": {
+   "A": [
+    "194.0.11.112"
+   ],
+   "AAAA": [
+    "2001:678:e:112::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "mzizi.kenic.or.ke": {
+   "A": [
+    "196.1.4.130",
+    "196.1.4.3",
+    "196.13.202.53"
+   ],
+   "AAAA": [
+    "2001:43f8:10:0:50c0:a8ff:feee:30"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "n.ns.at": {
+   "A": [
+    "81.91.173.130"
+   ],
+   "AAAA": [
+    "2a02:568:281::130"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "meera.ns.cloudflare.com": {
+   "A": [
+    "108.162.192.195",
+    "172.64.32.195",
+    "173.245.58.195"
+   ],
+   "AAAA": [
+    "2606:4700:50::adf5:3ac3",
+    "2803:f800:50::6ca2:c0c3",
+    "2a06:98c1:50::ac40:20c3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "n.gtld.biz": {
+   "A": [
+    "204.74.107.1"
+   ],
+   "AAAA": [
+    "2610:a1:3280::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "m1.dns.sa": {
+   "A": [
+    "86.51.77.213"
+   ],
+   "AAAA": [
+    "2a02:ce0:1:30::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "m2.dns.sa": {
+   "A": [
+    "86.51.28.37"
+   ],
+   "AAAA": [
+    "2a02:ce0:1:91::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "lookup.iucc.ac.il": {
+   "A": [
+    "128.139.34.240"
+   ],
+   "AAAA": [
+    "2001:bf8:900:6::808b:22f0"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nn.ns.ua": {
+   "A": [
+    "194.58.197.4"
+   ],
+   "AAAA": [
+    "2a01:3f1:c001::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "n1.dns.sa": {
+   "A": [
+    "194.146.106.102"
+   ],
+   "AAAA": [
+    "2001:67c:1010:26::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "n3.dns.ec": {
+   "A": [
+    "204.61.216.39"
+   ],
+   "AAAA": [
+    "2001:500:14:6039:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nameserver.cnr.it": {
+   "A": [
+    "194.119.192.34"
+   ],
+   "AAAA": [
+    "2a00:1620:c0:220:194:119:192:34"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1137.awsdns-14.org": {
+   "A": [
+    "205.251.196.113"
+   ],
+   "AAAA": [
+    "2600:9000:5304:7100::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-106.awsdns-13.com": {
+   "A": [
+    "205.251.192.106"
+   ],
+   "AAAA": [
+    "2600:9000:5300:6a00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1134.awsdns-13.org": {
+   "A": [
+    "205.251.196.110"
+   ],
+   "AAAA": [
+    "2600:9000:5304:6e00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1151.awsdns-15.org": {
+   "A": [
+    "205.251.196.127"
+   ],
+   "AAAA": [
+    "2600:9000:5304:7f00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "not.norid.no": {
+   "A": [
+    "156.154.100.12"
+   ],
+   "AAAA": [
+    "2001:502:ad09::12"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1289.awsdns-33.org": {
+   "A": [
+    "205.251.197.9"
+   ],
+   "AAAA": [
+    "2600:9000:5305:900::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1283.awsdns-32.org": {
+   "A": [
+    "205.251.197.3"
+   ],
+   "AAAA": [
+    "2600:9000:5305:300::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-137.awsdns-17.com": {
+   "A": [
+    "205.251.192.137"
+   ],
+   "AAAA": [
+    "2600:9000:5300:8900::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1372.awsdns-43.org": {
+   "A": [
+    "205.251.197.92"
+   ],
+   "AAAA": [
+    "2600:9000:5305:5c00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "n2.nic.ec": {
+   "A": [
+    "200.12.199.1"
+   ],
+   "AAAA": [
+    "2801:0:60::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "njet.norid.no": {
+   "A": [
+    "156.154.101.12"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ilns.ilan.net.il": {
+   "A": [
+    "128.139.35.5"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1387.awsdns-45.org": {
+   "A": [
+    "205.251.197.107"
+   ],
+   "AAAA": [
+    "2600:9000:5305:6b00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1402.awsdns-47.org": {
+   "A": [
+    "205.251.197.122"
+   ],
+   "AAAA": [
+    "2600:9000:5305:7a00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1447.awsdns-52.org": {
+   "A": [
+    "205.251.197.167"
+   ],
+   "AAAA": [
+    "2600:9000:5305:a700::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1460.awsdns-54.org": {
+   "A": [
+    "205.251.197.180"
+   ],
+   "AAAA": [
+    "2600:9000:5305:b400::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1452.awsdns-53.org": {
+   "A": [
+    "205.251.197.172"
+   ],
+   "AAAA": [
+    "2600:9000:5305:ac00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1569.awsdns-04.co.uk": {
+   "A": [
+    "205.251.198.33"
+   ],
+   "AAAA": [
+    "2600:9000:5306:2100::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1611.awsdns-09.co.uk": {
+   "A": [
+    "205.251.198.75"
+   ],
+   "AAAA": [
+    "2600:9000:5306:4b00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-187.awsdns-23.com": {
+   "A": [
+    "205.251.192.187"
+   ],
+   "AAAA": [
+    "2600:9000:5300:bb00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1772.awsdns-29.co.uk": {
+   "A": [
+    "205.251.198.236"
+   ],
+   "AAAA": [
+    "2600:9000:5306:ec00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1955.awsdns-52.co.uk": {
+   "A": [
+    "205.251.199.163"
+   ],
+   "AAAA": [
+    "2600:9000:5307:a300::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1860.awsdns-40.co.uk": {
+   "A": [
+    "205.251.199.68"
+   ],
+   "AAAA": [
+    "2600:9000:5307:4400::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1828.awsdns-36.co.uk": {
+   "A": [
+    "205.251.199.36"
+   ],
+   "AAAA": [
+    "2600:9000:5307:2400::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1981.awsdns-55.co.uk": {
+   "A": [
+    "205.251.199.189"
+   ],
+   "AAAA": [
+    "2600:9000:5307:bd00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1707.awsdns-21.co.uk": {
+   "A": [
+    "205.251.198.171"
+   ],
+   "AAAA": [
+    "2600:9000:5306:ab00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-2046.awsdns-63.co.uk": {
+   "A": [
+    "205.251.199.254"
+   ],
+   "AAAA": [
+    "2600:9000:5307:fe00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-264.awsdns-33.com": {
+   "A": [
+    "205.251.193.8"
+   ],
+   "AAAA": [
+    "2600:9000:5301:800::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-1984.awsdns-56.co.uk": {
+   "A": [
+    "205.251.199.192"
+   ],
+   "AAAA": [
+    "2600:9000:5307:c000::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-421.awsdns-52.com": {
+   "A": [
+    "205.251.193.165"
+   ],
+   "AAAA": [
+    "2600:9000:5301:a500::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-207.awsdns-25.com": {
+   "A": [
+    "205.251.192.207"
+   ],
+   "AAAA": [
+    "2600:9000:5300:cf00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-340.awsdns-42.com": {
+   "A": [
+    "205.251.193.84"
+   ],
+   "AAAA": [
+    "2600:9000:5301:5400::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-341.awsdns-42.com": {
+   "A": [
+    "205.251.193.85"
+   ],
+   "AAAA": [
+    "2600:9000:5301:5500::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-387.awsdns-48.com": {
+   "A": [
+    "205.251.193.131"
+   ],
+   "AAAA": [
+    "2600:9000:5301:8300::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-484.awsdns-60.com": {
+   "A": [
+    "205.251.193.228"
+   ],
+   "AAAA": [
+    "2600:9000:5301:e400::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-521.awsdns-01.net": {
+   "A": [
+    "205.251.194.9"
+   ],
+   "AAAA": [
+    "2600:9000:5302:900::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-520.awsdns-01.net": {
+   "A": [
+    "205.251.194.8"
+   ],
+   "AAAA": [
+    "2600:9000:5302:800::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-736.awsdns-28.net": {
+   "A": [
+    "205.251.194.224"
+   ],
+   "AAAA": [
+    "2600:9000:5302:e000::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-81.awsdns-10.com": {
+   "A": [
+    "205.251.192.81"
+   ],
+   "AAAA": [
+    "2600:9000:5300:5100::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-659.awsdns-18.net": {
+   "A": [
+    "205.251.194.147"
+   ],
+   "AAAA": [
+    "2600:9000:5302:9300::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-653.awsdns-17.net": {
+   "A": [
+    "205.251.194.141"
+   ],
+   "AAAA": [
+    "2600:9000:5302:8d00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-828.awsdns-39.net": {
+   "A": [
+    "205.251.195.60"
+   ],
+   "AAAA": [
+    "2600:9000:5303:3c00::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-919.awsdns-50.net": {
+   "A": [
+    "205.251.195.151"
+   ],
+   "AAAA": [
+    "2600:9000:5303:9700::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-568.awsdns-07.net": {
+   "A": [
+    "205.251.194.56"
+   ],
+   "AAAA": [
+    "2600:9000:5302:3800::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-888.awsdns-47.net": {
+   "A": [
+    "205.251.195.120"
+   ],
+   "AAAA": [
+    "2600:9000:5303:7800::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-981.awsdns-58.net": {
+   "A": [
+    "205.251.195.213"
+   ],
+   "AAAA": [
+    "2600:9000:5303:d500::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-cloud-a2.googledomains.com": {
+   "A": [
+    "216.239.34.106"
+   ],
+   "AAAA": [
+    "2001:4860:4802:34::6a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-cloud-a3.googledomains.com": {
+   "A": [
+    "216.239.36.106"
+   ],
+   "AAAA": [
+    "2001:4860:4802:36::6a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-905.awsdns-49.net": {
+   "A": [
+    "205.251.195.137"
+   ],
+   "AAAA": [
+    "2600:9000:5303:8900::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-cloud-a1.googledomains.com": {
+   "A": [
+    "216.239.32.106"
+   ],
+   "AAAA": [
+    "2001:4860:4802:32::6a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-cloud-b2.googledomains.com": {
+   "A": [
+    "216.239.34.107"
+   ],
+   "AAAA": [
+    "2001:4860:4802:34::6b"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-cloud-b3.googledomains.com": {
+   "A": [
+    "216.239.36.107"
+   ],
+   "AAAA": [
+    "2001:4860:4802:36::6b"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-cloud-a4.googledomains.com": {
+   "A": [
+    "216.239.38.106"
+   ],
+   "AAAA": [
+    "2001:4860:4802:38::6a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-cloud-b1.googledomains.com": {
+   "A": [
+    "216.239.32.107"
+   ],
+   "AAAA": [
+    "2001:4860:4802:32::6b"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-ke.afrinic.net": {
+   "A": [
+    "196.216.168.22"
+   ],
+   "AAAA": [
+    "2001:43f8:120::22"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-cloud-b4.googledomains.com": {
+   "A": [
+    "216.239.38.107"
+   ],
+   "AAAA": [
+    "2001:4860:4802:38::6b"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-tld1.charlestonroadregistry.com": {
+   "A": [
+    "216.239.32.105"
+   ],
+   "AAAA": [
+    "2001:4860:4802:32::69"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-tld3.charlestonroadregistry.com": {
+   "A": [
+    "216.239.36.105"
+   ],
+   "AAAA": [
+    "2001:4860:4802:36::69"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-tld5.charlestonroadregistry.com": {
+   "A": [
+    "216.239.60.105"
+   ],
+   "AAAA": [
+    "2001:4860:4805::69"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-tld2.charlestonroadregistry.com": {
+   "A": [
+    "216.239.34.105"
+   ],
+   "AAAA": [
+    "2001:4860:4802:34::69"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-ma.nic.fr": {
+   "A": [
+    "194.0.9.1"
+   ],
+   "AAAA": [
+    "2001:678:c::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns-tld4.charlestonroadregistry.com": {
+   "A": [
+    "216.239.38.105"
+   ],
+   "AAAA": [
+    "2001:4860:4802:38::69"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns.dns.br": {
+   "A": [
+    "200.160.0.5"
+   ],
+   "AAAA": [
+    "2001:12ff:0:a20::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns0.wikimedia.org": {
+   "A": [
+    "208.80.154.238"
+   ],
+   "AAAA": [
+    "2620:0:861:53::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns.nic.bo": {
+   "A": [
+    "166.114.1.40"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns01.globo.com": {
+   "A": [
+    "131.0.24.26"
+   ],
+   "AAAA": [
+    "2804:294:100:803:131:0:24:26"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns.anycast.kenic.or.ke": {
+   "A": [
+    "204.61.216.7"
+   ],
+   "AAAA": [
+    "2001:500:14:6007:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns.cernet.net": {
+   "A": [
+    "103.137.60.44",
+    "202.112.0.44",
+    "202.38.135.44"
+   ],
+   "AAAA": [
+    "2001:250:c006::44",
+    "2001:7fa:5::44",
+    "2001:dd9::44"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns01.quack-dns.com": {
+   "A": [
+    "148.163.196.1"
+   ],
+   "AAAA": [
+    "2607:f740:e049::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns01.trs-dns.com": {
+   "A": [
+    "64.96.1.1"
+   ],
+   "AAAA": [
+    "2620:57:4001::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns02.globo.com": {
+   "A": [
+    "186.192.89.18"
+   ],
+   "AAAA": [
+    "2804:294:4000:8003:186:192:89:18"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns01.trs-dns.net": {
+   "A": [
+    "64.96.2.1"
+   ],
+   "AAAA": [
+    "2620:57:4002::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns02.netlifydns.com": {
+   "A": [
+    "45.54.30.65"
+   ],
+   "AAAA": [
+    "2607:f740:e630:4::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns01.netlifydns.com": {
+   "A": [
+    "45.54.30.1"
+   ],
+   "AAAA": [
+    "2607:f740:e630::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns03.globo.com": {
+   "A": [
+    "186.192.89.5"
+   ],
+   "AAAA": [
+    "2804:294:4000:8001::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns02.quack-dns.com": {
+   "A": [
+    "148.163.196.65"
+   ],
+   "AAAA": [
+    "2607:f740:e049:4::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns03.quack-dns.com": {
+   "A": [
+    "148.163.196.129"
+   ],
+   "AAAA": [
+    "2607:f740:e049:8::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns04.globo.com": {
+   "A": [
+    "177.53.95.213"
+   ],
+   "AAAA": [
+    "2804:294:8000:200:177:53:95:213"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns03.netlifydns.com": {
+   "A": [
+    "45.54.30.129"
+   ],
+   "AAAA": [
+    "2607:f740:e630:8::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns04.quack-dns.com": {
+   "A": [
+    "148.163.196.193"
+   ],
+   "AAAA": [
+    "2607:f740:e049:c::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns04.netlifydns.com": {
+   "A": [
+    "45.54.30.193"
+   ],
+   "AAAA": [
+    "2607:f740:e630:c::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1-02.azure-dns.com": {
+   "A": [
+    "13.107.236.2"
+   ],
+   "AAAA": [
+    "2603:1061:0:700::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1-127.akam.net": {
+   "A": [
+    "193.108.91.127"
+   ],
+   "AAAA": [
+    "2600:1401:2::7f"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1-39.azure-dns.com": {
+   "A": [
+    "150.171.10.39"
+   ],
+   "AAAA": [
+    "2603:1061:0:10::27"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1-88.akam.net": {
+   "A": [
+    "193.108.91.88"
+   ],
+   "AAAA": [
+    "2600:1401:2::58"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1-240.akam.net": {
+   "A": [
+    "193.108.91.240"
+   ],
+   "AAAA": [
+    "2600:1401:2::f0"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.aedns.ae": {
+   "A": [
+    "79.98.120.73"
+   ],
+   "AAAA": [
+    "2a00:d30:120::73"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1-204.azure-dns.com": {
+   "A": [
+    "13.107.236.204"
+   ],
+   "AAAA": [
+    "2603:1061:0:700::cc"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.ansp.br": {
+   "A": [
+    "143.108.30.90"
+   ],
+   "AAAA": [
+    "2001:12d8:88:30::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.dns.net.nz": {
+   "A": [
+    "202.46.190.130"
+   ],
+   "AAAA": [
+    "2001:dce:2000:2::130"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.google.com": {
+   "A": [
+    "216.239.32.10"
+   ],
+   "AAAA": [
+    "2001:4860:4802:32::a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.dns.nl": {
+   "A": [
+    "194.0.28.53"
+   ],
+   "AAAA": [
+    "2001:678:2c:0:194:0:28:53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.anycastdns.cz": {
+   "A": [
+    "185.38.108.108"
+   ],
+   "AAAA": [
+    "2a00:fea0:dead::beef"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.canonical.com": {
+   "A": [
+    "185.125.190.65"
+   ],
+   "AAAA": [
+    "2620:2d:4000:1::43"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.ns.il": {
+   "A": [
+    "194.146.106.122"
+   ],
+   "AAAA": [
+    "2001:67c:1010:31::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.anteldata.com.uy": {
+   "A": [
+    "200.40.30.254"
+   ],
+   "AAAA": [
+    "2800:a0:53:1001::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.unicamp.br": {
+   "A": [
+    "143.106.2.2"
+   ],
+   "AAAA": [
+    "2801:8a:2003::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.ifrn.edu.br": {
+   "A": [
+    "200.137.1.167"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.p201.dns.oraclecloud.net": {
+   "A": [
+    "108.59.166.201"
+   ],
+   "AAAA": [
+    "2600:2000:2100::c9"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.proton.me": {
+   "A": [
+    "185.70.42.150"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.vercel-dns.com": {
+   "A": [
+    "198.51.44.13"
+   ],
+   "AAAA": [
+    "2620:4d:4000:6259:7:13:0:1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.registry.in": {
+   "A": [
+    "64.96.1.1"
+   ],
+   "AAAA": [
+    "2620:57:4001::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.wikimedia.org": {
+   "A": [
+    "208.80.153.231"
+   ],
+   "AAAA": [
+    "2620:0:860:53::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.univie.ac.at": {
+   "A": [
+    "78.104.144.2"
+   ],
+   "AAAA": [
+    "2001:628:2030:4301::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns10.trs-dns.info": {
+   "A": [
+    "64.78.204.1"
+   ],
+   "AAAA": [
+    "2620:171:812:1534:8::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns10.trs-dns.org": {
+   "A": [
+    "64.78.205.1"
+   ],
+   "AAAA": [
+    "2620:171:813:1534:8::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns1.ufrn.br": {
+   "A": [
+    "177.20.144.33"
+   ],
+   "AAAA": [
+    "2801:8c:0:a0::158:13"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2-39.azure-dns.net": {
+   "A": [
+    "150.171.16.39"
+   ],
+   "AAAA": [
+    "2620:1ec:8ec:10::27"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2-204.azure-dns.net": {
+   "A": [
+    "150.171.21.204"
+   ],
+   "AAAA": [
+    "2620:1ec:8ec:700::cc"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2-02.azure-dns.net": {
+   "A": [
+    "150.171.21.2"
+   ],
+   "AAAA": [
+    "2620:1ec:8ec:700::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.anteldata.com.uy": {
+   "A": [
+    "200.40.220.254"
+   ],
+   "AAAA": [
+    "2800:a0:53:1002::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.dns.net.nz": {
+   "A": [
+    "202.46.187.130"
+   ],
+   "AAAA": [
+    "2001:dce:7000:2::130"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.anycastdns.cz": {
+   "A": [
+    "185.28.194.194"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.aedns.ae": {
+   "A": [
+    "79.98.121.73"
+   ],
+   "AAAA": [
+    "2a00:d30:121::73"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.google.com": {
+   "A": [
+    "216.239.34.10"
+   ],
+   "AAAA": [
+    "2001:4860:4802:34::a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.p201.dns.oraclecloud.net": {
+   "A": [
+    "108.59.168.201"
+   ],
+   "AAAA": [
+    "2600:2000:2110::c9"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.nic.net.ng": {
+   "A": [
+    "204.61.216.40"
+   ],
+   "AAAA": [
+    "2001:500:14:6040:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.nic.fr": {
+   "A": [
+    "192.93.0.4"
+   ],
+   "AAAA": [
+    "2001:660:3005:1::1:2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.canonical.com": {
+   "A": [
+    "185.125.190.66"
+   ],
+   "AAAA": [
+    "2620:2d:4000:1::44"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.proton.me": {
+   "A": [
+    "176.119.200.150"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.wikimedia.org": {
+   "A": [
+    "198.35.27.27"
+   ],
+   "AAAA": [
+    "2a02:ec80:53::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.ufrn.br": {
+   "A": [
+    "177.20.144.50"
+   ],
+   "AAAA": [
+    "2801:8c:0:a0::158:14"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.vercel-dns.com": {
+   "A": [
+    "198.51.45.13"
+   ],
+   "AAAA": [
+    "2a00:edc0:6259:7:13::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.registry.in": {
+   "A": [
+    "64.96.2.1"
+   ],
+   "AAAA": [
+    "2620:57:4002::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3-39.azure-dns.org": {
+   "A": [
+    "13.107.222.39"
+   ],
+   "AAAA": [
+    "2a01:111:4000:10::27"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.cloudflare.com": {
+   "A": [
+    "162.159.0.33",
+    "162.159.7.226"
+   ],
+   "AAAA": [
+    "2400:cb00:2049:1::a29f:21",
+    "2400:cb00:2049:1::a29f:7e2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3-02.azure-dns.org": {
+   "A": [
+    "204.14.183.2"
+   ],
+   "AAAA": [
+    "2a01:111:4000:700::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns2.univie.ac.at": {
+   "A": [
+    "192.92.125.2"
+   ],
+   "AAAA": [
+    "2001:678:1c::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.dns.net.nz": {
+   "A": [
+    "202.46.188.130"
+   ],
+   "AAAA": [
+    "2001:dce:d453::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.canonical.com": {
+   "A": [
+    "185.125.190.66"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3-204.azure-dns.org": {
+   "A": [
+    "204.14.183.204"
+   ],
+   "AAAA": [
+    "2a01:111:4000:700::cc"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.google.com": {
+   "A": [
+    "216.239.36.10"
+   ],
+   "AAAA": [
+    "2001:4860:4802:36::a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.ns.il": {
+   "A": [
+    "194.0.11.103"
+   ],
+   "AAAA": [
+    "2001:678:e:103::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.nic.net.ng": {
+   "A": [
+    "185.38.108.108"
+   ],
+   "AAAA": [
+    "2a00:fea0:dead::beef"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.nic.ve": {
+   "A": [
+    "190.9.129.56"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4-204.azure-dns.info": {
+   "A": [
+    "208.84.5.204"
+   ],
+   "AAAA": [
+    "2620:1ec:bda:700::cc"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.p201.dns.oraclecloud.net": {
+   "A": [
+    "108.59.170.201"
+   ],
+   "AAAA": [
+    "2600:2000:2120::c9"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.dns.nl": {
+   "A": [
+    "194.0.25.24"
+   ],
+   "AAAA": [
+    "2001:678:20::24"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.proton.me": {
+   "A": [
+    "205.132.47.1"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.registry.in": {
+   "A": [
+    "64.78.204.1"
+   ],
+   "AAAA": [
+    "2620:171:812:1534:8::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4-02.azure-dns.info": {
+   "A": [
+    "208.84.5.2"
+   ],
+   "AAAA": [
+    "2620:1ec:bda:700::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4-64.akam.net": {
+   "A": [
+    "84.53.139.64"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.cloudflare.com": {
+   "A": [
+    "162.159.1.33",
+    "162.159.8.55"
+   ],
+   "AAAA": [
+    "2400:cb00:2049:1::a29f:121",
+    "2400:cb00:2049:1::a29f:837"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.dns.net.nz": {
+   "A": [
+    "202.46.189.130"
+   ],
+   "AAAA": [
+    "2001:dce:d454::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns3.unicamp.br": {
+   "A": [
+    "143.106.2.133"
+   ],
+   "AAAA": [
+    "2801:8a:4003::3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4-39.azure-dns.info": {
+   "A": [
+    "13.107.206.39"
+   ],
+   "AAAA": [
+    "2620:1ec:bda:10::27"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.apnic.net": {
+   "A": [
+    "202.12.31.53"
+   ],
+   "AAAA": [
+    "2001:dd8:12::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.dns.nl": {
+   "A": [
+    "185.159.199.200"
+   ],
+   "AAAA": [
+    "2620:10a:80ac::200"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.google.com": {
+   "A": [
+    "216.239.38.10"
+   ],
+   "AAAA": [
+    "2001:4860:4802:38::a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns5-65.akam.net": {
+   "A": [
+    "184.85.248.65"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.p201.dns.oraclecloud.net": {
+   "A": [
+    "108.59.172.201"
+   ],
+   "AAAA": [
+    "2600:2000:2130::c9"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns5.cloudflare.com": {
+   "A": [
+    "162.159.2.9",
+    "162.159.9.55"
+   ],
+   "AAAA": [
+    "2400:cb00:2049:1::a29f:209",
+    "2400:cb00:2049:1::a29f:937"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.registry.in": {
+   "A": [
+    "64.78.205.1"
+   ],
+   "AAAA": [
+    "2620:171:813:1534:8::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.nic.net.ng": {
+   "A": [
+    "185.28.194.194"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.nic.ve": {
+   "A": [
+    "190.202.128.43"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns5.dns.net.nz": {
+   "A": [
+    "185.159.197.130"
+   ],
+   "AAAA": [
+    "2620:10a:80aa::130"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns43.ns.tr": {
+   "A": [
+    "185.7.0.4"
+   ],
+   "AAAA": [
+    "2001:a98:13::43"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns44.ns.tr": {
+   "A": [
+    "185.7.0.5"
+   ],
+   "AAAA": [
+    "2001:a98:13::44"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns5.dnsmadeeasy.com": {
+   "A": [
+    "208.94.148.13"
+   ],
+   "AAAA": [
+    "2600:1800:5::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns4.ns.il": {
+   "A": [
+    "204.61.216.134"
+   ],
+   "AAAA": [
+    "2001:500:14:6134:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns5.nic.net.ng": {
+   "A": [
+    "196.216.168.41"
+   ],
+   "AAAA": [
+    "2001:43f8:120::41"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns5.nic.ve": {
+   "A": [
+    "45.175.22.88"
+   ],
+   "AAAA": [
+    "2801:18:8800:3:18ba:beff:fe61:d08b"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns6.cloudflare.com": {
+   "A": [
+    "162.159.3.11",
+    "162.159.5.6"
+   ],
+   "AAAA": [
+    "2400:cb00:2049:1::a29f:30b",
+    "2400:cb00:2049:1::a29f:506"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns6.dns.net.nz": {
+   "A": [
+    "185.159.198.130"
+   ],
+   "AAAA": [
+    "2620:10a:80ab::130"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns6.dnsmadeeasy.com": {
+   "A": [
+    "208.80.124.13"
+   ],
+   "AAAA": [
+    "2600:1801:6::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns7.dns.net.nz": {
+   "A": [
+    "194.146.106.54"
+   ],
+   "AAAA": [
+    "2001:67c:1010:13::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns7.dnsmadeeasy.com": {
+   "A": [
+    "208.80.126.13"
+   ],
+   "AAAA": [
+    "2600:1802:7::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns61.ns.tr": {
+   "A": [
+    "206.51.254.1"
+   ],
+   "AAAA": [
+    "2620:171:804:ad2::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns72.ns.tr": {
+   "A": [
+    "40.68.114.66"
+   ],
+   "AAAA": [
+    "2603:1020:201:10::111"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns7-66.akam.net": {
+   "A": [
+    "96.7.49.66"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns7.cloudflare.com": {
+   "A": [
+    "162.159.4.8",
+    "162.159.6.6"
+   ],
+   "AAAA": [
+    "2400:cb00:2049:1::a29f:408",
+    "2400:cb00:2049:1::a29f:606"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nsa.nic.uk": {
+   "A": [
+    "156.154.100.3"
+   ],
+   "AAAA": [
+    "2001:502:ad09::3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns6.nic.ve": {
+   "A": [
+    "45.175.22.4"
+   ],
+   "AAAA": [
+    "2801:18:8800:1::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns73.ns.tr": {
+   "A": [
+    "31.145.253.159"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "nsa.ns.il": {
+   "A": [
+    "192.115.7.53"
+   ],
+   "AAAA": [
+    "2a01:4280:7::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns71.ns.tr": {
+   "A": [
+    "185.67.32.53"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "nsa.nic.net.ng": {
+   "A": [
+    "41.222.79.3"
+   ],
+   "AAAA": [
+    "2c0f:f098::3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ns74.ns.tr": {
+   "A": [
+    "31.145.253.160"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "ns75.ns.tr": {
+   "A": [
+    "88.255.61.201"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "nsb.nic.uk": {
+   "A": [
+    "156.154.101.3"
+   ],
+   "AAAA": [
+    "2001:502:2eda::3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nsb.ns.il": {
+   "A": [
+    "192.115.7.60"
+   ],
+   "AAAA": [
+    "2a01:4280:7::60"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nscl2.rnp.br": {
+   "A": [
+    "162.159.9.208"
+   ],
+   "AAAA": [
+    "2400:cb00:2049:1::a29f:9d0"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nscl4.rnp.br": {
+   "A": [
+    "162.159.11.186"
+   ],
+   "AAAA": [
+    "2400:cb00:2049:1::a29f:bba"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nscl3.rnp.br": {
+   "A": [
+    "162.159.10.128"
+   ],
+   "AAAA": [
+    "2400:cb00:2049:1::a29f:a80"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nsc.nic.uk": {
+   "A": [
+    "156.154.102.3"
+   ],
+   "AAAA": [
+    "2610:a1:1009::3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nscl1.rnp.br": {
+   "A": [
+    "162.159.8.154"
+   ],
+   "AAAA": [
+    "2400:cb00:2049:1::a29f:89a"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nsd.nic.uk": {
+   "A": [
+    "156.154.103.3"
+   ],
+   "AAAA": [
+    "2610:a1:1010::3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "oak.fastlydns.com": {
+   "A": [
+    "157.52.78.5"
+   ],
+   "AAAA": [
+    "2a04:4e47:4::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nsext-pch.aedns.ae": {
+   "A": [
+    "199.4.137.1"
+   ],
+   "AAAA": [
+    "2001:500:7d::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nse.ns.il": {
+   "A": [
+    "192.115.4.235"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "o.mx-ns.mx": {
+   "A": [
+    "200.23.1.1"
+   ],
+   "AAAA": [
+    "2001:1201::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "oak.fastlydns.dev": {
+   "A": [
+    "157.52.79.5"
+   ],
+   "AAAA": [
+    "2a04:4e47:5::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "oak.fastlydns.net": {
+   "A": [
+    "167.82.228.5"
+   ],
+   "AAAA": [
+    "2a04:4e47:6::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "p.hu": {
+   "A": [
+    "204.61.216.146"
+   ],
+   "AAAA": [
+    "2001:500:14:6146:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "oak.fastlydns.org": {
+   "A": [
+    "167.82.229.5"
+   ],
+   "AAAA": [
+    "2a04:4e47:7::5"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "pch.sgzones.sg": {
+   "A": [
+    "204.61.216.57"
+   ],
+   "AAAA": [
+    "2001:500:14:6057:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nsp.dnsnode.net": {
+   "A": [
+    "194.58.198.32"
+   ],
+   "AAAA": [
+    "2a01:3f1:3032::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "pablo.ns.cloudflare.com": {
+   "A": [
+    "108.162.193.220",
+    "172.64.33.220",
+    "173.245.59.220"
+   ],
+   "AAAA": [
+    "2606:4700:58::adf5:3bdc",
+    "2803:f800:50::6ca2:c1dc",
+    "2a06:98c1:50::ac40:21dc"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "p.dns.py": {
+   "A": [
+    "204.61.216.107"
+   ],
+   "AAAA": [
+    "2001:500:14:6107:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "pch.ns.ua": {
+   "A": [
+    "204.61.216.12"
+   ],
+   "AAAA": [
+    "2001:500:14:6012:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "q.au": {
+   "A": [
+    "65.22.196.1"
+   ],
+   "AAAA": [
+    "2a01:8840:be::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "nsza.is.co.za": {
+   "A": [
+    "196.4.160.27"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "p1.dns.sa": {
+   "A": [
+    "204.61.216.41"
+   ],
+   "AAAA": [
+    "2001:500:14:6041:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "randy.ns.cloudflare.com": {
+   "A": [
+    "108.162.195.109",
+    "162.159.44.109",
+    "172.64.35.109"
+   ],
+   "AAAA": [
+    "2606:4700:58::a29f:2c6d",
+    "2803:f800:50::6ca2:c36d",
+    "2a06:98c1:50::ac40:236d"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "r.dns.it": {
+   "A": [
+    "193.206.141.46"
+   ],
+   "AAAA": [
+    "2001:760:ffff:ffff::ca"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "r.ns.at": {
+   "A": [
+    "194.0.25.10"
+   ],
+   "AAAA": [
+    "2001:678:20::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "r.au": {
+   "A": [
+    "65.22.197.1"
+   ],
+   "AAAA": [
+    "2a01:8840:bf::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "s.nic.dk": {
+   "A": [
+    "194.0.28.7"
+   ],
+   "AAAA": [
+    "2001:678:2c:0:194:0:28:7"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "s.au": {
+   "A": [
+    "65.22.198.1"
+   ],
+   "AAAA": [
+    "2a01:8840:c0::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "primary.rotld.ro": {
+   "A": [
+    "192.162.16.18"
+   ],
+   "AAAA": [
+    "2a03:5e80:0:4:192:162:16:18"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "rcz.ns.ua": {
+   "A": [
+    "193.46.128.10"
+   ],
+   "AAAA": [
+    "2a02:850:ffe0::10"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "rip.psg.com": {
+   "A": [
+    "147.28.0.39"
+   ],
+   "AAAA": [
+    "2001:418:1::39"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "s1.dns.sa": {
+   "A": [
+    "37.107.223.170"
+   ],
+   "AAAA": [
+    "2001:16a0:1:3002::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "s.de.net": {
+   "A": [
+    "195.243.137.26"
+   ],
+   "AAAA": [
+    "2003:8:14::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "sec-dns-b.rotld.ro": {
+   "A": [
+    "193.230.31.230"
+   ],
+   "AAAA": [
+    "2a03:5e80:0:5:193:230:31:230"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "sandy.ns.cloudflare.com": {
+   "A": [
+    "108.162.192.219",
+    "172.64.32.219",
+    "173.245.58.219"
+   ],
+   "AAAA": [
+    "2606:4700:50::adf5:3adb",
+    "2803:f800:50::6ca2:c0db",
+    "2a06:98c1:50::ac40:20db"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "sec-dns-a.rotld.ro": {
+   "A": [
+    "192.162.16.20"
+   ],
+   "AAAA": [
+    "2a03:5e80:0:4:192:162:16:20"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "s2.dns.sa": {
+   "A": [
+    "37.107.255.170"
+   ],
+   "AAAA": [
+    "2001:16a0:2:3002::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "sec2.rcode0.net": {
+   "A": [
+    "176.97.158.100"
+   ],
+   "AAAA": [
+    "2001:67c:10b8::100"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "sec1.rcode0.net": {
+   "A": [
+    "192.174.68.100"
+   ],
+   "AAAA": [
+    "2001:67c:1bc::100"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "ssdns-tld.nic.cl": {
+   "A": [
+    "200.7.5.14"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "t.au": {
+   "A": [
+    "65.22.199.1"
+   ],
+   "AAAA": [
+    "2a01:8840:c1::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "u.dns.py": {
+   "A": [
+    "198.6.1.65"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "spo1.serpro.gov.br": {
+   "A": [
+    "189.9.122.11"
+   ],
+   "AAAA": [
+    "2804:151:60:8::11"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "spo2.serpro.gov.br": {
+   "A": [
+    "189.9.122.12"
+   ],
+   "AAAA": [
+    "2804:151:60:8::12"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "t.nic.dk": {
+   "A": [
+    "185.43.134.16"
+   ],
+   "AAAA": [
+    "2001:148f:fffd::16"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "sh1.dns.sa": {
+   "A": [
+    "213.236.36.92"
+   ],
+   "AAAA": [
+    "2a02:d70:64:68::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "u.ns.at": {
+   "A": [
+    "185.102.12.2"
+   ],
+   "AAAA": [
+    "2a02:850:ffff::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "use5.akam.net": {
+   "A": [
+    "2.16.40.64"
+   ],
+   "AAAA": [
+    "2600:1403:a::40"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "v0n0.nic.ai": {
+   "A": [
+    "199.115.152.1"
+   ],
+   "AAAA": [
+    "2001:500:a0::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "usw6.akam.net": {
+   "A": [
+    "23.61.199.64"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "usw1.akam.net": {
+   "A": [
+    "23.61.199.66"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "v.dns.it": {
+   "A": [
+    "194.0.25.44"
+   ],
+   "AAAA": [
+    "2001:678:20::44"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "usw2.akam.net": {
+   "A": [
+    "184.26.161.64"
+   ],
+   "AAAA": [],
+   "NS": [],
+   "PTR": []
+  },
+  "v0n2.nic.ai": {
+   "A": [
+    "199.115.154.1"
+   ],
+   "AAAA": [
+    "2001:500:a2::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "v0n1.nic.ai": {
+   "A": [
+    "199.115.153.1"
+   ],
+   "AAAA": [
+    "2001:500:a1::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "v2n1.nic.ai": {
+   "A": [
+    "199.115.157.1"
+   ],
+   "AAAA": [
+    "2001:500:a5::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "v0n3.nic.ai": {
+   "A": [
+    "199.115.155.1"
+   ],
+   "AAAA": [
+    "2001:500:a3::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "w.gtld.biz": {
+   "A": [
+    "37.209.192.13"
+   ],
+   "AAAA": [
+    "2001:dcd:1::13"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "v2n0.nic.ai": {
+   "A": [
+    "199.115.156.1"
+   ],
+   "AAAA": [
+    "2001:500:a4::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "x.mx-ns.mx": {
+   "A": [
+    "201.131.252.1"
+   ],
+   "AAAA": [
+    "2001:1201:10::1"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "x.nic.tv": {
+   "A": [
+    "156.154.103.22"
+   ],
+   "AAAA": [
+    "2610:a1:1010::22"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "x.nic.no": {
+   "A": [
+    "128.39.8.40"
+   ],
+   "AAAA": [
+    "2001:700:0:412f::40"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "x.gtld.biz": {
+   "A": [
+    "37.209.194.13"
+   ],
+   "AAAA": [
+    "2001:dcd:2::13"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "x.ns.se": {
+   "A": [
+    "213.108.25.4"
+   ],
+   "AAAA": [
+    "2001:67c:124c:e000::4"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "y.nic.tv": {
+   "A": [
+    "156.154.104.22"
+   ],
+   "AAAA": [
+    "2610:a1:1011::22"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "y.nic.no": {
+   "A": [
+    "193.75.4.22"
+   ],
+   "AAAA": [
+    "2001:8c0:8200:1::2"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "y.gtld.biz": {
+   "A": [
+    "37.209.196.13"
+   ],
+   "AAAA": [
+    "2001:dcd:3::13"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "x.nic.xyz": {
+   "A": [
+    "194.169.218.42"
+   ],
+   "AAAA": [
+    "2001:67c:13cc::1:42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "y.nic.xyz": {
+   "A": [
+    "185.24.64.42"
+   ],
+   "AAAA": [
+    "2a04:2b00:13cc::1:42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "y.ns.se": {
+   "A": [
+    "185.159.197.150"
+   ],
+   "AAAA": [
+    "2620:10a:80aa::150"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "y.nsset.be": {
+   "A": [
+    "120.29.253.8"
+   ],
+   "AAAA": [
+    "2001:dcd:7::8"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "z.nic.tv": {
+   "A": [
+    "156.154.105.22"
+   ],
+   "AAAA": [
+    "2610:a1:1012::22"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "z.nic.xyz": {
+   "A": [
+    "212.18.248.42"
+   ],
+   "AAAA": [
+    "2a04:2b00:13ee::42"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "z.nic.de": {
+   "A": [
+    "194.246.96.1"
+   ],
+   "AAAA": [
+    "2a02:568:fe02::de"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "z.nsset.be": {
+   "A": [
+    "194.0.25.36"
+   ],
+   "AAAA": [
+    "2001:678:20::36"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "z.ns.se": {
+   "A": [
+    "185.159.198.150"
+   ],
+   "AAAA": [
+    "2620:10a:80ab::150"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "z.nic.no": {
+   "A": [
+    "158.38.8.133"
+   ],
+   "AAAA": [
+    "2001:700:0:52d:158:38:8:133"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "zita.ns.cloudflare.com": {
+   "A": [
+    "108.162.192.243",
+    "172.64.32.243",
+    "173.245.58.243"
+   ],
+   "AAAA": [
+    "2606:4700:50::adf5:3af3",
+    "2803:f800:50::6ca2:c0f3",
+    "2a06:98c1:50::ac40:20f3"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "za1.dnsnode.net": {
+   "A": [
+    "194.146.106.78"
+   ],
+   "AAAA": [
+    "2001:67c:1010:19::53"
+   ],
+   "NS": [],
+   "PTR": []
+  },
+  "za-ns.anycast.pch.net": {
+   "A": [
+    "204.61.216.55"
+   ],
+   "AAAA": [
+    "2001:500:14:6055:ad::1"
+   ],
+   "NS": [],
+   "PTR": []
+  }
+ },
+ "partial": false,
+ "counts": {
+  "fqdn": 750,
+  "queries": 1483,
+  "ips": 1367,
+  "seconds": 59.8
+ }
+}

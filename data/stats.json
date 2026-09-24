@@ -1,0 +1,254 @@
+{
+ "generated_at": "2026-09-23T21:21:51-0300",
+ "nodes": 2774,
+ "edges": 7789,
+ "nodes_by_kind": {
+  "ip": 1388,
+  "ns": 594,
+  "asn": 208,
+  "ptr": 195,
+  "city": 165,
+  "tld": 72,
+  "service": 57,
+  "country": 54,
+  "resolver_org": 18,
+  "root": 11,
+  "continent": 6,
+  "resolver_host": 4,
+  "hub": 2
+ },
+ "nodes_by_layer": {
+  "0": 2,
+  "1": 11,
+  "2": 72,
+  "3": 57,
+  "4": 811,
+  "5": 1388,
+  "6": 373,
+  "7": 54,
+  "8": 6
+ },
+ "edges_by_type": {
+  "geolocalizado em": 1387,
+  "ponto de presença em": 1387,
+  "anunciado por": 1385,
+  "PTR": 1160,
+  "nameserver autoritativo": 687,
+  "resolve para (A)": 641,
+  "resolve para (AAAA)": 571,
+  "pertence a": 165,
+  "endpoint (A)": 109,
+  "delegação da raiz": 72,
+  "endpoint (AAAA)": 72,
+  "registrado sob": 55,
+  "localizado em": 54,
+  "resolve consultas em": 31,
+  "zona raiz servida por": 13
+ },
+ "ips_total": 1388,
+ "ips_geolocated": 1387,
+ "ips_v4": 745,
+ "ips_v6": 643,
+ "ips_hosting": 893,
+ "ptr_coverage": 1160,
+ "countries": 54,
+ "cities": 165,
+ "asns": 208,
+ "top_countries": [
+  [
+   "US",
+   452
+  ],
+  [
+   "CA",
+   254
+  ],
+  [
+   "BR",
+   103
+  ],
+  [
+   "GB",
+   59
+  ],
+  [
+   "NL",
+   43
+  ],
+  [
+   "AT",
+   40
+  ],
+  [
+   "SE",
+   37
+  ],
+  [
+   "DE",
+   36
+  ],
+  [
+   "AU",
+   29
+  ],
+  [
+   "SA",
+   18
+  ],
+  [
+   "IE",
+   15
+  ],
+  [
+   "CN",
+   15
+  ],
+  [
+   "MA",
+   15
+  ],
+  [
+   "CH",
+   14
+  ],
+  [
+   "CZ",
+   14
+  ]
+ ],
+ "top_cities": [
+  [
+   "Montreal, CA",
+   141
+  ],
+  [
+   "Toronto, CA",
+   110
+  ],
+  [
+   "New York, US",
+   52
+  ],
+  [
+   "Seattle, US",
+   51
+  ],
+  [
+   "Ashburn, US",
+   46
+  ],
+  [
+   "São Paulo, BR",
+   45
+  ],
+  [
+   "Amsterdam, NL",
+   39
+  ],
+  [
+   "Frankfurt am Main, DE",
+   32
+  ],
+  [
+   "Cambridge, US",
+   31
+  ],
+  [
+   "Herndon, US",
+   30
+  ],
+  [
+   "London, GB",
+   26
+  ],
+  [
+   "Salzburg, AT",
+   26
+  ],
+  [
+   "Reston, US",
+   26
+  ],
+  [
+   "San Francisco, US",
+   24
+  ],
+  [
+   "Stockholm, SE",
+   23
+  ]
+ ],
+ "top_asns": [
+  [
+   "AS16509",
+   127
+  ],
+  [
+   "AS13335",
+   120
+  ],
+  [
+   "AS42",
+   58
+  ],
+  [
+   "AS21342",
+   58
+  ],
+  [
+   "AS12008",
+   53
+  ],
+  [
+   "AS62597",
+   50
+  ],
+  [
+   "AS12041",
+   41
+  ],
+  [
+   "AS8674",
+   40
+  ],
+  [
+   "AS15169",
+   39
+  ],
+  [
+   "AS54113",
+   35
+  ],
+  [
+   "AS8075",
+   34
+  ],
+  [
+   "AS1921",
+   30
+  ],
+  [
+   "AS20940",
+   22
+  ],
+  [
+   "AS31529",
+   16
+  ],
+  [
+   "AS63911",
+   16
+  ]
+ ],
+ "dns_queries": {
+  "fqdn": 750,
+  "queries": 1483,
+  "ips": 1367,
+  "seconds": 59.8
+ },
+ "geo_api": {
+  "queried": 1387,
+  "ok": 1387,
+  "failed": 0
+ }
+}

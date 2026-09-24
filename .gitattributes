@@ -1,0 +1,30 @@
+# Normalização de fim de linha e tratamento de arquivos binários.
+# O projeto é gerado/rodado no Windows, mas é publicado e clonado em Linux/macOS:
+# fixar LF no repositório evita diffs de CRLF e scripts quebrados.
+* text=auto eol=lf
+
+*.py    text eol=lf
+*.js    text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf
+*.csv   text eol=lf
+*.txt   text eol=lf
+*.graphml text eol=lf
+*.sh    text eol=lf
+*.ps1   text eol=crlf
+
+# binários: nunca normalizar
+*.png   binary
+*.jpg   binary
+*.woff2 binary
+*.gz    binary
+*.ico   binary
+
+# o vault do Obsidian é gerado por script: não poluir os diffs
+grafo/** linguist-generated=true
+data/*.json linguist-generated=true
+web/data/*.json linguist-generated=true
+docs/img/*.svg linguist-generated=true

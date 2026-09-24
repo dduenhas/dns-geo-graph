@@ -1,0 +1,22 @@
+# artefatos de desenvolvimento
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+web/dist/
+.vscode/
+.idea/
+.vercel/
+
+# sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# dados brutos e derivados são versionáveis de propósito (fonte: APIs públicas).
+# O vault Obsidian (grafo/) É entregável do projeto — não ignorar nada dentro dele.
+# Só o estado local do Obsidian (workspace e lixeira) fica de fora:
+grafo/.obsidian/workspace.json
+grafo/.obsidian/workspace-mobile.json
+grafo/.trash/

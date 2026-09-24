@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 364" width="900" height="364" role="img" aria-label="as nove camadas do grafo" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif">
+<title>as nove camadas do grafo</title>
+<rect width="900" height="364" rx="12" fill="#111114"/>
+<rect x=".5" y=".5" width="899" height="363" rx="12" fill="none" stroke="rgba(255,255,255,.10)"/>
+<text x="24.0" y="40.0" font-size="15" fill="#f2f3f5" text-anchor="start" font-weight="600" letter-spacing="0" opacity="1">as nove camadas do grafo</text>
+<text x="24.0" y="58.0" font-size="11.5" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" letter-spacing="0" opacity="1">2774 nós em 9 níveis · eixo vertical da cena 3D é a hierarquia (y = (camada − 4) × 1,70), não altitude</text>
+<text x="238.0" y="97.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="end" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">0 · hubs do grafo</text>
+<rect x="250" y="86" width="2.0" height="16" rx="3" fill="#ffffff" fill-opacity=".85"/>
+<text x="260.0" y="97.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">2</text>
+<text x="238.0" y="123.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="end" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">1 · servidores raiz (anycast)</text>
+<rect x="250" y="112" width="4.4" height="16" rx="3" fill="#ff4d6d" fill-opacity=".85"/>
+<text x="262.4" y="123.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">11</text>
+<text x="238.0" y="149.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="end" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">2 · zonas de topo (TLD)</text>
+<rect x="250" y="138" width="28.7" height="16" rx="3" fill="#ff8c42" fill-opacity=".85"/>
+<text x="286.7" y="149.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">72</text>
+<text x="238.0" y="175.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="end" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">3 · domínios e serviços</text>
+<rect x="250" y="164" width="22.8" height="16" rx="3" fill="#ffd166" fill-opacity=".85"/>
+<text x="280.8" y="175.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">57</text>
+<text x="238.0" y="201.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="end" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">4 · nameservers · PTR · resolvedores</text>
+<rect x="250" y="190" width="323.7" height="16" rx="3" fill="#2ec4b6" fill-opacity=".85"/>
+<text x="581.7" y="201.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">811</text>
+<text x="238.0" y="227.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="end" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">5 · endereços IP</text>
+<rect x="250" y="216" width="554.0" height="16" rx="3" fill="#00b4d8" fill-opacity=".85"/>
+<text x="812.0" y="227.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">1388</text>
+<text x="238.0" y="253.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="end" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">6 · ASN · cidade / PoP</text>
+<rect x="250" y="242" width="148.9" height="16" rx="3" fill="#b388ff" fill-opacity=".85"/>
+<text x="406.9" y="253.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">373</text>
+<text x="238.0" y="279.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="end" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">7 · países</text>
+<rect x="250" y="268" width="21.6" height="16" rx="3" fill="#e8a2ff" fill-opacity=".85"/>
+<text x="279.6" y="279.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">54</text>
+<text x="238.0" y="305.0" font-size="11.5" fill="rgba(242,243,245,.62)" text-anchor="end" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">8 · continentes</text>
+<rect x="250" y="294" width="2.4" height="16" rx="3" fill="#c9ada7" fill-opacity=".85"/>
+<text x="260.4" y="305.0" font-size="11" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">6</text>
+<text x="24.0" y="340.0" font-size="10.5" fill="rgba(242,243,245,.38)" text-anchor="start" font-weight="400" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Consolas,monospace" letter-spacing="0" opacity="1">nós</text>
+</svg>
