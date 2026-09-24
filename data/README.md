@@ -8,7 +8,7 @@ transformação determinística deles.
 |---|---|---|---|
 | `raw/dns_records.json` | 139 KB | 750 FQDNs consultados (NS, A, AAAA) via DNS-over-HTTPS; cache das 1.483 consultas | `01_collect_dns.py` |
 | `raw/geo.json` | 818 KB | geolocalização + ASN/organização/ISP de 1.387 dos 1.388 endereços (ip-api, free tier, sem TLS) | `02_geolocate.py` |
-| `raw/ptr.json` | 49 KB | nome reverso de 1.160 endereços (`in-addr.arpa` / `ip6.arpa`) via DoH | `02b_collect_ptr.py` |
+| `raw/ptr.json` | 49 KB | nome reverso de 1.160 endereços (`in-addr.arpa` / `ip6.arpa`) via resolvedor do sistema, 32 threads | `02b_collect_ptr.py` |
 | `nodes.json` | 957 KB | nós da hierarquia DNS (domínio, host, nameserver, PTR, resolvedor, serviço) | `03_build_graph.py` |
 | `nodes_edges_full.json` | 1,9 MB | grafo completo normalizado + `stats` (fonte do vault e do site) | `03_build_graph.py` |
 | `graph_core.json` | 1,2 MB | versão para o navegador: nós com posição 3D determinística, arestas, stats | `03_build_graph.py` |
@@ -31,7 +31,8 @@ isso é o fenômeno observado, não um bug.
   RFC 8484. Nenhuma consulta é feita a servidor que exija autenticação.
 - **Geolocalização/ASN**: **ip-api** free tier (HTTP, sem TLS — os dados de cidade/país podem
   ser adulterados por um intermediário na rede; veja o comentário em `scripts/02_geolocate.py`).
-- **PTR**: DNS reverso direto, sem API de terceiros.
+- **PTR**: DNS reverso pelo resolvedor do sistema (`socket.gethostbyaddr`, 32 threads) — sem API
+  de terceiros; em compensação, o resultado depende do resolvedor da máquina que coleta.
 
 Nada aqui é dado pessoal de usuário final: são **nomes de host e endereços públicos de
 infraestrutura** (nameservers autoritativos, servidores raiz, resolvedores públicos). Ainda
