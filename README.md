@@ -608,6 +608,7 @@ python scripts/10_write_deploy_config.py # CSP + cabeçalhos
 dns-geo-graph/
 ├── scripts/            pipeline 01→10 + seeds.py (única entrada editorial)
 ├── data/               dados derivados (json, csv, graphml) + raw/ (respostas cruas)
+│                       └── README.md: o que é cada arquivo, determinismo e proveniência
 ├── grafo/              vault Obsidian — 2.792 notas (abrir como vault)
 ├── web/                página 3D (deploy root): index.html, app.js, styles.css,
 │                       vendor/three, assets/fonts (self-hosted), data/, favicon.svg
@@ -631,7 +632,8 @@ Natural Earth e NASA (domínio público). Detalhes em
 [`web/assets/ATTRIBUTION.md`](web/assets/ATTRIBUTION.md).
 
 **Dados:** coletados de serviços públicos (DNS-over-HTTPS e ip-api.com) — sem chave,
-sem dado de usuário final.
+sem dado de usuário final; a origem, o tamanho e a licença de cada arquivo estão em
+[`data/README.md`](data/README.md).
 
 **Código:** [MIT](LICENSE) — use, modifique e publique, mantendo o aviso de copyright.
 
