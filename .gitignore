@@ -22,3 +22,7 @@ grafo/.obsidian/workspace-mobile.json
 grafo/.trash/
 
 .vercel
+
+# estado do app Obsidian quando a pasta do projeto é aberta como vault
+# (barra inicial = só a raiz; o vault gerado em grafo/.obsidian É versionado)
+/.obsidian/
